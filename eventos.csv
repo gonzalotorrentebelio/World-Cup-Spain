@@ -1,0 +1,452 @@
+,index_evento,minuto_evento,match_id,nombre_jugador,tipo_evento
+0,1,9.0,1.0,Julián Andrés Quinones,Goal
+1,2,9.0,1.0,Erik Antonio Lira,Assist
+2,3,17.0,1.0,Teboho Mokoena,Yellow Card
+3,4,23.0,1.0,Brian Gutierrez,Yellow Card
+4,5,55.0,1.0,Sphephelo S'miso Sithole,Red Card
+6,7,67.0,1.0,Raúl Alonso Jimenez,Goal
+7,8,67.0,1.0,Roberto Carlos Alvarado,Assist
+8,9,74.0,1.0,Nkosinathi Emmanuel Sibisi,Yellow Card
+9,10,84.0,1.0,Themba Zwane,Red Card
+10,11,86.0,1.0,César Jasib Montes,Red Card
+11,12,59.0,2.0,Ladislav Krejci,Goal
+12,13,59.0,2.0,Vladimír Coufal,Assist
+13,14,67.0,2.0,Inbeom Hwang,Goal
+14,15,67.0,2.0,Kangin Lee,Assist
+15,16,80.0,2.0,Hyeongyu Oh,Goal
+17,18,90.0,2.0,Gihyuk Lee,Yellow Card
+18,19,,3.0,Alistair William Johnston,Yellow Card
+19,20,21.0,3.0,Jovo Lukic,Goal
+20,21,21.0,3.0,Sead Kolasinac,Assist
+21,22,44.0,3.0,Ermedin Demirovic,Yellow Card
+23,24,53.0,3.0,Luc De Fougerolles,Yellow Card
+24,25,78.0,3.0,Cyle Christopher Larin,Goal
+25,26,78.0,3.0,Promise Oluwatobi Emmanuel David,Assist
+26,27,90.0,3.0,Nikola Katic,Yellow Card
+27,28,7.0,4.0,Damián Josue Bobadilla,Goal
+28,29,,4.0,Juan Jose Caceres,Yellow Card
+29,30,31.0,4.0,Folarin Jolaoluwa Balogun,Goal
+30,31,31.0,4.0,Christian Mate Pulisic,Assist
+32,33,45.0,4.0,Malik Leon Tillman,Assist
+33,34,53.0,4.0,Miguel Angel Almiron,Yellow Card
+34,35,59.0,4.0,Tyler Shaan Adams,Yellow Card
+35,36,73.0,4.0,Mauricio Mauricio,Goal
+36,37,73.0,4.0,Julio Cesar Enciso,Assist
+37,38,,4.0,Diego Alexander Gomez,Yellow Card
+38,39,88.0,4.0,Alex Adrian Arce,Yellow Card
+39,40,90.0,4.0,Giovanni Alejandro Reyna,Goal
+40,41,,4.0,Alexander Michael Freeman,Assist
+41,42,90.0,4.0,Júnior Osmar Ignacio Alonso,Yellow Card
+42,43,14.0,5.0,Ibrahim Mahmoud Abunada,Yellow Card
+43,44,17.0,5.0,Breel Donald Embolo,Goal
+44,45,23.0,5.0,Gaber Jassem,Yellow Card
+45,46,42.0,5.0,Denis Lemi Zakaria,Yellow Card
+46,47,90.0,5.0,Miro Max Maria Muheim,Goal
+47,48,21.0,6.0,Ismael Saibari,Goal
+48,49,21.0,6.0,Brahim Diaz,Assist
+49,50,32.0,6.0,José Vinicius,Goal
+50,51,32.0,6.0,GUIMARAESBruno Bruno,Assist
+51,52,37.0,6.0,Henrique,Yellow Card
+52,53,43.0,6.0,IBANEZRoger Roger,Yellow Card
+53,54,28.0,7.0,Mc,Goal
+54,55,39.0,7.0,Jean Ricner Bellegarde,Yellow Card
+55,56,46.0,7.0,Aaron Buchanan Hickey,Yellow Card
+56,57,90.0,7.0,Mc,Yellow Card
+57,58,90.0,7.0,Findlay Kenneth Curtis,Yellow Card
+58,59,27.0,8.0,Nestory Irankunda,Goal
+59,60,27.0,8.0,Paul Michael Junior Okon-Engstler,Assist
+60,-5,,,,
+61,62,86.0,8.0,Yunus Akgun,Yellow Card
+62,63,6.0,9.0,Felix Kalu Nmecha,Goal
+63,64,6.0,9.0,Florian Richard Wirtz,Assist
+64,65,21.0,9.0,Livano Shyron Liomar Comenencia,Goal
+65,66,38.0,9.0,Nico Cédric Schlotterbeck,Goal
+66,67,38.0,9.0,Nathaniel Christopher Brown,Assist
+67,68,45.0,9.0,Kai Lukas Havertz,Goal
+68,69,47.0,9.0,Jamal Musiala,Goal
+69,70,47.0,9.0,Joshua Walter Kimmich,Assist
+71,72,68.0,9.0,Deniz Undav,Assist
+76,77,50.0,10.0,Virgil Van Dijk,Goal
+77,78,50.0,10.0,Ryan Jiro Gravenberch,Assist
+78,79,57.0,10.0,Keito Nakamura,Goal
+79,80,57.0,10.0,Takefusa Kubo,Assist
+80,81,61.0,10.0,Crysencio Jilbert Sylverio Cir Summerville,Yellow Card
+83,84,83.0,10.0,Memphis Depay,Yellow Card
+84,85,88.0,10.0,Daichi Kamada,Goal
+85,86,88.0,10.0,Koki Ogawa,Assist
+86,87,90.0,10.0,Micky Van De Ven,Yellow Card
+87,88,28.0,11.0,Seko Mohamed Fofana,Yellow Card
+88,89,38.0,11.0,Franck Yannick Kessie,Yellow Card
+89,90,40.0,11.0,Guela Maho-Lewis Doue,Yellow Card
+90,91,73.0,11.0,Jackson Gabriel Porozo,Yellow Card
+91,92,90.0,11.0,Amad Diallo,Goal
+92,93,90.0,11.0,Wilfried Stephane Singo,Assist
+93,94,7.0,12.0,Yasin Ayari,Goal
+94,95,30.0,12.0,Alexander Isak,Goal
+95,96,30.0,12.0,Viktor Einar Gyokeres,Assist
+96,97,43.0,12.0,Omar Rekik,Goal
+97,98,43.0,12.0,Hannibal Mejbri,Assist
+98,99,54.0,12.0,Rani Khedira,Yellow Card
+101,102,84.0,12.0,Mattias Olof Svanberg,Goal
+104,105,90.0,12.0,Lucas Erik Holger Bergvall,Assist
+105,106,16.0,13.0,CABRALSidny Sidny Lopes,Yellow Card
+106,107,90.0,13.0,Pedro Pedri,Yellow Card
+107,108,13.0,14.0,Attia Fahim Marawan Attia,Yellow Card
+108,109,-5.0,14.0,Timothy Castagne,Yellow Card
+109,110,19.0,14.0,Ashour Metwaly Emam,Goal
+110,111,19.0,14.0,Hamed Mahrous Mohamed Salah,Assist
+111,112,34.0,14.0,Mohamed Aboelfetouh Ahmed Fatouh,Yellow Card
+112,113,66.0,14.0,Hany Gamal Mohamed Hany,Goal
+113,114,75.0,14.0,Maxim Peter De Cuyper,Yellow Card
+114,115,41.0,15.0,Ali Abdulelah Alamri,Goal
+116,117,80.0,15.0,Maximiliano Javier Araujo,Goal
+117,118,7.0,16.0,Elijah Henry Just,Goal
+118,119,7.0,16.0,Christopher Grant Wood,Assist
+119,120,32.0,16.0,Ramin Rezaeian,Goal
+122,123,-2.0,16.0,Mohammad Mohebbi,Goal
+124,125,89.0,16.0,Ehsan Hajisafi,Yellow Card
+125,126,66.0,17.0,Kylian Mbappe,Goal
+126,127,66.0,17.0,Michael Akpovie Olise,Assist
+127,128,82.0,17.0,Bradley Jean-Manuel Essolisa Barcola,Goal
+128,129,82.0,17.0,Adrien Thibault Marie Rabiot,Assist
+131,132,90.0,17.0,Ibrahim Mbaye,Goal
+132,133,90.0,17.0,Iliman Cheikh Baroy Ndiaye,Assist
+133,134,29.0,18.0,Erling Braut Haaland,Goal
+134,135,29.0,18.0,David Møller Moller Wolfe,Assist
+135,136,39.0,18.0,Hussein Ghadhban Aymen,Goal
+136,137,39.0,18.0,Fouad Aboud Amir Alammari,Assist
+138,139,76.0,18.0,Leo Skiri Ostigard,Goal
+139,140,76.0,18.0,Martín Odegaard,Assist
+140,141,86.0,18.0,Tahseen Abd Zaid Zaid,Yellow Card
+142,143,17.0,19.0,Lionel Andrés Messi,Goal
+143,144,17.0,19.0,Rodrigo Javier De Paul,Assist
+146,147,76.0,19.0,Nicolas Ivan Gonzalez,Assist
+147,148,20.0,20.0,Romano Schmid,Goal
+148,149,20.0,20.0,Xaver Schlager,Assist
+149,150,50.0,20.0,Iyad Ali Ali Olwan,Goal
+150,151,50.0,20.0,Mahmoud Ali Noor Alrawabdeh,Assist
+151,152,76.0,20.0,Mousa Mahmoud Yazan Alarab,Goal
+152,153,77.0,20.0,Marcel Sabitzer,Yellow Card
+153,154,90.0,20.0,Marko Arnautovic,Goal
+154,155,6.0,21.0,Pedro Joao Neves,Goal
+155,156,6.0,21.0,Pedro Pedro Neto,Assist
+156,157,13.0,21.0,Bernardo Bernardo Silva,Yellow Card
+157,158,32.0,21.0,Mangulu Chancel Mbemba,Yellow Card
+158,159,45.0,21.0,Yoane Wissa,Goal
+159,160,45.0,21.0,Arthur Fuka Masuaku,Assist
+160,161,-10.0,21.0,SEMEDONélson Nelson,Yellow Card
+161,162,90.0,21.0,Tomás Tomas Araujo,Yellow Card
+162,163,12.0,22.0,Harry Edward Kane,Goal
+163,164,36.0,22.0,Martin Baturina,Goal
+164,165,36.0,22.0,Petar Sucic,Assist
+166,167,42.0,22.0,Declan Rice,Assist
+167,168,45.0,22.0,Petar Musa,Goal
+168,169,45.0,22.0,Ivan Perisic,Assist
+169,170,47.0,22.0,Jude Victor William Bellingham,Goal
+170,171,47.0,22.0,Elliot Junior Anderson,Assist
+171,172,85.0,22.0,Marcus Rashford,Goal
+172,173,85.0,22.0,Bukayo Ayoyinka Saka,Assist
+173,174,16.0,23.0,Caleb Marfo Yirenkyi,Yellow Card
+174,175,72.0,23.0,Cesar Rodolfo Blackman,Yellow Card
+176,177,90.0,23.0,Antoine Serlom Semenyo,Assist
+177,178,90.0,23.0,Carlos Miguel Harvey,Yellow Card
+178,179,7.0,24.0,Johan Andrés Mojica,Yellow Card
+179,180,34.0,24.0,Abdukodir Khusanov,Yellow Card
+180,181,40.0,24.0,Daniel Munoz,Goal
+181,182,40.0,24.0,Luis Fernando Diaz,Assist
+182,183,60.0,24.0,Abbosbek Fayzullaev,Goal
+184,185,65.0,24.0,Gustavo Adolfo Puerta,Assist
+185,186,90.0,24.0,Jaminton Leandro Campaz,Goal
+186,187,90.0,24.0,Juan Camilo Hernandez,Assist
+188,189,50.0,25.0,Luis Francisco Romo,Goal
+189,190,58.0,25.0,Seungho Paik,Yellow Card
+190,191,6.0,26.0,Michal Sadilek,Goal
+191,192,6.0,26.0,Alexandr Sojka,Assist
+193,194,40.0,26.0,Thalente Wandile Mbatha,Yellow Card
+195,196,81.0,26.0,Thapelo Maseko,VAR Review
+197,198,9.0,27.0,Derek Austin Cornelius,Yellow Card
+199,200,29.0,27.0,Jonathan Christian David,Goal
+201,202,60.0,27.0,Elamin Homam,Red Card
+203,204,62.0,27.0,Fathy Ahmed Fathy,Yellow Card
+204,205,64.0,27.0,Nathan-Dylan Saliba,Goal
+205,206,75.0,27.0,Naceur Mohamed Manai,Goal
+206,207,85.0,27.0,Omer Assim Madibo,Red Card
+209,210,59.0,28.0,Amar Dedic,Yellow Card
+210,211,61.0,28.0,Edin Dzeko,Yellow Card
+211,212,65.0,28.0,Nico Elvedi,Yellow Card
+212,213,74.0,28.0,Johan Kula Manzambi,Goal
+213,214,74.0,28.0,Granit Xhaka,Assist
+214,215,80.0,28.0,Tarik Muharemovic,Red Card
+215,216,84.0,28.0,Ruben Estephan Vargas,Goal
+220,221,90.0,28.0,Ermin Mahmic,Goal
+221,222,4.0,29.0,Carlens Jean Fedlaire Ruby Arcus,Yellow Card
+222,223,23.0,29.0,Matheus Matheus Cunha,Goal
+226,227,45.0,29.0,Lucas Lucas Paqueta,Assist
+227,228,45.0,29.0,Frantzdy Pierrot,Yellow Card
+228,229,65.0,29.0,Douglas Douglas Santos,Yellow Card
+229,230,72.0,29.0,Danley Jean Jacques,Yellow Card
+232,233,23.0,30.0,Issa Laye Lucas Jean Diop,Yellow Card
+233,234,65.0,30.0,Andrew Henry Robertson,Yellow Card
+234,235,11.0,31.0,Cameron Robert Burgess,Goal
+235,236,16.0,31.0,Jordan Jacob Bos,Yellow Card
+236,237,32.0,31.0,Alessandro Circati,Yellow Card
+238,239,43.0,31.0,Sergiño Gianni Dest,Assist
+240,241,56.0,31.0,Antonee Robinson,Yellow Card
+242,243,89.0,31.0,Harry James Souttar,Yellow Card
+243,244,89.0,31.0,Jacob Michael Italiano,Yellow Card
+244,245,90.0,31.0,Christopher Jeffrey Richards,Yellow Card
+245,246,2.0,32.0,Matias Galarza,Goal
+250,251,71.0,32.0,Evren Eren Elmali,Yellow Card
+252,253,30.0,33.0,Yan Diomande,Assist
+254,255,68.0,33.0,Nadiem Amiri,Assist
+257,258,38.0,34.0,Jordy Jose Alcivar,Yellow Card
+258,259,39.0,34.0,Leandro Jones Johan Bacuna,Yellow Card
+259,260,53.0,34.0,Juninho Gracielo Bacuna,Yellow Card
+261,262,75.0,34.0,Juriën Godfried Juan Gaari,Yellow Card
+262,263,90.0,34.0,Gervane Zjandric Adonnis Kastaneer,Yellow Card
+263,264,5.0,35.0,Brian Ebenezer Adjei Brobbey,Goal
+264,265,5.0,35.0,Cody Mathès Gakpo,Assist
+266,267,-45.0,35.0,Denzel Justus Morris Dumfries,Assist
+269,270,53.0,35.0,Gabriel Johan Gudmundsson,Yellow Card
+272,273,59.0,35.0,Anthony David Junior Elanga,Goal
+280,281,31.0,36.0,Ayase Ueda,Goal
+282,283,69.0,36.0,Junya Ito,Goal
+285,286,83.0,36.0,Kaishu Sano,Assist
+286,287,3.0,37.0,Romelu Lukaku,Yellow Card
+287,288,33.0,37.0,Saeid Ezatolahi,Yellow Card
+288,289,66.0,37.0,Nathan Ngoy,Red Card
+289,290,15.0,38.0,Finn Surman,Goal
+290,291,15.0,38.0,Timothy John Payne,Assist
+291,292,17.0,38.0,Mostafa Ahmed Mohanad Lashin,Yellow Card
+292,293,20.0,38.0,Sarpreet Singh,Yellow Card
+293,294,34.0,38.0,Mc,Yellow Card
+294,295,58.0,38.0,Mohamed Zaky Mostafa Zico,Goal
+298,299,82.0,38.0,Ahmed Ibrahim Trezeguet,Goal
+300,301,10.0,39.0,Lamine Yamal Yamal,Goal
+301,302,10.0,39.0,Mikel Oyarzabal,Assist
+303,304,21.0,39.0,Aymeric Laporte,Assist
+305,306,24.0,39.0,Daniel Olmo,Assist
+306,307,30.0,39.0,Mohammed Salem Aldawsari,Yellow Card
+307,308,49.0,39.0,Mohammed Hassan Altambakti,Goal
+308,309,60.0,39.0,Ibrahim Mohamed,Yellow Card
+310,311,20.0,40.0,Rodrigo Bentancur,Yellow Card
+311,312,21.0,40.0,Lenini Kevin Pina,Goal
+313,314,44.0,40.0,Federico Santiago Valverde,Assist
+314,315,45.0,40.0,Agustin Canobbio,Goal
+316,317,58.0,40.0,Mathías Olivera,Yellow Card
+317,318,61.0,40.0,Sandro Helio Varela,Goal
+318,319,90.0,40.0,Alberto Diney,Yellow Card
+323,324,54.0,41.0,Masour Ousmane Dembele,Assist
+326,327,43.0,42.0,Marcus Holmgren Holmgren Pedersen,Goal
+329,330,53.0,42.0,Ismaila Sarr,Goal
+330,331,53.0,42.0,Sadio Mane,Assist
+332,333,58.0,42.0,Patrick Berg,Assist
+334,335,90.0,42.0,Nicolas Jackson,Assist
+336,337,38.0,43.0,Facundo Axel Medina,Assist
+337,338,41.0,43.0,Stefan Posch,Yellow Card
+339,340,76.0,43.0,Konrad Laimer,Yellow Card
+341,342,90.0,43.0,Leandro Daniel Paredes,Yellow Card
+342,343,36.0,44.0,Mahmoud Ahmed Nizar Alrashdan,Goal
+343,344,36.0,44.0,Mohammad Mousa Mousa Altamari,Assist
+344,345,44.0,44.0,Ramiz Larbi Zerrouki,Yellow Card
+345,346,64.0,44.0,Ali Mohammad Husam Abudahab,Yellow Card
+346,347,69.0,44.0,Ahmed Nadhir Benbouali,Goal
+347,348,69.0,44.0,Riyad Karim Mahrez,Assist
+348,349,82.0,44.0,Amine Ferid Gouiri,Goal
+349,350,6.0,45.0,Ronaldo Cristiano Ronaldo,Goal
+350,351,6.0,45.0,Pedro Joao Cancelo,Assist
+351,352,14.0,45.0,Odiljon Xamrobekov,Yellow Card
+352,353,17.0,45.0,Alexandre Nuno,Goal
+354,355,39.0,45.0,Miguel Bruno,Assist
+356,357,68.0,45.0,Renato Renato Veiga,Yellow Card
+357,358,87.0,45.0,Alexandre Rafael Leao,Goal
+358,359,87.0,45.0,Vitor Vitinha,Assist
+359,360,56.0,46.0,Jhon Janer Lucumi,Yellow Card
+361,362,76.0,46.0,Juan Fernando Quintero,Assist
+362,363,90.0,46.0,Jefferson Andrés Lerma,Yellow Card
+363,364,90.0,46.0,Charles Monginda Pickel,Yellow Card
+365,366,60.0,47.0,Inaki Williams,Yellow Card
+366,367,54.0,48.0,Ante Budimir,Goal
+367,368,54.0,48.0,Josip Stanisic,Assist
+368,369,61.0,48.0,Edgar Yoel Barcenas,Yellow Card
+370,371,55.0,49.0,Mateo Chavez,Goal
+373,374,61.0,49.0,Jorge Eduardo Sanchez,Assist
+374,375,64.0,49.0,Edson Omar Alvarez,Yellow Card
+375,376,90.0,49.0,Álvaro Fidalgo,Goal
+378,379,63.0,50.0,Tshepang Moremi,Assist
+379,380,72.0,50.0,Aubrey Maphosa Modiba,Yellow Card
+380,381,78.0,50.0,Guesung Cho,Yellow Card
+389,390,87.0,51.0,Liam Alan Millar,Yellow Card
+390,391,29.0,52.0,Kerim Alajbegovic,Goal
+391,392,29.0,52.0,Ivan Basic,Assist
+393,394,42.0,52.0,Khalid Hassan Alhaydos,Goal
+394,395,42.0,52.0,Junior Edmilson,Assist
+397,398,82.0,52.0,Dennis Hadzikadunic,Assist
+400,401,7.0,53.0,Vitor Rayan,Assist
+405,406,62.0,53.0,Luiz Danilo,Yellow Card
+406,407,82.0,53.0,Henrique Fabinho,Yellow Card
+407,408,89.0,53.0,Ryan Christie,Yellow Card
+408,409,10.0,54.0,Yassine Bounou,Goal
+409,410,39.0,54.0,Achraf Hakimi,Goal
+410,411,43.0,54.0,Wilson Isidor,Goal
+412,413,78.0,54.0,Soufiane Rahimi,Goal
+413,414,79.0,54.0,Johny Placide,Yellow Card
+414,415,80.0,54.0,Duckens Nazon,Yellow Card
+415,416,89.0,54.0,Gessime Ben Youssef Mustapha Yassine,Goal
+416,417,90.0,54.0,Josue Jeremie Casimir,Yellow Card
+417,418,3.0,55.0,Auston Levi-Jesaiah Trusty,Goal
+418,419,3.0,55.0,Sebastian Matthew Berhalter,Assist
+419,420,10.0,55.0,Arda Guler,Goal
+420,421,10.0,55.0,Can Yılmaz Uzun,Assist
+422,423,31.0,55.0,Orkun Kokcu,Goal
+425,426,90.0,55.0,Kaan Ayhan,Goal
+426,427,46.0,56.0,Jackson Alexander Irvine,Yellow Card
+428,429,2.0,57.0,Leroy Aziz Sane,Goal
+430,431,9.0,57.0,Nilson David Angulo,Goal
+431,432,9.0,57.0,Pedro Jeampierre Vite,Assist
+432,433,43.0,57.0,Piero Martin Hincapie,Yellow Card
+433,434,44.0,57.0,Aleksandar Pavlovic,Yellow Card
+434,435,50.0,57.0,Alan Steven Franco,Yellow Card
+435,436,77.0,57.0,Gonzalo Jordy Plata,Goal
+436,437,77.0,57.0,Moisés Isaac Caicedo,Assist
+438,439,7.0,58.0,Nicolas Pepe,Goal
+443,444,3.0,59.0,Ellyes Joris Skhiri,Goal
+445,446,54.0,59.0,Hazem Mastouri,Goal
+446,447,62.0,59.0,Paul Jan-Paul Van Hecke,Goal
+447,448,32.0,60.0,Isak Malcolm Kwaku Hien,Yellow Card
+448,449,56.0,60.0,Daizen Maeda,Goal
+450,451,77.0,60.0,Shogo Taniguchi,Yellow Card
+452,453,28.0,61.0,Leandro Trossard,Goal
+453,454,46.0,61.0,Marko Seufatu Nikola Stamenic,Yellow Card
+456,457,66.0,61.0,Kevin De Bruyne,Goal
+459,460,90.0,61.0,Alexis Jesse Saelemaekers,Goal
+460,461,5.0,62.0,Saber Abdelmohsen Mahmoud,Goal
+463,464,19.0,62.0,Mohammadhossein Kanani,Yellow Card
+464,465,41.0,62.0,Ahmed Ibrahim Yasser,Yellow Card
+465,466,43.0,62.0,Ali Nemati,Yellow Card
+468,469,90.0,62.0,Shojae Khalilzadeh,Yellow Card
+469,470,42.0,63.0,Alejandro Baena,Goal
+470,471,42.0,63.0,Marcos Llorente,Assist
+472,473,54.0,63.0,Juan Manuel Sanabria,Yellow Card
+473,474,58.0,63.0,Guillermo Varela,Yellow Card
+474,475,90.0,63.0,Diego Nicolás De La Cruz,Yellow Card
+475,476,4.0,64.0,Abdullah Saud Abdulhamid,Yellow Card
+476,477,8.0,64.0,Fabricio Wagner Pina,Yellow Card
+477,478,67.0,64.0,Essa Nasser Aldawsari,Yellow Card
+478,479,90.0,64.0,Tariq Feras,Yellow Card
+484,485,21.0,65.0,Thelonious Gerard Aasgaard,Goal
+485,486,21.0,65.0,Andreas Rædergård Schjelderup,Assist
+487,488,32.0,65.0,Aurélien Djani Tchouameni,Assist
+489,490,90.0,65.0,Désiré Nonka-Maho Doue,Goal
+491,492,4.0,66.0,Habib Mbacke Diarra,Goal
+492,493,4.0,66.0,Abdoulaye Seck,Assist
+493,494,,66.0,Ghareeb Solaka Rebin Sulaka,Red Card
+496,497,56.0,66.0,Lamine Camara,Assist
+497,498,59.0,66.0,Pape Alassane Gueye,Goal
+505,506,90.0,66.0,Ghazi Salih Merchas,Yellow Card
+506,507,17.0,67.0,Mahmoud Saleh Mohannad Abutaha,Yellow Card
+507,508,19.0,67.0,Giovani Lo Celso,Goal
+508,509,31.0,67.0,Lautaro Javier Martinez,Goal
+510,511,55.0,67.0,Manel Farhan Ehsan Haddad,Assist
+513,514,90.0,67.0,Faisal Yousef Mohammad,Yellow Card
+516,517,28.0,68.0,David Alaba,Assist
+517,518,45.0,68.0,Rafik Belghali,Goal
+520,521,55.0,68.0,Nicolas Seiwald,Assist
+522,523,60.0,68.0,Houssem-Eddine Chaabane Aouar,Assist
+525,526,90.0,68.0,Saša Kalajdzic,Goal
+526,527,90.0,68.0,Michael Gregoritsch,Assist
+528,529,10.0,70.0,Eldor Shomurodov,Goal
+529,530,10.0,70.0,Akmal Mozgovoy,Assist
+530,531,21.0,70.0,Noah Junior Sadiki,Yellow Card
+532,533,45.0,70.0,Nathanaël Mbuku,Yellow Card
+533,534,47.0,70.0,Sherzod Nasrullaev,Yellow Card
+534,535,62.0,70.0,Samuel Alain Moutoussamy,Yellow Card
+536,537,78.0,70.0,Mayele Fiston Mayele,Goal
+538,539,90.0,70.0,Meschack Lina Elia,Assist
+539,540,53.0,71.0,Jose Fajardo,Yellow Card
+540,541,60.0,71.0,Jarell Amorin Quansah,Yellow Card
+545,546,83.0,71.0,Andres Alberto Andrade,Yellow Card
+548,549,73.0,72.0,Derrick Luckassen,Goal
+549,550,73.0,72.0,Ernest Nuamah Nuamah,Assist
+550,551,83.0,72.0,Nikola Vlasic,Goal
+551,552,83.0,72.0,Luka Modric,Assist
+552,553,90.0,72.0,Kojo Peprah Oppong,Yellow Card
+554,555,67.0,73.0,Niko Kristian Sigur,Yellow Card
+555,556,90.0,73.0,Stephen Eustaquio,Goal
+562,563,56.0,74.0,Gabriel Gabriel Magalhaes,Assist
+563,564,84.0,74.0,Junnosuke Suzuki,Yellow Card
+564,565,90.0,74.0,MARTINELLIGabriel Gabriel,Goal
+571,572,65.0,75.0,Adrián Andrés Cubas,Yellow Card
+573,574,110.0,75.0,Antonio Ruediger,Yellow Card
+580,581,121.0,75.0,Gustavo Raul Gomez,Penalty Shootout Goal
+583,584,121.0,75.0,Nick Woltemade,Penalty Shootout Miss
+584,585,,75.0,Arnaldo Antonio Sanabria,Penalty Shootout Miss
+586,587,121.0,75.0,Fabián Cornelio Balbuena,Penalty Shootout Miss
+588,589,121.0,75.0,Jose Maria Canale,Penalty Shootout Goal
+590,591,71.0,76.0,Nathan Benjamin Ake,Yellow Card
+594,595,90.0,76.0,Chemsdine Talbi,Assist
+595,596,121.0,76.0,Teun Koopmeiners,Penalty Shootout Goal
+596,597,121.0,76.0,Neil Yoni El Aynaoui,Penalty Shootout Miss
+597,598,121.0,76.0,Justin Dean Kluivert,Penalty Shootout Miss
+599,600,121.0,76.0,Wout François Maria Weghorst,Penalty Shootout Goal
+601,602,121.0,76.0,Quinten Ryan Crispito Timber,Penalty Shootout Miss
+605,606,39.0,77.0,Antonio Eromonsele Nordby Nusa,Goal
+621,622,90.0,79.0,Ray Kendry Paez,Yellow Card
+623,624,7.0,80.0,Kibambe Brian Cipenga,Goal
+627,628,75.0,80.0,Anthony Michael Gordon,Assist
+632,633,51.0,81.0,Moussa Niakhate,Assist
+633,634,64.0,81.0,Brandon Erik Mechele,Yellow Card
+636,637,86.0,81.0,Thomas Andre Meunier,Assist
+637,638,89.0,81.0,Youri Marion Tielemans,Goal
+645,646,80.0,82.0,Stjepan Radeljic,Yellow Card
+648,649,36.0,83.0,Marc Cucurella,Assist
+649,650,66.0,83.0,Pedro Antonio Porro,Goal
+654,655,17.0,84.0,Rúben Ruben Dias,Yellow Card
+659,660,90.0,84.0,RAMOSGonçalo Goncalo,Goal
+662,663,103.0,84.0,Joško Gvardiol,VAR Review
+665,666,36.0,85.0,Fares Chaibi,Yellow Card
+666,667,46.0,85.0,Dan Ndoye,Goal
+667,668,71.0,85.0,Hicham Boudaoui,Yellow Card
+673,674,121.0,86.0,Abdelaziz Moustafa Ramy Rabia,Penalty Shootout Goal
+674,675,121.0,86.0,Awer Bul Mabil,Penalty Shootout Goal
+676,677,121.0,86.0,Lucas Herrington,Penalty Shootout Miss
+677,678,121.0,86.0,Abdelmegeed Abdelsalam Hossam Abdelmaguid,Penalty Shootout Goal
+679,680,59.0,87.0,Deroy Deroy Duarte,Goal
+680,681,92.0,87.0,Lisandro Martinez,Goal
+683,684,14.0,88.0,Jhon Adolfo Arias,Goal
+684,685,14.0,88.0,Luis Javier Suarez,Assist
+686,687,50.0,90.0,Azz-Eddine Ounahi,Goal
+696,697,90.0,91.0,Neymar Neymar Jr,Goal
+708,709,68.0,92.0,Keaninkin Marc-Isreal Guehi,Yellow Card
+712,713,72.0,92.0,Nico Oreilly,Yellow Card
+713,714,,92.0,Johan Felipe Vasquez,Yellow Card
+714,715,,92.0,Jordan Brian Henderson,Yellow Card
+716,717,,93.0,Mikel Merino,Goal
+717,718,,93.0,Ferran Torres,Assist
+720,721,9.0,94.0,Charles Marc De Ketelaere,Goal
+721,722,9.0,94.0,Nicolas Thierry Raskin,Assist
+725,726,35.0,94.0,Mc,Yellow Card
+726,727,57.0,94.0,Hans Vanaken,Goal
+731,732,26.0,95.0,Cristian Gabriel Romero,Goal
+734,735,55.0,95.0,Julián Alvarez,Goal
+735,736,55.0,95.0,Alexis Mac Allister,Assist
+737,738,67.0,95.0,Yousry Fouad Haissem Hassan,Assist
+740,741,,95.0,Abdelaziz Mohame Mostafa,Yellow Card
+741,742,,95.0,Fathy Abdelhalim Hamdy Fathy,Yellow Card
+746,747,94.0,96.0,Davinson Sanchez,Yellow Card
+750,751,121.0,96.0,Mohamed Zeki Amdouni,Penalty Shootout Goal
+752,753,121.0,96.0,Manuel Obafemi Akanji,Penalty Shootout Miss
+754,755,,96.0,Cedric Jan Itten,Penalty Shootout Goal
+763,764,30.0,98.0,Fabian Ruiz,Goal
+766,767,43.0,98.0,Pau Cubarsi,Yellow Card
+770,771,,98.0,Axel Laurent Witsel,Yellow Card
+774,775,117.0,99.0,Kristoffer Vassbakk Köpp Ajer,Yellow Card
+781,782,67.0,100.0,Ricardo Ivan Rodriguez,Assist
+784,785,97.0,100.0,Thiago Ezequiel Almada,Yellow Card
+787,788,112.0,100.0,Jose Manuel Alberto Lopez,Assist
+802,803,55.0,102.0,Morgan Elliot Rogers,Assist
+803,804,85.0,102.0,Enzo Jeremías Fernandez,Goal
+808,809,18.0,103.0,Ezri Ngoyo Konsa,Goal
+813,814,46.0,103.0,Eberechi Oluchi Eze,Assist
+822,823,,103.0,Dayotchanculle Oswald Upamecano,Assist
+831,832,106.0,104.0,Nicholas Williams,Assist
