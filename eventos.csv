@@ -52,10 +52,10 @@ index_evento,minuto_evento,index_partido,nombre_jugador,tipo_evento,seleccion_ev
 51,32,6,GUIMARAESBruno Bruno,asistencia,Brazil
 52,37,6,Henrique,tarjeta amarilla,Brazil
 53,43,6,IBANEZRoger Roger,tarjeta amarilla,Brazil
-54,28,7,Mc,gol,Scotland
+54,28,7,John McGuinn,gol,Scotland
 55,39,7,Jean Ricner Bellegarde,tarjeta amarilla,Haiti
 56,46,7,Aaron Buchanan Hickey,tarjeta amarilla,Scotland
-57,90,7,Mc,tarjeta amarilla,Scotland
+57,90,7,Kenny McLean,tarjeta amarilla,Scotland
 58,90,7,Findlay Kenneth Curtis,tarjeta amarilla,Scotland
 59,27,8,Nestory Irankunda,gol,Australia
 60,27,8,Paul Michael Junior Okon-Engstler,asistencia,Australia
@@ -291,7 +291,7 @@ index_evento,minuto_evento,index_partido,nombre_jugador,tipo_evento,seleccion_ev
 291,15,38,Timothy John Payne,asistencia,New Zealand
 292,17,38,Mostafa Ahmed Mohanad Lashin,tarjeta amarilla,Egypt
 293,20,38,Sarpreet Singh,tarjeta amarilla,New Zealand
-294,34,38,Mc,tarjeta amarilla,New Zealand
+294,34,38,Callum McCowatt,tarjeta amarilla,New Zealand
 295,58,38,Mohamed Zaky Mostafa Zico,gol,Egypt
 296,58,38,Hany Gamal Mohamed Hany,asistencia,Egypt
 297,67,38,Hamed Mahrous Mohamed Salah,gol,Egypt
@@ -720,7 +720,7 @@ index_evento,minuto_evento,index_partido,nombre_jugador,tipo_evento,seleccion_ev
 723,31,94,Malik Leon Tillman,gol,USA
 724,33,94,Charles Marc De Ketelaere,gol,Belgium
 725,33,94,Leandro Trossard,asistencia,Belgium
-726,35,94,Mc,tarjeta amarilla,USA
+726,35,94,Weston McKennie,tarjeta amarilla,USA
 727,57,94,Hans Vanaken,gol,Belgium
 728,69,94,Malik Leon Tillman,tarjeta amarilla,USA
 729,,94,Romelu Lukaku,gol,Belgium
