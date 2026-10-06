@@ -1,111 +1,105 @@
-index_partido,fecha_partido,ronda,estadio,ciudad_partido,pais_partido,seleccion_local,seleccion_visitante,marcador_local,marcador_visitante,proprroga,penalty_local,penalty_visitante,arbitro_partido
-1,11/06/2026,Group Stage,Mexico City Stadium (Estadio Azteca),Mexico City,MEX,1,2,2,0,Regular,,,42.0
-2,11/06/2026,Final,Guadalajara Stadium (Estadio Akron),Zapopan,usa,3,4,2,1,Regular,,,5.0
-3,06/12/2026,Third-place match,Toronto Stadium (BMO Field),Toronto,CAN,5,6,1,1,Regular,,,15.0
-4,12 June 2026,Round of 16,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,13,14,4,1,Regular,,,11.0
-5,"June 13, 2026",,Boston Stadium (Gillette Stadium),Foxborough,MEX,7,8,1,1,Regular,,,38.0
-6,13-jun-26,Round of 32,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,9,10,1,1,Regular,,,39.0
-7,13/06/2026,,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,USA,11,12,0,1,Regular,,,32.0
-8,2026-06-13T19:00:00Z,,Seattle Stadium (Lumen Field),Seattle,USA,15,16,2,0,Regular,,,25.0
-9,14.06.2026,,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,,17,18,7,1,Regular,,,24.0
-10,Jun 14 2026,,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,,21,22,2,2,Regular,,,21.0
-11,20260614,,Houston Stadium (NRG Stadium),Houston,,19,20,1,0,Regular,,,17.0
-12,14 de junio de 2026,,Kansas City Stadium (Arrowhead Stadium),Kansas City,,23,24,5,1,Regular,,,43.0
-13,15/06/2026,,Miami Stadium (Hard Rock Stadium),Miami Gardens,,29,30,0,0,Regular,,,2.0
-14,15/06/2026,Quarter-finals ,Dallas Stadium (AT&T Stadium),Arlington,,25,26,1,1,Regular,,,36.0
-15,06-15-2026,,Monterrey Stadium (Estadio BBVA),Guadalupe,,31,32,1,1,Regular,,,30.0
-16,15 June 2026,Semi-finals,Vancouver Stadium (BC Place),Vancouver,,27,28,2,2,Regular,,,7.0
-17,"June 16, 2026",Round of 32,New York New Jersey Stadium (MetLife Stadium),East Rutherford,,33,34,3,1,Regular,,,4.0
-18,16-jun-26,,Boston Stadium (Gillette Stadium),Foxborough,,35,36,1,4,Regular,,,34.0
-19,16/06/2026,Round of 16,Los Angeles Stadium (SoFi Stadium),Inglewood,,37,38,3,0,Regular,,,40.0
-20,2026-06-16T19:00:00Z,,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,,39,40,3,1,Regular,,,10.0
-21,17.06.2026,,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,,41,42,1,1,Regular,,,1.0
-22,Jun 17 2026,,Miami Stadium (Hard Rock Stadium),Miami Gardens,,45,46,4,2,Regular,,,8.0
-23,20260617,,Houston Stadium (NRG Stadium),Houston,,47,48,1,0,Regular,,,18.0
-24,17 de junio de 2026,,Seattle Stadium (Lumen Field),Seattle,,43,44,1,3,Regular,,,6.0
-25,18/06/2026,,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,MEX,1,3,1,0,Regular,,,41.0
-26,18/06/2026,Round of 16,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,4,2,1,1,Regular,,,26.0
-27,06-18-2026,Semi-finals,Vancouver Stadium (BC Place),Vancouver,CAN,5,7,6,0,Regular,,,9.0
-28,18 June 2026,Group Stage,Mexico City Stadium (Estadio Azteca),Mexico City,MEX,8,6,4,1,Regular,,,19.0
-29,"June 19, 2026",Round of 32,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,9,11,3,0,Regular,,,16.0
-30,19-jun-26,Quarter-finals ,Dallas Stadium (AT&T Stadium),Arlington,USA,12,10,0,1,Regular,,,20.0
-31,19/06/2026,Third-place match,Toronto Stadium (BMO Field),Toronto,USA,13,15,2,0,Regular,,,3.0
-32,2026-06-19T19:00:00Z,,Monterrey Stadium (Estadio BBVA),Guadalupe,USA,16,14,0,1,Regular,,,23.0
-33,20.06.2026,,Boston Stadium (Gillette Stadium),Foxborough,,17,19,2,1,Regular,,,31.0
-34,Jun 20 2026,,Kansas City Stadium (Arrowhead Stadium),Kansas City,,20,18,0,0,Regular,,,27.0
-35,20260620,,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,,21,23,5,1,Regular,,,29.0
-36,20 de junio de 2026,,Seattle Stadium (Lumen Field),Seattle,,24,22,0,4,Regular,,,22.0
-37,21/06/2026,,Houston Stadium (NRG Stadium),Houston,,25,27,0,0,Regular,,,37.0
-38,21/06/2026,,Miami Stadium (Hard Rock Stadium),Miami Gardens,,28,26,1,3,Regular,,,12.0
-39,06-21-2026,,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,,29,31,4,0,Regular,,,14.0
-40,21 June 2026,Round of 32,New York New Jersey Stadium (MetLife Stadium),East Rutherford,,32,30,2,2,Regular,,,33.0
-41,"June 22, 2026",Quarter-finals ,Dallas Stadium (AT&T Stadium),Arlington,,33,35,3,0,Regular,,,5.0
-42,22-jun-26,Third-place match,Toronto Stadium (BMO Field),Toronto,,36,34,3,2,Regular,,,13.0
-43,22/06/2026,,Monterrey Stadium (Estadio BBVA),Guadalupe,,37,39,2,0,Regular,,,42.0
-44,2026-06-22T19:00:00Z,,Boston Stadium (Gillette Stadium),Foxborough,,40,38,1,2,Regular,,,39.0
-45,23.06.2026,,Kansas City Stadium (Arrowhead Stadium),Kansas City,,41,43,5,0,Regular,,,24.0
-46,Jun 23 2026,,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,,44,42,1,0,Regular,,,38.0
-47,20260623,,Seattle Stadium (Lumen Field),Seattle,,45,47,0,0,Regular,,,34.0
-48,23 de junio de 2026,Group Stage,Mexico City Stadium (Estadio Azteca),Mexico City,,48,46,0,1,Regular,,,30.0
-49,24/06/2026,Group Stage,Mexico City Stadium (Estadio Azteca),Mexico City,USA,4,1,0,3,Regular,,,36.0
-50,24/06/2026,Final,Guadalajara Stadium (Estadio Akron),Zapopan,USA,2,3,1,0,Regular,,,25.0
-51,06-24-2026,Semi-finals,Vancouver Stadium (BC Place),Vancouver,MEX,8,5,2,1,Regular,,,7.0
-52,24 June 2026,Third-place match,Toronto Stadium (BMO Field),Toronto,CAN,6,7,3,1,Regular,,,11.0
-53,"June 25, 2026",Round of 32,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,12,9,0,3,Regular,,,
-54,25-jun-26,,Boston Stadium (Gillette Stadium),Foxborough,USA,10,11,4,2,Regular,,,15.0
-55,25/06/2026,Round of 16,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,16,13,3,2,Regular,,,18.0
-56,2026-06-25T19:00:00Z,,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,14,15,0,0,Regular,,,41.0
-57,26.06.2026,,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,,20,17,2,1,Regular,,,23.0
-58,Jun 26 2026,,Houston Stadium (NRG Stadium),Houston,,18,19,0,2,Regular,,,28.0
-59,20260626,,Kansas City Stadium (Arrowhead Stadium),Kansas City,,24,21,1,3,Regular,,,32.0
-60,26 de junio de 2026,,Seattle Stadium (Lumen Field),Seattle,,22,23,1,1,Regular,,,8.0
-61,27/06/2026,Quarter-finals ,Dallas Stadium (AT&T Stadium),Arlington,,28,25,1,5,Regular,,,31.0
-62,27/06/2026,,Monterrey Stadium (Estadio BBVA),Guadalupe,,26,27,1,1,Regular,,,6.0
-63,06-27-2026,,Miami Stadium (Hard Rock Stadium),Miami Gardens,,32,29,0,1,Regular,,,40.0
-64,27 June 2026,,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,,30,31,0,0,Regular,,,2.0
-65,"June 26, 2026",,Boston Stadium (Gillette Stadium),Foxborough,,36,33,1,4,Regular,,,17.0
-66,26-jun-26,Round of 32,New York New Jersey Stadium (MetLife Stadium),East Rutherford,,34,35,5,0,Regular,,,21.0
-67,27/06/2026,,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,,40,37,1,3,Regular,,,1.0
-68,2026-06-27T19:00:00Z,Round of 16,Los Angeles Stadium (SoFi Stadium),Inglewood,,38,39,3,3,Regular,,,13.0
-69,28.06.2026,,Miami Stadium (Hard Rock Stadium),Miami Gardens,,44,41,0,0,Regular,,,20.0
-70,Jun 28 2026,,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,,42,43,3,1,Regular,,,22.0
-71,20260628,Round of 32,New York New Jersey Stadium (MetLife Stadium),East Rutherford,,48,45,0,2,Regular,,,4.0
-72,28 de junio de 2026,,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,,46,47,2,1,Regular,,,22.0
-73,29/06/2026,Round of 16,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,2,5,0,1,Regular,,,26.0
-74,29/06/2026,,Houston Stadium (NRG Stadium),Houston,USA,9,22,2,1,Regular,,,30.0
-75,06-30-2026,,Boston Stadium (Gillette Stadium),Foxborough,,17,14,1,1,Penalties,30.0,40.0,24.0
-76,30 June 2026,,Monterrey Stadium (Estadio BBVA),Guadalupe,,21,10,1,1,Penalties,20.0,30.0,42.0
-77,"June 30, 2026",Quarter-finals ,Dallas Stadium (AT&T Stadium),Arlington,,19,36,1,2,Regular,,,25.0
-78,01-jul-26,Round of 32,New York New Jersey Stadium (MetLife Stadium),East Rutherford,,33,23,3,0,Regular,,,11.0
-79,01/07/2026,Group Stage,Mexico City Stadium (Estadio Azteca),Mexico City,MEX,1,20,2,0,Regular,,,39.0
-80,2026-07-01T19:00:00Z,,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,,45,42,2,1,Regular,,,2.0
-81,02.07.2026,,Seattle Stadium (Lumen Field),Seattle,,25,34,3,2,AET,,,35.0
-82,Jul 02 2026,,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,13,6,2,0,Regular,,,38.0
-83,20260703,Round of 16,Los Angeles Stadium (SoFi Stadium),Inglewood,,29,39,3,0,Regular,,,14.0
-84,3 de julio de 2026,Third-place match,Toronto Stadium (BMO Field),Toronto,,41,46,2,1,Regular,,,18.0
-85,03/07/2026,Semi-finals,Vancouver Stadium (BC Place),Vancouver,MEX,8,38,2,0,Regular,,,43.0
-86,04/07/2026,Quarter-finals ,Dallas Stadium (AT&T Stadium),Arlington,USA,15,26,1,1,Penalties,20.0,40.0,13.0
-87,07/04/2026,,Miami Stadium (Hard Rock Stadium),Miami Gardens,,37,30,3,2,AET,,,8.0
-88,04 July 2026,,Kansas City Stadium (Arrowhead Stadium),Kansas City,,44,47,1,0,Regular,,,19.0
-89,"July 04, 2026",,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,USA,14,33,0,1,Regular,,,8.0
-90,04-jul-26,,Houston Stadium (NRG Stadium),Houston,CAN,5,10,0,3,Regular,,,31.0
-91,05/07/2026,Quarter-finals ,Dallas Stadium (AT&T Stadium),Arlington,USA,9,36,1,2,Regular,,,21.0
-92,2026-07-06T19:00:00Z,Group Stage,Mexico City Stadium (Estadio Azteca),Mexico City,MEX,1,45,2,3,Regular,,,4.0
-93,06.07.2026,,Miami Stadium (Hard Rock Stadium),Miami Gardens,,41,29,0,1,Regular,,,6.0
-94,Jul 07 2026,,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,13,25,1,4,Regular,,,2.0
-95,20260707,,Kansas City Stadium (Arrowhead Stadium),Kansas City,,37,26,3,2,Regular,,,17.0
-96,7 de julio de 2026,,Seattle Stadium (Lumen Field),Seattle,MEX,8,44,0,0,Penalties,40.0,30.0,23.0
-97,09/07/2026,,Boston Stadium (Gillette Stadium),Foxborough,,33,10,2,0,Regular,,,15.0
-98,10/07/2026,Round of 16,Los Angeles Stadium (SoFi Stadium),Inglewood,,29,25,2,1,Regular,,,31.0
-99,07/11/2026,,Miami Stadium (Hard Rock Stadium),Miami Gardens,,36,45,1,2,AET,,,8.0
-100,12 July 2026,,Kansas City Stadium (Arrowhead Stadium),Kansas City,,37,8,3,1,AET,,,26.0
-101,"July 14, 2026",Quarter-finals ,Dallas Stadium (AT&T Stadium),Arlington,,33,29,0,2,Regular,,,23.0
-102,15-jul-26,,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,,45,37,1,2,Regular,,,21.0
-103,18/07/2026,,Miami Stadium (Hard Rock Stadium),Miami Gardens,,33,45,4,6,Regular,,,25.0
-104,2026-07-19T19:00:00Z,Round of 32,New York New Jersey Stadium (MetLife Stadium),East Rutherford,,29,37,1,0,AET,,,39.0
-33,20.06.2026,,Boston Stadium (Gillette Stadium),Foxborough,,17,19,2,1,Regular,,,31.0
-60,26 de junio de 2026,,Seattle Stadium (Lumen Field),Seattle,,22,23,1,1,Regular,,,8.0
-11,20260614,,Houston Stadium (NRG Stadium),Houston,,19,20,1,0,Regular,,,17.0
-35,20260620,,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,,21,23,5,1,Regular,,,29.0
-20,2026-06-16T19:00:00Z,,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,,39,40,3,1,Regular,,,10.0
-10,Jun 14 2026,,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,,21,22,2,2,Regular,,,21.0
+index_partido,fecha_partido,ronda,estadio,ciudad_partido,pais_partido,seleccion_local,seleccion_visitante,marcador_local,marcador_visitante,prorroga,penalty_local,penalty_visitante,arbitro_partido
+1,11/06/2026,Grupos,Mexico City Stadium (Estadio Azteca),Mexico City,MEX,Mexico,South Africa,2,0,NO,0,0,Wilton Sampaio
+2,11/06/2026,Grupos,Guadalajara Stadium (Estadio Akron),Zapopan,MEX,South Korea,Czechia,2,1,NO,0,0,Amin Omar
+3,06/12/2026,Grupos,Toronto Stadium (BMO Field),Toronto,CAN,Canada,Bosnia and Herzegovina,1,1,NO,0,0,Facundo Tello
+4,12 June 2026,Grupos,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,USA,Paraguay,4,1,NO,0,0,Danny Makkelie
+5,"June 13, 2026",Grupos,Boston Stadium (Gillette Stadium),Foxborough,USA,Qatar,Switzerland,1,1,NO,0,0,Saíd Martínez
+6,13-jun-26,Grupos,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,Brazil,Morocco,1,1,NO,0,0,Slavko Vincic
+7,13/06/2026,Grupos,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,USA,Haiti,Scotland,0,1,NO,0,0,Mustapha Ghorbal
+8,2026-06-13T19:00:00Z,Grupos,Seattle Stadium (Lumen Field),Seattle,USA,Australia,Türkiye,2,0,NO,0,0,Jesús Valenzuela
+9,14.06.2026,Grupos,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,USA,Germany,Curaçao,7,1,NO,0,0,Jalal Jayed
+10,Jun 14 2026,Grupos,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,Netherlands,Japan,2,2,NO,0,0,Ismail Elfath
+11,20260614,Grupos,Houston Stadium (NRG Stadium),Houston,USA,Côte d'Ivoire,Ecuador,1,0,NO,0,0,François Letexier
+12,14 de junio de 2026,Grupos,Kansas City Stadium (Arrowhead Stadium),Kansas City,USA,Sweden,Tunisia,5,1,NO,0,0,Yael Falcón
+13,15/06/2026,Grupos,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,Spain,Cabo Verde,0,0,NO,0,0,Adham Makhadmeh
+14,15/06/2026,Grupos,Dallas Stadium (AT&T Stadium),Arlington,USA,Belgium,Egypt,1,1,NO,0,0,Ramon Abatti
+15,06-15-2026,Grupos,Monterrey Stadium (Estadio BBVA),Guadalupe,MEX,Saudi Arabia,Uruguay,1,1,NO,0,0,Maurizio Mariani
+16,15 June 2026,Grupos,Vancouver Stadium (BC Place),Vancouver,CAN,IR Iran,New Zealand,2,2,NO,0,0,César Arturo Ramos
+17,"June 16, 2026",Grupos,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,France,Senegal,3,1,NO,0,0,Alireza Faghani
+18,16-jun-26,Grupos,Boston Stadium (Gillette Stadium),Foxborough,USA,Iraq,Norway,1,4,NO,0,0,Pierre Atcho
+19,16/06/2026,Grupos,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,Argentina,Algeria,3,0,NO,0,0,Szymon Marciniak
+20,2026-06-16T19:00:00Z,Grupos,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,Austria,Jordan,3,1,NO,0,0,Dahane Beida
+21,17.06.2026,Grupos,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,USA,Portugal,Congo DR,1,1,NO,0,0,Abdulrahman Al-Jassim
+22,Jun 17 2026,Grupos,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,England,Croatia,4,2,NO,0,0,Clément Turpin
+23,20260617,Grupos,Houston Stadium (NRG Stadium),Houston,USA,Ghana,Panama,1,0,NO,0,0,Glenn Nyberg
+24,17 de junio de 2026,Grupos,Seattle Stadium (Lumen Field),Seattle,USA,Uzbekistan,Colombia,1,3,NO,0,0,Anthony Taylor
+25,18/06/2026,Grupos,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,USA,Mexico,South Korea,1,0,NO,0,0,Tori Penso
+26,18/06/2026,Grupos,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,Czechia,South Africa,1,1,NO,0,0,João Pinheiro
+27,06-18-2026,Grupos,Vancouver Stadium (BC Place),Vancouver,CAN,Canada,Qatar,6,0,NO,0,0,Cristián Garay
+28,18 June 2026,Grupos,Mexico City Stadium (Estadio Azteca),Mexico City,MEX,Switzerland,Bosnia and Herzegovina,4,1,NO,0,0,Gustavo Tejera
+29,"June 19, 2026",Grupos,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,Brazil,Haiti,3,0,NO,0,0,Felix Zwayer
+30,19-jun-26,Grupos,Dallas Stadium (AT&T Stadium),Arlington,USA,Scotland,Morocco,0,1,NO,0,0,Ilgiz Tantashev
+31,19/06/2026,Grupos,Toronto Stadium (BMO Field),Toronto,CAN,USA,Australia,2,0,NO,0,0,Alejandro José Hernández
+32,2026-06-19T19:00:00Z,Grupos,Monterrey Stadium (Estadio BBVA),Guadalupe,MEX,Türkiye,Paraguay,0,1,NO,0,0,Iván Barton
+33,20.06.2026,Grupos,Boston Stadium (Gillette Stadium),Foxborough,USA,Germany,Côte d'Ivoire,2,1,NO,0,0,Michael Oliver
+34,Jun 20 2026,Grupos,Kansas City Stadium (Arrowhead Stadium),Kansas City,USA,Ecuador,Curaçao,0,0,NO,0,0,Juan Gabriel Benítez
+35,20260620,Grupos,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,USA,Netherlands,Sweden,5,1,NO,0,0,Ma Ning
+36,20 de junio de 2026,Grupos,Seattle Stadium (Lumen Field),Seattle,USA,Tunisia,Japan,0,4,NO,0,0,István Kovács
+37,21/06/2026,Grupos,Houston Stadium (NRG Stadium),Houston,USA,Belgium,IR Iran,0,0,NO,0,0,Raphael Claus
+38,21/06/2026,Grupos,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,New Zealand,Egypt,1,3,NO,0,0,Darío Herrera
+39,06-21-2026,Grupos,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,Spain,Saudi Arabia,4,0,NO,0,0,Espen Eskås
+40,21 June 2026,Grupos,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,Uruguay,Cabo Verde,2,2,NO,0,0,Omar Al Ali
+41,"June 22, 2026",Grupos,Dallas Stadium (AT&T Stadium),Arlington,USA,France,Iraq,3,0,NO,0,0,Amin Omar
+42,22-jun-26,Grupos,Toronto Stadium (BMO Field),Toronto,CAN,Norway,Senegal,3,2,NO,0,0,Drew Fischer
+43,22/06/2026,Grupos,Monterrey Stadium (Estadio BBVA),Guadalupe,MEX,Argentina,Austria,2,0,NO,0,0,Wilton Sampaio
+44,2026-06-22T19:00:00Z,Grupos,Boston Stadium (Gillette Stadium),Foxborough,USA,Jordan,Algeria,1,2,NO,0,0,Slavko Vincic
+45,23.06.2026,Grupos,Kansas City Stadium (Arrowhead Stadium),Kansas City,USA,Portugal,Uzbekistan,5,0,NO,0,0,Jalal Jayed
+46,Jun 23 2026,Grupos,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,USA,Colombia,Congo DR,1,0,NO,0,0,Saíd Martínez
+47,20260623,Grupos,Seattle Stadium (Lumen Field),Seattle,USA,England,Ghana,0,0,NO,0,0,Pierre Atcho
+48,23 de junio de 2026,Grupos,Mexico City Stadium (Estadio Azteca),Mexico City,MEX,Panama,Croatia,0,1,NO,0,0,Maurizio Mariani
+49,24/06/2026,Grupos,Mexico City Stadium (Estadio Azteca),Mexico City,MEX,Czechia,Mexico,0,3,NO,0,0,Ramon Abatti
+50,24/06/2026,Grupos,Guadalajara Stadium (Estadio Akron),Zapopan,MEX,South Africa,South Korea,1,0,NO,0,0,Jesús Valenzuela
+51,06-24-2026,Grupos,Vancouver Stadium (BC Place),Vancouver,CAN,Switzerland,Canada,2,1,NO,0,0,César Arturo Ramos
+52,24 June 2026,Grupos,Toronto Stadium (BMO Field),Toronto,CAN,Bosnia and Herzegovina,Qatar,3,1,NO,0,0,Danny Makkelie
+53,"June 25, 2026",Grupos,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,Scotland,Brazil,0,3,NO,0,0,
+54,25-jun-26,Grupos,Boston Stadium (Gillette Stadium),Foxborough,USA,Morocco,Haiti,4,2,NO,0,0,Facundo Tello
+55,25/06/2026,Grupos,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,Türkiye,USA,3,2,NO,0,0,Glenn Nyberg
+56,2026-06-25T19:00:00Z,Grupos,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,Paraguay,Australia,0,0,NO,0,0,Tori Penso
+57,26.06.2026,Grupos,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,USA,Ecuador,Germany,2,1,NO,0,0,Iván Barton
+58,Jun 26 2026,Grupos,Houston Stadium (NRG Stadium),Houston,USA,Curaçao,Côte d'Ivoire,0,2,NO,0,0,Katia Itzel García
+59,20260626,Grupos,Kansas City Stadium (Arrowhead Stadium),Kansas City,USA,Tunisia,Netherlands,1,3,NO,0,0,Mustapha Ghorbal
+60,26 de junio de 2026,Grupos,Seattle Stadium (Lumen Field),Seattle,USA,Japan,Sweden,1,1,NO,0,0,Clément Turpin
+61,27/06/2026,Grupos,Dallas Stadium (AT&T Stadium),Arlington,USA,New Zealand,Belgium,1,5,NO,0,0,Michael Oliver
+62,27/06/2026,Grupos,Monterrey Stadium (Estadio BBVA),Guadalupe,MEX,Egypt,IR Iran,1,1,NO,0,0,Anthony Taylor
+63,06-27-2026,Grupos,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,Uruguay,Spain,0,1,NO,0,0,Szymon Marciniak
+64,27 June 2026,Grupos,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,USA,Cabo Verde,Saudi Arabia,0,0,NO,0,0,Adham Makhadmeh
+65,"June 26, 2026",Grupos,Boston Stadium (Gillette Stadium),Foxborough,USA,Norway,France,1,4,NO,0,0,François Letexier
+66,26-jun-26,Grupos,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,Senegal,Iraq,5,0,NO,0,0,Ismail Elfath
+67,27/06/2026,Grupos,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,Jordan,Argentina,1,3,NO,0,0,Abdulrahman Al-Jassim
+68,2026-06-27T19:00:00Z,Grupos,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,Algeria,Austria,3,3,NO,0,0,Drew Fischer
+69,28.06.2026,Grupos,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,Colombia,Portugal,0,0,NO,0,0,Ilgiz Tantashev
+70,Jun 28 2026,Grupos,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,USA,Congo DR,Uzbekistan,3,1,NO,0,0,István Kovács
+71,20260628,Grupos,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,Panama,England,0,2,NO,0,0,Alireza Faghani
+72,28 de junio de 2026,Grupos,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,USA,Croatia,Ghana,2,1,NO,0,0,István Kovács
+73,29/06/2026,Dieciseisavos,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,South Africa,Canada,0,1,NO,0,0,João Pinheiro
+74,29/06/2026,Dieciseisavos,Houston Stadium (NRG Stadium),Houston,USA,Brazil,Japan,2,1,NO,0,0,Maurizio Mariani
+75,06-30-2026,Dieciseisavos,Boston Stadium (Gillette Stadium),Foxborough,USA,Germany,Paraguay,1,1,SI,3,4,Jalal Jayed
+76,30 June 2026,Dieciseisavos,Monterrey Stadium (Estadio BBVA),Guadalupe,MEX,Netherlands,Morocco,1,1,SI,2,3,Wilton Sampaio
+77,"June 30, 2026",Dieciseisavos,Dallas Stadium (AT&T Stadium),Arlington,USA,Côte d'Ivoire,Norway,1,2,NO,0,0,Jesús Valenzuela
+78,01-jul-26,Dieciseisavos,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,France,Sweden,3,0,NO,0,0,Danny Makkelie
+79,01/07/2026,Dieciseisavos,Mexico City Stadium (Estadio Azteca),Mexico City,MEX,Mexico,Ecuador,2,0,NO,0,0,Slavko Vincic
+80,2026-07-01T19:00:00Z,Dieciseisavos,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,USA,England,Congo DR,2,1,NO,0,0,Adham Makhadmeh
+81,02.07.2026,Dieciseisavos,Seattle Stadium (Lumen Field),Seattle,USA,Belgium,Senegal,3,2,SI,0,0,Rafael Claus
+82,Jul 02 2026,Dieciseisavos,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,USA,Bosnia and Herzegovina,2,0,NO,0,0,Saíd Martínez
+83,20260703,Dieciseisavos,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,Spain,Austria,3,0,NO,0,0,Espen Eskås
+84,3 de julio de 2026,Dieciseisavos,Toronto Stadium (BMO Field),Toronto,CAN,Portugal,Croatia,2,1,NO,0,0,Glenn Nyberg
+85,03/07/2026,Dieciseisavos,Vancouver Stadium (BC Place),Vancouver,CAN,Switzerland,Algeria,2,0,NO,0,0,Yael Falcón
+86,04/07/2026,Dieciseisavos,Dallas Stadium (AT&T Stadium),Arlington,USA,Australia,Egypt,1,1,SI,2,4,Drew Fischer
+87,07/04/2026,Dieciseisavos,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,Argentina,Cabo Verde,3,2,SI,0,0,Clément Turpin
+88,04 July 2026,Dieciseisavos,Kansas City Stadium (Arrowhead Stadium),Kansas City,USA,Colombia,Ghana,1,0,NO,0,0,Gustavo Tejera
+89,"July 04, 2026",Octavos,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,USA,Paraguay,France,0,1,NO,0,0,Clément Turpin
+90,04-jul-26,Octavos,Houston Stadium (NRG Stadium),Houston,USA,Canada,Morocco,0,3,NO,0,0,Michael Oliver
+91,05/07/2026,Octavos,Dallas Stadium (AT&T Stadium),Arlington,USA,Brazil,Norway,1,2,NO,0,0,Ismail Elfath
+92,2026-07-06T19:00:00Z,Octavos,Mexico City Stadium (Estadio Azteca),Mexico City,MEX,Mexico,England,2,3,NO,0,0,Alireza Faghani
+93,06.07.2026,Octavos,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,Portugal,Spain,0,1,NO,0,0,Anthony Taylor
+94,Jul 07 2026,Octavos,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,USA,Belgium,1,4,NO,0,0,Adham Makhadmeh
+95,20260707,Octavos,Kansas City Stadium (Arrowhead Stadium),Kansas City,USA,Argentina,Egypt,3,2,NO,0,0,François Letexier
+96,7 de julio de 2026,Octavos,Seattle Stadium (Lumen Field),Seattle,USA,Switzerland,Colombia,0,0,SI,4,3,Iván Barton
+97,09/07/2026,Cuartos,Boston Stadium (Gillette Stadium),Foxborough,USA,France,Morocco,2,0,NO,0,0,Facundo Tello
+98,10/07/2026,Cuartos,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,Spain,Belgium,2,1,NO,0,0,Michael Oliver
+99,07/11/2026,Cuartos,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,Norway,England,1,2,SI,0,0,Clément Turpin
+100,12 July 2026,Cuartos,Kansas City Stadium (Arrowhead Stadium),Kansas City,USA,Argentina,Switzerland,3,1,SI,0,0,João Pinheiro
+101,"July 14, 2026",Semifinales,Dallas Stadium (AT&T Stadium),Arlington,USA,France,Spain,0,2,NO,0,0,Iván Barton
+102,15-jul-26,Semifinales,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,USA,England,Argentina,1,2,NO,0,0,Ismail Elfath
+103,18/07/2026,Tercer puesto,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,France,England,4,6,NO,0,0,Jesús Valenzuela
+104,2026-07-19T19:00:00Z,Final,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,Spain,Argentina,1,0,SI,0,0,Slavko Vincic

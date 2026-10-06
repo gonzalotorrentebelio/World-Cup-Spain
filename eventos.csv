@@ -1,452 +1,830 @@
-,index_evento,minuto_evento,match_id,nombre_jugador,tipo_evento
-0,1,9.0,1.0,Julián Andrés Quinones,Goal
-1,2,9.0,1.0,Erik Antonio Lira,Assist
-2,3,17.0,1.0,Teboho Mokoena,Yellow Card
-3,4,23.0,1.0,Brian Gutierrez,Yellow Card
-4,5,55.0,1.0,Sphephelo S'miso Sithole,Red Card
-6,7,67.0,1.0,Raúl Alonso Jimenez,Goal
-7,8,67.0,1.0,Roberto Carlos Alvarado,Assist
-8,9,74.0,1.0,Nkosinathi Emmanuel Sibisi,Yellow Card
-9,10,84.0,1.0,Themba Zwane,Red Card
-10,11,86.0,1.0,César Jasib Montes,Red Card
-11,12,59.0,2.0,Ladislav Krejci,Goal
-12,13,59.0,2.0,Vladimír Coufal,Assist
-13,14,67.0,2.0,Inbeom Hwang,Goal
-14,15,67.0,2.0,Kangin Lee,Assist
-15,16,80.0,2.0,Hyeongyu Oh,Goal
-17,18,90.0,2.0,Gihyuk Lee,Yellow Card
-18,19,,3.0,Alistair William Johnston,Yellow Card
-19,20,21.0,3.0,Jovo Lukic,Goal
-20,21,21.0,3.0,Sead Kolasinac,Assist
-21,22,44.0,3.0,Ermedin Demirovic,Yellow Card
-23,24,53.0,3.0,Luc De Fougerolles,Yellow Card
-24,25,78.0,3.0,Cyle Christopher Larin,Goal
-25,26,78.0,3.0,Promise Oluwatobi Emmanuel David,Assist
-26,27,90.0,3.0,Nikola Katic,Yellow Card
-27,28,7.0,4.0,Damián Josue Bobadilla,Goal
-28,29,,4.0,Juan Jose Caceres,Yellow Card
-29,30,31.0,4.0,Folarin Jolaoluwa Balogun,Goal
-30,31,31.0,4.0,Christian Mate Pulisic,Assist
-32,33,45.0,4.0,Malik Leon Tillman,Assist
-33,34,53.0,4.0,Miguel Angel Almiron,Yellow Card
-34,35,59.0,4.0,Tyler Shaan Adams,Yellow Card
-35,36,73.0,4.0,Mauricio Mauricio,Goal
-36,37,73.0,4.0,Julio Cesar Enciso,Assist
-37,38,,4.0,Diego Alexander Gomez,Yellow Card
-38,39,88.0,4.0,Alex Adrian Arce,Yellow Card
-39,40,90.0,4.0,Giovanni Alejandro Reyna,Goal
-40,41,,4.0,Alexander Michael Freeman,Assist
-41,42,90.0,4.0,Júnior Osmar Ignacio Alonso,Yellow Card
-42,43,14.0,5.0,Ibrahim Mahmoud Abunada,Yellow Card
-43,44,17.0,5.0,Breel Donald Embolo,Goal
-44,45,23.0,5.0,Gaber Jassem,Yellow Card
-45,46,42.0,5.0,Denis Lemi Zakaria,Yellow Card
-46,47,90.0,5.0,Miro Max Maria Muheim,Goal
-47,48,21.0,6.0,Ismael Saibari,Goal
-48,49,21.0,6.0,Brahim Diaz,Assist
-49,50,32.0,6.0,José Vinicius,Goal
-50,51,32.0,6.0,GUIMARAESBruno Bruno,Assist
-51,52,37.0,6.0,Henrique,Yellow Card
-52,53,43.0,6.0,IBANEZRoger Roger,Yellow Card
-53,54,28.0,7.0,Mc,Goal
-54,55,39.0,7.0,Jean Ricner Bellegarde,Yellow Card
-55,56,46.0,7.0,Aaron Buchanan Hickey,Yellow Card
-56,57,90.0,7.0,Mc,Yellow Card
-57,58,90.0,7.0,Findlay Kenneth Curtis,Yellow Card
-58,59,27.0,8.0,Nestory Irankunda,Goal
-59,60,27.0,8.0,Paul Michael Junior Okon-Engstler,Assist
-60,-5,,,,
-61,62,86.0,8.0,Yunus Akgun,Yellow Card
-62,63,6.0,9.0,Felix Kalu Nmecha,Goal
-63,64,6.0,9.0,Florian Richard Wirtz,Assist
-64,65,21.0,9.0,Livano Shyron Liomar Comenencia,Goal
-65,66,38.0,9.0,Nico Cédric Schlotterbeck,Goal
-66,67,38.0,9.0,Nathaniel Christopher Brown,Assist
-67,68,45.0,9.0,Kai Lukas Havertz,Goal
-68,69,47.0,9.0,Jamal Musiala,Goal
-69,70,47.0,9.0,Joshua Walter Kimmich,Assist
-71,72,68.0,9.0,Deniz Undav,Assist
-76,77,50.0,10.0,Virgil Van Dijk,Goal
-77,78,50.0,10.0,Ryan Jiro Gravenberch,Assist
-78,79,57.0,10.0,Keito Nakamura,Goal
-79,80,57.0,10.0,Takefusa Kubo,Assist
-80,81,61.0,10.0,Crysencio Jilbert Sylverio Cir Summerville,Yellow Card
-83,84,83.0,10.0,Memphis Depay,Yellow Card
-84,85,88.0,10.0,Daichi Kamada,Goal
-85,86,88.0,10.0,Koki Ogawa,Assist
-86,87,90.0,10.0,Micky Van De Ven,Yellow Card
-87,88,28.0,11.0,Seko Mohamed Fofana,Yellow Card
-88,89,38.0,11.0,Franck Yannick Kessie,Yellow Card
-89,90,40.0,11.0,Guela Maho-Lewis Doue,Yellow Card
-90,91,73.0,11.0,Jackson Gabriel Porozo,Yellow Card
-91,92,90.0,11.0,Amad Diallo,Goal
-92,93,90.0,11.0,Wilfried Stephane Singo,Assist
-93,94,7.0,12.0,Yasin Ayari,Goal
-94,95,30.0,12.0,Alexander Isak,Goal
-95,96,30.0,12.0,Viktor Einar Gyokeres,Assist
-96,97,43.0,12.0,Omar Rekik,Goal
-97,98,43.0,12.0,Hannibal Mejbri,Assist
-98,99,54.0,12.0,Rani Khedira,Yellow Card
-101,102,84.0,12.0,Mattias Olof Svanberg,Goal
-104,105,90.0,12.0,Lucas Erik Holger Bergvall,Assist
-105,106,16.0,13.0,CABRALSidny Sidny Lopes,Yellow Card
-106,107,90.0,13.0,Pedro Pedri,Yellow Card
-107,108,13.0,14.0,Attia Fahim Marawan Attia,Yellow Card
-108,109,-5.0,14.0,Timothy Castagne,Yellow Card
-109,110,19.0,14.0,Ashour Metwaly Emam,Goal
-110,111,19.0,14.0,Hamed Mahrous Mohamed Salah,Assist
-111,112,34.0,14.0,Mohamed Aboelfetouh Ahmed Fatouh,Yellow Card
-112,113,66.0,14.0,Hany Gamal Mohamed Hany,Goal
-113,114,75.0,14.0,Maxim Peter De Cuyper,Yellow Card
-114,115,41.0,15.0,Ali Abdulelah Alamri,Goal
-116,117,80.0,15.0,Maximiliano Javier Araujo,Goal
-117,118,7.0,16.0,Elijah Henry Just,Goal
-118,119,7.0,16.0,Christopher Grant Wood,Assist
-119,120,32.0,16.0,Ramin Rezaeian,Goal
-122,123,-2.0,16.0,Mohammad Mohebbi,Goal
-124,125,89.0,16.0,Ehsan Hajisafi,Yellow Card
-125,126,66.0,17.0,Kylian Mbappe,Goal
-126,127,66.0,17.0,Michael Akpovie Olise,Assist
-127,128,82.0,17.0,Bradley Jean-Manuel Essolisa Barcola,Goal
-128,129,82.0,17.0,Adrien Thibault Marie Rabiot,Assist
-131,132,90.0,17.0,Ibrahim Mbaye,Goal
-132,133,90.0,17.0,Iliman Cheikh Baroy Ndiaye,Assist
-133,134,29.0,18.0,Erling Braut Haaland,Goal
-134,135,29.0,18.0,David Møller Moller Wolfe,Assist
-135,136,39.0,18.0,Hussein Ghadhban Aymen,Goal
-136,137,39.0,18.0,Fouad Aboud Amir Alammari,Assist
-138,139,76.0,18.0,Leo Skiri Ostigard,Goal
-139,140,76.0,18.0,Martín Odegaard,Assist
-140,141,86.0,18.0,Tahseen Abd Zaid Zaid,Yellow Card
-142,143,17.0,19.0,Lionel Andrés Messi,Goal
-143,144,17.0,19.0,Rodrigo Javier De Paul,Assist
-146,147,76.0,19.0,Nicolas Ivan Gonzalez,Assist
-147,148,20.0,20.0,Romano Schmid,Goal
-148,149,20.0,20.0,Xaver Schlager,Assist
-149,150,50.0,20.0,Iyad Ali Ali Olwan,Goal
-150,151,50.0,20.0,Mahmoud Ali Noor Alrawabdeh,Assist
-151,152,76.0,20.0,Mousa Mahmoud Yazan Alarab,Goal
-152,153,77.0,20.0,Marcel Sabitzer,Yellow Card
-153,154,90.0,20.0,Marko Arnautovic,Goal
-154,155,6.0,21.0,Pedro Joao Neves,Goal
-155,156,6.0,21.0,Pedro Pedro Neto,Assist
-156,157,13.0,21.0,Bernardo Bernardo Silva,Yellow Card
-157,158,32.0,21.0,Mangulu Chancel Mbemba,Yellow Card
-158,159,45.0,21.0,Yoane Wissa,Goal
-159,160,45.0,21.0,Arthur Fuka Masuaku,Assist
-160,161,-10.0,21.0,SEMEDONélson Nelson,Yellow Card
-161,162,90.0,21.0,Tomás Tomas Araujo,Yellow Card
-162,163,12.0,22.0,Harry Edward Kane,Goal
-163,164,36.0,22.0,Martin Baturina,Goal
-164,165,36.0,22.0,Petar Sucic,Assist
-166,167,42.0,22.0,Declan Rice,Assist
-167,168,45.0,22.0,Petar Musa,Goal
-168,169,45.0,22.0,Ivan Perisic,Assist
-169,170,47.0,22.0,Jude Victor William Bellingham,Goal
-170,171,47.0,22.0,Elliot Junior Anderson,Assist
-171,172,85.0,22.0,Marcus Rashford,Goal
-172,173,85.0,22.0,Bukayo Ayoyinka Saka,Assist
-173,174,16.0,23.0,Caleb Marfo Yirenkyi,Yellow Card
-174,175,72.0,23.0,Cesar Rodolfo Blackman,Yellow Card
-176,177,90.0,23.0,Antoine Serlom Semenyo,Assist
-177,178,90.0,23.0,Carlos Miguel Harvey,Yellow Card
-178,179,7.0,24.0,Johan Andrés Mojica,Yellow Card
-179,180,34.0,24.0,Abdukodir Khusanov,Yellow Card
-180,181,40.0,24.0,Daniel Munoz,Goal
-181,182,40.0,24.0,Luis Fernando Diaz,Assist
-182,183,60.0,24.0,Abbosbek Fayzullaev,Goal
-184,185,65.0,24.0,Gustavo Adolfo Puerta,Assist
-185,186,90.0,24.0,Jaminton Leandro Campaz,Goal
-186,187,90.0,24.0,Juan Camilo Hernandez,Assist
-188,189,50.0,25.0,Luis Francisco Romo,Goal
-189,190,58.0,25.0,Seungho Paik,Yellow Card
-190,191,6.0,26.0,Michal Sadilek,Goal
-191,192,6.0,26.0,Alexandr Sojka,Assist
-193,194,40.0,26.0,Thalente Wandile Mbatha,Yellow Card
-195,196,81.0,26.0,Thapelo Maseko,VAR Review
-197,198,9.0,27.0,Derek Austin Cornelius,Yellow Card
-199,200,29.0,27.0,Jonathan Christian David,Goal
-201,202,60.0,27.0,Elamin Homam,Red Card
-203,204,62.0,27.0,Fathy Ahmed Fathy,Yellow Card
-204,205,64.0,27.0,Nathan-Dylan Saliba,Goal
-205,206,75.0,27.0,Naceur Mohamed Manai,Goal
-206,207,85.0,27.0,Omer Assim Madibo,Red Card
-209,210,59.0,28.0,Amar Dedic,Yellow Card
-210,211,61.0,28.0,Edin Dzeko,Yellow Card
-211,212,65.0,28.0,Nico Elvedi,Yellow Card
-212,213,74.0,28.0,Johan Kula Manzambi,Goal
-213,214,74.0,28.0,Granit Xhaka,Assist
-214,215,80.0,28.0,Tarik Muharemovic,Red Card
-215,216,84.0,28.0,Ruben Estephan Vargas,Goal
-220,221,90.0,28.0,Ermin Mahmic,Goal
-221,222,4.0,29.0,Carlens Jean Fedlaire Ruby Arcus,Yellow Card
-222,223,23.0,29.0,Matheus Matheus Cunha,Goal
-226,227,45.0,29.0,Lucas Lucas Paqueta,Assist
-227,228,45.0,29.0,Frantzdy Pierrot,Yellow Card
-228,229,65.0,29.0,Douglas Douglas Santos,Yellow Card
-229,230,72.0,29.0,Danley Jean Jacques,Yellow Card
-232,233,23.0,30.0,Issa Laye Lucas Jean Diop,Yellow Card
-233,234,65.0,30.0,Andrew Henry Robertson,Yellow Card
-234,235,11.0,31.0,Cameron Robert Burgess,Goal
-235,236,16.0,31.0,Jordan Jacob Bos,Yellow Card
-236,237,32.0,31.0,Alessandro Circati,Yellow Card
-238,239,43.0,31.0,Sergiño Gianni Dest,Assist
-240,241,56.0,31.0,Antonee Robinson,Yellow Card
-242,243,89.0,31.0,Harry James Souttar,Yellow Card
-243,244,89.0,31.0,Jacob Michael Italiano,Yellow Card
-244,245,90.0,31.0,Christopher Jeffrey Richards,Yellow Card
-245,246,2.0,32.0,Matias Galarza,Goal
-250,251,71.0,32.0,Evren Eren Elmali,Yellow Card
-252,253,30.0,33.0,Yan Diomande,Assist
-254,255,68.0,33.0,Nadiem Amiri,Assist
-257,258,38.0,34.0,Jordy Jose Alcivar,Yellow Card
-258,259,39.0,34.0,Leandro Jones Johan Bacuna,Yellow Card
-259,260,53.0,34.0,Juninho Gracielo Bacuna,Yellow Card
-261,262,75.0,34.0,Juriën Godfried Juan Gaari,Yellow Card
-262,263,90.0,34.0,Gervane Zjandric Adonnis Kastaneer,Yellow Card
-263,264,5.0,35.0,Brian Ebenezer Adjei Brobbey,Goal
-264,265,5.0,35.0,Cody Mathès Gakpo,Assist
-266,267,-45.0,35.0,Denzel Justus Morris Dumfries,Assist
-269,270,53.0,35.0,Gabriel Johan Gudmundsson,Yellow Card
-272,273,59.0,35.0,Anthony David Junior Elanga,Goal
-280,281,31.0,36.0,Ayase Ueda,Goal
-282,283,69.0,36.0,Junya Ito,Goal
-285,286,83.0,36.0,Kaishu Sano,Assist
-286,287,3.0,37.0,Romelu Lukaku,Yellow Card
-287,288,33.0,37.0,Saeid Ezatolahi,Yellow Card
-288,289,66.0,37.0,Nathan Ngoy,Red Card
-289,290,15.0,38.0,Finn Surman,Goal
-290,291,15.0,38.0,Timothy John Payne,Assist
-291,292,17.0,38.0,Mostafa Ahmed Mohanad Lashin,Yellow Card
-292,293,20.0,38.0,Sarpreet Singh,Yellow Card
-293,294,34.0,38.0,Mc,Yellow Card
-294,295,58.0,38.0,Mohamed Zaky Mostafa Zico,Goal
-298,299,82.0,38.0,Ahmed Ibrahim Trezeguet,Goal
-300,301,10.0,39.0,Lamine Yamal Yamal,Goal
-301,302,10.0,39.0,Mikel Oyarzabal,Assist
-303,304,21.0,39.0,Aymeric Laporte,Assist
-305,306,24.0,39.0,Daniel Olmo,Assist
-306,307,30.0,39.0,Mohammed Salem Aldawsari,Yellow Card
-307,308,49.0,39.0,Mohammed Hassan Altambakti,Goal
-308,309,60.0,39.0,Ibrahim Mohamed,Yellow Card
-310,311,20.0,40.0,Rodrigo Bentancur,Yellow Card
-311,312,21.0,40.0,Lenini Kevin Pina,Goal
-313,314,44.0,40.0,Federico Santiago Valverde,Assist
-314,315,45.0,40.0,Agustin Canobbio,Goal
-316,317,58.0,40.0,Mathías Olivera,Yellow Card
-317,318,61.0,40.0,Sandro Helio Varela,Goal
-318,319,90.0,40.0,Alberto Diney,Yellow Card
-323,324,54.0,41.0,Masour Ousmane Dembele,Assist
-326,327,43.0,42.0,Marcus Holmgren Holmgren Pedersen,Goal
-329,330,53.0,42.0,Ismaila Sarr,Goal
-330,331,53.0,42.0,Sadio Mane,Assist
-332,333,58.0,42.0,Patrick Berg,Assist
-334,335,90.0,42.0,Nicolas Jackson,Assist
-336,337,38.0,43.0,Facundo Axel Medina,Assist
-337,338,41.0,43.0,Stefan Posch,Yellow Card
-339,340,76.0,43.0,Konrad Laimer,Yellow Card
-341,342,90.0,43.0,Leandro Daniel Paredes,Yellow Card
-342,343,36.0,44.0,Mahmoud Ahmed Nizar Alrashdan,Goal
-343,344,36.0,44.0,Mohammad Mousa Mousa Altamari,Assist
-344,345,44.0,44.0,Ramiz Larbi Zerrouki,Yellow Card
-345,346,64.0,44.0,Ali Mohammad Husam Abudahab,Yellow Card
-346,347,69.0,44.0,Ahmed Nadhir Benbouali,Goal
-347,348,69.0,44.0,Riyad Karim Mahrez,Assist
-348,349,82.0,44.0,Amine Ferid Gouiri,Goal
-349,350,6.0,45.0,Ronaldo Cristiano Ronaldo,Goal
-350,351,6.0,45.0,Pedro Joao Cancelo,Assist
-351,352,14.0,45.0,Odiljon Xamrobekov,Yellow Card
-352,353,17.0,45.0,Alexandre Nuno,Goal
-354,355,39.0,45.0,Miguel Bruno,Assist
-356,357,68.0,45.0,Renato Renato Veiga,Yellow Card
-357,358,87.0,45.0,Alexandre Rafael Leao,Goal
-358,359,87.0,45.0,Vitor Vitinha,Assist
-359,360,56.0,46.0,Jhon Janer Lucumi,Yellow Card
-361,362,76.0,46.0,Juan Fernando Quintero,Assist
-362,363,90.0,46.0,Jefferson Andrés Lerma,Yellow Card
-363,364,90.0,46.0,Charles Monginda Pickel,Yellow Card
-365,366,60.0,47.0,Inaki Williams,Yellow Card
-366,367,54.0,48.0,Ante Budimir,Goal
-367,368,54.0,48.0,Josip Stanisic,Assist
-368,369,61.0,48.0,Edgar Yoel Barcenas,Yellow Card
-370,371,55.0,49.0,Mateo Chavez,Goal
-373,374,61.0,49.0,Jorge Eduardo Sanchez,Assist
-374,375,64.0,49.0,Edson Omar Alvarez,Yellow Card
-375,376,90.0,49.0,Álvaro Fidalgo,Goal
-378,379,63.0,50.0,Tshepang Moremi,Assist
-379,380,72.0,50.0,Aubrey Maphosa Modiba,Yellow Card
-380,381,78.0,50.0,Guesung Cho,Yellow Card
-389,390,87.0,51.0,Liam Alan Millar,Yellow Card
-390,391,29.0,52.0,Kerim Alajbegovic,Goal
-391,392,29.0,52.0,Ivan Basic,Assist
-393,394,42.0,52.0,Khalid Hassan Alhaydos,Goal
-394,395,42.0,52.0,Junior Edmilson,Assist
-397,398,82.0,52.0,Dennis Hadzikadunic,Assist
-400,401,7.0,53.0,Vitor Rayan,Assist
-405,406,62.0,53.0,Luiz Danilo,Yellow Card
-406,407,82.0,53.0,Henrique Fabinho,Yellow Card
-407,408,89.0,53.0,Ryan Christie,Yellow Card
-408,409,10.0,54.0,Yassine Bounou,Goal
-409,410,39.0,54.0,Achraf Hakimi,Goal
-410,411,43.0,54.0,Wilson Isidor,Goal
-412,413,78.0,54.0,Soufiane Rahimi,Goal
-413,414,79.0,54.0,Johny Placide,Yellow Card
-414,415,80.0,54.0,Duckens Nazon,Yellow Card
-415,416,89.0,54.0,Gessime Ben Youssef Mustapha Yassine,Goal
-416,417,90.0,54.0,Josue Jeremie Casimir,Yellow Card
-417,418,3.0,55.0,Auston Levi-Jesaiah Trusty,Goal
-418,419,3.0,55.0,Sebastian Matthew Berhalter,Assist
-419,420,10.0,55.0,Arda Guler,Goal
-420,421,10.0,55.0,Can Yılmaz Uzun,Assist
-422,423,31.0,55.0,Orkun Kokcu,Goal
-425,426,90.0,55.0,Kaan Ayhan,Goal
-426,427,46.0,56.0,Jackson Alexander Irvine,Yellow Card
-428,429,2.0,57.0,Leroy Aziz Sane,Goal
-430,431,9.0,57.0,Nilson David Angulo,Goal
-431,432,9.0,57.0,Pedro Jeampierre Vite,Assist
-432,433,43.0,57.0,Piero Martin Hincapie,Yellow Card
-433,434,44.0,57.0,Aleksandar Pavlovic,Yellow Card
-434,435,50.0,57.0,Alan Steven Franco,Yellow Card
-435,436,77.0,57.0,Gonzalo Jordy Plata,Goal
-436,437,77.0,57.0,Moisés Isaac Caicedo,Assist
-438,439,7.0,58.0,Nicolas Pepe,Goal
-443,444,3.0,59.0,Ellyes Joris Skhiri,Goal
-445,446,54.0,59.0,Hazem Mastouri,Goal
-446,447,62.0,59.0,Paul Jan-Paul Van Hecke,Goal
-447,448,32.0,60.0,Isak Malcolm Kwaku Hien,Yellow Card
-448,449,56.0,60.0,Daizen Maeda,Goal
-450,451,77.0,60.0,Shogo Taniguchi,Yellow Card
-452,453,28.0,61.0,Leandro Trossard,Goal
-453,454,46.0,61.0,Marko Seufatu Nikola Stamenic,Yellow Card
-456,457,66.0,61.0,Kevin De Bruyne,Goal
-459,460,90.0,61.0,Alexis Jesse Saelemaekers,Goal
-460,461,5.0,62.0,Saber Abdelmohsen Mahmoud,Goal
-463,464,19.0,62.0,Mohammadhossein Kanani,Yellow Card
-464,465,41.0,62.0,Ahmed Ibrahim Yasser,Yellow Card
-465,466,43.0,62.0,Ali Nemati,Yellow Card
-468,469,90.0,62.0,Shojae Khalilzadeh,Yellow Card
-469,470,42.0,63.0,Alejandro Baena,Goal
-470,471,42.0,63.0,Marcos Llorente,Assist
-472,473,54.0,63.0,Juan Manuel Sanabria,Yellow Card
-473,474,58.0,63.0,Guillermo Varela,Yellow Card
-474,475,90.0,63.0,Diego Nicolás De La Cruz,Yellow Card
-475,476,4.0,64.0,Abdullah Saud Abdulhamid,Yellow Card
-476,477,8.0,64.0,Fabricio Wagner Pina,Yellow Card
-477,478,67.0,64.0,Essa Nasser Aldawsari,Yellow Card
-478,479,90.0,64.0,Tariq Feras,Yellow Card
-484,485,21.0,65.0,Thelonious Gerard Aasgaard,Goal
-485,486,21.0,65.0,Andreas Rædergård Schjelderup,Assist
-487,488,32.0,65.0,Aurélien Djani Tchouameni,Assist
-489,490,90.0,65.0,Désiré Nonka-Maho Doue,Goal
-491,492,4.0,66.0,Habib Mbacke Diarra,Goal
-492,493,4.0,66.0,Abdoulaye Seck,Assist
-493,494,,66.0,Ghareeb Solaka Rebin Sulaka,Red Card
-496,497,56.0,66.0,Lamine Camara,Assist
-497,498,59.0,66.0,Pape Alassane Gueye,Goal
-505,506,90.0,66.0,Ghazi Salih Merchas,Yellow Card
-506,507,17.0,67.0,Mahmoud Saleh Mohannad Abutaha,Yellow Card
-507,508,19.0,67.0,Giovani Lo Celso,Goal
-508,509,31.0,67.0,Lautaro Javier Martinez,Goal
-510,511,55.0,67.0,Manel Farhan Ehsan Haddad,Assist
-513,514,90.0,67.0,Faisal Yousef Mohammad,Yellow Card
-516,517,28.0,68.0,David Alaba,Assist
-517,518,45.0,68.0,Rafik Belghali,Goal
-520,521,55.0,68.0,Nicolas Seiwald,Assist
-522,523,60.0,68.0,Houssem-Eddine Chaabane Aouar,Assist
-525,526,90.0,68.0,Saša Kalajdzic,Goal
-526,527,90.0,68.0,Michael Gregoritsch,Assist
-528,529,10.0,70.0,Eldor Shomurodov,Goal
-529,530,10.0,70.0,Akmal Mozgovoy,Assist
-530,531,21.0,70.0,Noah Junior Sadiki,Yellow Card
-532,533,45.0,70.0,Nathanaël Mbuku,Yellow Card
-533,534,47.0,70.0,Sherzod Nasrullaev,Yellow Card
-534,535,62.0,70.0,Samuel Alain Moutoussamy,Yellow Card
-536,537,78.0,70.0,Mayele Fiston Mayele,Goal
-538,539,90.0,70.0,Meschack Lina Elia,Assist
-539,540,53.0,71.0,Jose Fajardo,Yellow Card
-540,541,60.0,71.0,Jarell Amorin Quansah,Yellow Card
-545,546,83.0,71.0,Andres Alberto Andrade,Yellow Card
-548,549,73.0,72.0,Derrick Luckassen,Goal
-549,550,73.0,72.0,Ernest Nuamah Nuamah,Assist
-550,551,83.0,72.0,Nikola Vlasic,Goal
-551,552,83.0,72.0,Luka Modric,Assist
-552,553,90.0,72.0,Kojo Peprah Oppong,Yellow Card
-554,555,67.0,73.0,Niko Kristian Sigur,Yellow Card
-555,556,90.0,73.0,Stephen Eustaquio,Goal
-562,563,56.0,74.0,Gabriel Gabriel Magalhaes,Assist
-563,564,84.0,74.0,Junnosuke Suzuki,Yellow Card
-564,565,90.0,74.0,MARTINELLIGabriel Gabriel,Goal
-571,572,65.0,75.0,Adrián Andrés Cubas,Yellow Card
-573,574,110.0,75.0,Antonio Ruediger,Yellow Card
-580,581,121.0,75.0,Gustavo Raul Gomez,Penalty Shootout Goal
-583,584,121.0,75.0,Nick Woltemade,Penalty Shootout Miss
-584,585,,75.0,Arnaldo Antonio Sanabria,Penalty Shootout Miss
-586,587,121.0,75.0,Fabián Cornelio Balbuena,Penalty Shootout Miss
-588,589,121.0,75.0,Jose Maria Canale,Penalty Shootout Goal
-590,591,71.0,76.0,Nathan Benjamin Ake,Yellow Card
-594,595,90.0,76.0,Chemsdine Talbi,Assist
-595,596,121.0,76.0,Teun Koopmeiners,Penalty Shootout Goal
-596,597,121.0,76.0,Neil Yoni El Aynaoui,Penalty Shootout Miss
-597,598,121.0,76.0,Justin Dean Kluivert,Penalty Shootout Miss
-599,600,121.0,76.0,Wout François Maria Weghorst,Penalty Shootout Goal
-601,602,121.0,76.0,Quinten Ryan Crispito Timber,Penalty Shootout Miss
-605,606,39.0,77.0,Antonio Eromonsele Nordby Nusa,Goal
-621,622,90.0,79.0,Ray Kendry Paez,Yellow Card
-623,624,7.0,80.0,Kibambe Brian Cipenga,Goal
-627,628,75.0,80.0,Anthony Michael Gordon,Assist
-632,633,51.0,81.0,Moussa Niakhate,Assist
-633,634,64.0,81.0,Brandon Erik Mechele,Yellow Card
-636,637,86.0,81.0,Thomas Andre Meunier,Assist
-637,638,89.0,81.0,Youri Marion Tielemans,Goal
-645,646,80.0,82.0,Stjepan Radeljic,Yellow Card
-648,649,36.0,83.0,Marc Cucurella,Assist
-649,650,66.0,83.0,Pedro Antonio Porro,Goal
-654,655,17.0,84.0,Rúben Ruben Dias,Yellow Card
-659,660,90.0,84.0,RAMOSGonçalo Goncalo,Goal
-662,663,103.0,84.0,Joško Gvardiol,VAR Review
-665,666,36.0,85.0,Fares Chaibi,Yellow Card
-666,667,46.0,85.0,Dan Ndoye,Goal
-667,668,71.0,85.0,Hicham Boudaoui,Yellow Card
-673,674,121.0,86.0,Abdelaziz Moustafa Ramy Rabia,Penalty Shootout Goal
-674,675,121.0,86.0,Awer Bul Mabil,Penalty Shootout Goal
-676,677,121.0,86.0,Lucas Herrington,Penalty Shootout Miss
-677,678,121.0,86.0,Abdelmegeed Abdelsalam Hossam Abdelmaguid,Penalty Shootout Goal
-679,680,59.0,87.0,Deroy Deroy Duarte,Goal
-680,681,92.0,87.0,Lisandro Martinez,Goal
-683,684,14.0,88.0,Jhon Adolfo Arias,Goal
-684,685,14.0,88.0,Luis Javier Suarez,Assist
-686,687,50.0,90.0,Azz-Eddine Ounahi,Goal
-696,697,90.0,91.0,Neymar Neymar Jr,Goal
-708,709,68.0,92.0,Keaninkin Marc-Isreal Guehi,Yellow Card
-712,713,72.0,92.0,Nico Oreilly,Yellow Card
-713,714,,92.0,Johan Felipe Vasquez,Yellow Card
-714,715,,92.0,Jordan Brian Henderson,Yellow Card
-716,717,,93.0,Mikel Merino,Goal
-717,718,,93.0,Ferran Torres,Assist
-720,721,9.0,94.0,Charles Marc De Ketelaere,Goal
-721,722,9.0,94.0,Nicolas Thierry Raskin,Assist
-725,726,35.0,94.0,Mc,Yellow Card
-726,727,57.0,94.0,Hans Vanaken,Goal
-731,732,26.0,95.0,Cristian Gabriel Romero,Goal
-734,735,55.0,95.0,Julián Alvarez,Goal
-735,736,55.0,95.0,Alexis Mac Allister,Assist
-737,738,67.0,95.0,Yousry Fouad Haissem Hassan,Assist
-740,741,,95.0,Abdelaziz Mohame Mostafa,Yellow Card
-741,742,,95.0,Fathy Abdelhalim Hamdy Fathy,Yellow Card
-746,747,94.0,96.0,Davinson Sanchez,Yellow Card
-750,751,121.0,96.0,Mohamed Zeki Amdouni,Penalty Shootout Goal
-752,753,121.0,96.0,Manuel Obafemi Akanji,Penalty Shootout Miss
-754,755,,96.0,Cedric Jan Itten,Penalty Shootout Goal
-763,764,30.0,98.0,Fabian Ruiz,Goal
-766,767,43.0,98.0,Pau Cubarsi,Yellow Card
-770,771,,98.0,Axel Laurent Witsel,Yellow Card
-774,775,117.0,99.0,Kristoffer Vassbakk Köpp Ajer,Yellow Card
-781,782,67.0,100.0,Ricardo Ivan Rodriguez,Assist
-784,785,97.0,100.0,Thiago Ezequiel Almada,Yellow Card
-787,788,112.0,100.0,Jose Manuel Alberto Lopez,Assist
-802,803,55.0,102.0,Morgan Elliot Rogers,Assist
-803,804,85.0,102.0,Enzo Jeremías Fernandez,Goal
-808,809,18.0,103.0,Ezri Ngoyo Konsa,Goal
-813,814,46.0,103.0,Eberechi Oluchi Eze,Assist
-822,823,,103.0,Dayotchanculle Oswald Upamecano,Assist
-831,832,106.0,104.0,Nicholas Williams,Assist
+index_evento,minuto_evento,index_partido,nombre_jugador,tipo_evento,seleccion_evento
+1,9,1,Julián Andrés Quinones,gol,Mexico
+2,9,1,Erik Antonio Lira,asistencia,Mexico
+3,17,1,Teboho Mokoena,tarjeta amarilla,South Africa
+4,23,1,Brian Gutierrez,tarjeta amarilla,Mexico
+5,55,1,Sphephelo S'miso Sithole,tarjeta roja,South Africa
+6,55,1,Sphephelo S'miso Sithole,revision VAR,South Africa
+7,67,1,Raúl Alonso Jimenez,gol,Mexico
+8,67,1,Roberto Carlos Alvarado,asistencia,Mexico
+9,74,1,Nkosinathi Emmanuel Sibisi,tarjeta amarilla,South Africa
+10,84,1,Themba Zwane,tarjeta roja,South Africa
+11,86,1,César Jasib Montes,tarjeta roja,Mexico
+12,59,2,Ladislav Krejci,gol,Czechia
+13,59,2,Vladimír Coufal,asistencia,Czechia
+14,67,2,Inbeom Hwang,gol,South Korea
+15,67,2,Kangin Lee,asistencia,South Korea
+16,80,2,Hyeongyu Oh,gol,South Korea
+17,80,2,Inbeom Hwang,asistencia,South Korea
+18,90,2,Gihyuk Lee,tarjeta amarilla,South Korea
+19,,3,Alistair William Johnston,tarjeta amarilla,Canada
+20,21,3,Jovo Lukic,gol,Bosnia and Herzegovina
+21,21,3,Sead Kolasinac,asistencia,Bosnia and Herzegovina
+22,44,3,Ermedin Demirovic,tarjeta amarilla,Bosnia and Herzegovina
+23,45,3,Jovo Lukic,tarjeta amarilla,Bosnia and Herzegovina
+24,53,3,Luc De Fougerolles,tarjeta amarilla,Canada
+25,78,3,Cyle Christopher Larin,gol,Canada
+26,78,3,Promise Oluwatobi Emmanuel David,asistencia,Canada
+27,90,3,Nikola Katic,tarjeta amarilla,Bosnia and Herzegovina
+28,7,4,Damián Josue Bobadilla,gol,USA
+29,,4,Juan Jose Caceres,tarjeta amarilla,Paraguay
+30,31,4,Folarin Jolaoluwa Balogun,gol,USA
+31,31,4,Christian Mate Pulisic,asistencia,USA
+32,45,4,Folarin Jolaoluwa Balogun,gol,USA
+33,45,4,Malik Leon Tillman,asistencia,USA
+34,53,4,Miguel Angel Almiron,tarjeta amarilla,Paraguay
+35,59,4,Tyler Shaan Adams,tarjeta amarilla,USA
+36,73,4,Mauricio Mauricio,gol,Paraguay
+37,73,4,Julio Cesar Enciso,asistencia,Paraguay
+38,,4,Diego Alexander Gomez,tarjeta amarilla,Paraguay
+39,88,4,Alex Adrian Arce,tarjeta amarilla,Paraguay
+40,90,4,Giovanni Alejandro Reyna,gol,USA
+41,,4,Alexander Michael Freeman,asistencia,USA
+42,90,4,Júnior Osmar Ignacio Alonso,tarjeta amarilla,Paraguay
+43,14,5,Ibrahim Mahmoud Abunada,tarjeta amarilla,Qatar
+44,17,5,Breel Donald Embolo,gol,Switzerland
+45,23,5,Gaber Jassem,tarjeta amarilla,Qatar
+46,42,5,Denis Lemi Zakaria,tarjeta amarilla,Switzerland
+47,90,5,Miro Max Maria Muheim,gol,Qatar
+48,21,6,Ismael Saibari,gol,Morocco
+49,21,6,Brahim Diaz,asistencia,Morocco
+50,32,6,José Vinicius,gol,Brazil
+51,32,6,GUIMARAESBruno Bruno,asistencia,Brazil
+52,37,6,Henrique,tarjeta amarilla,Brazil
+53,43,6,IBANEZRoger Roger,tarjeta amarilla,Brazil
+54,28,7,Mc,gol,Scotland
+55,39,7,Jean Ricner Bellegarde,tarjeta amarilla,Haiti
+56,46,7,Aaron Buchanan Hickey,tarjeta amarilla,Scotland
+57,90,7,Mc,tarjeta amarilla,Scotland
+58,90,7,Findlay Kenneth Curtis,tarjeta amarilla,Scotland
+59,27,8,Nestory Irankunda,gol,Australia
+60,27,8,Paul Michael Junior Okon-Engstler,asistencia,Australia
+62,86,8,Yunus Akgun,tarjeta amarilla,Türkiye
+63,6,9,Felix Kalu Nmecha,gol,Germany
+64,6,9,Florian Richard Wirtz,asistencia,Germany
+65,21,9,Livano Shyron Liomar Comenencia,gol,Curaçao
+66,38,9,Nico Cédric Schlotterbeck,gol,Germany
+67,38,9,Nathaniel Christopher Brown,asistencia,Germany
+68,45,9,Kai Lukas Havertz,gol,Germany
+69,47,9,Jamal Musiala,gol,Germany
+70,47,9,Joshua Walter Kimmich,asistencia,Germany
+71,68,9,Nathaniel Christopher Brown,gol,Germany
+72,68,9,Deniz Undav,asistencia,Germany
+73,78,9,Deniz Undav,gol,Germany
+74,78,9,Joshua Walter Kimmich,asistencia,Germany
+75,88,9,Kai Lukas Havertz,gol,Germany
+76,88,9,Deniz Undav,asistencia,Germany
+77,50,10,Virgil Van Dijk,gol,Netherlands
+78,50,10,Ryan Jiro Gravenberch,asistencia,Netherlands
+79,57,10,Keito Nakamura,gol,Japan
+80,57,10,Takefusa Kubo,asistencia,Japan
+81,61,10,Crysencio Jilbert Sylverio Cir Summerville,tarjeta amarilla,Netherlands
+82,64,10,Crysencio Jilbert Sylverio Cir Summerville,gol,Netherlands
+83,64,10,Ryan Jiro Gravenberch,asistencia,Netherlands
+84,83,10,Memphis Depay,tarjeta amarilla,Netherlands
+85,88,10,Daichi Kamada,gol,Japan
+86,88,10,Koki Ogawa,asistencia,Japan
+87,90,10,Micky Van De Ven,tarjeta amarilla,Netherlands
+88,28,11,Seko Mohamed Fofana,tarjeta amarilla,Côte d'Ivoire
+89,38,11,Franck Yannick Kessie,tarjeta amarilla,Côte d'Ivoire
+90,40,11,Guela Maho-Lewis Doue,tarjeta amarilla,Côte d'Ivoire
+91,73,11,Jackson Gabriel Porozo,tarjeta amarilla,Ecuador
+92,90,11,Amad Diallo,gol,Côte d'Ivoire
+93,90,11,Wilfried Stephane Singo,asistencia,Côte d'Ivoire
+94,7,12,Yasin Ayari,gol,Sweden
+95,30,12,Alexander Isak,gol,Sweden
+96,30,12,Viktor Einar Gyokeres,asistencia,Sweden
+97,43,12,Omar Rekik,gol,Tunisia
+98,43,12,Hannibal Mejbri,asistencia,Tunisia
+99,54,12,Rani Khedira,tarjeta amarilla,Tunisia
+100,59,12,Viktor Einar Gyokeres,gol,Sweden
+101,59,12,Alexander Isak,asistencia,Sweden
+102,84,12,Mattias Olof Svanberg,gol,Sweden
+103,84,12,Alexander Isak,asistencia,Sweden
+104,90,12,Yasin Ayari,gol,Sweden
+105,90,12,Lucas Erik Holger Bergvall,asistencia,Sweden
+106,16,13,CABRALSidny Sidny Lopes,tarjeta amarilla,Cabo Verde
+107,90,13,Pedro Pedri,tarjeta amarilla,Spain
+108,13,14,Attia Fahim Marawan Attia,tarjeta amarilla,Egypt
+109,-5,14,Timothy Castagne,tarjeta amarilla,Belgium
+110,19,14,Ashour Metwaly Emam,gol,Egypt
+111,19,14,Hamed Mahrous Mohamed Salah,asistencia,Egypt
+112,34,14,Mohamed Aboelfetouh Ahmed Fatouh,tarjeta amarilla,Egypt
+113,66,14,Hany Gamal Mohamed Hany,gol,Belgium
+114,75,14,Maxim Peter De Cuyper,tarjeta amarilla,Belgium
+115,41,15,Ali Abdulelah Alamri,gol,Saudi Arabia
+116,44,15,Ali Abdulelah Alamri,tarjeta amarilla,Saudi Arabia
+117,80,15,Maximiliano Javier Araujo,gol,Uruguay
+118,7,16,Elijah Henry Just,gol,New Zealand
+119,7,16,Christopher Grant Wood,asistencia,New Zealand
+120,32,16,Ramin Rezaeian,gol,IR Iran
+121,54,16,Elijah Henry Just,gol,New Zealand
+122,54,16,Christopher Grant Wood,asistencia,New Zealand
+123,-2,16,Mohammad Mohebbi,gol,IR Iran
+124,64,16,Ramin Rezaeian,asistencia,IR Iran
+125,89,16,Ehsan Hajisafi,tarjeta amarilla,IR Iran
+126,66,17,Kylian Mbappe,gol,France
+127,66,17,Michael Akpovie Olise,asistencia,France
+128,82,17,Bradley Jean-Manuel Essolisa Barcola,gol,France
+129,82,17,Adrien Thibault Marie Rabiot,asistencia,France
+130,90,17,Kylian Mbappe,gol,France
+131,90,17,Michael Akpovie Olise,asistencia,France
+132,90,17,Ibrahim Mbaye,gol,Senegal
+133,90,17,Iliman Cheikh Baroy Ndiaye,asistencia,Senegal
+134,29,18,Erling Braut Haaland,gol,Norway
+135,29,18,David Møller Moller Wolfe,asistencia,Norway
+136,39,18,Hussein Ghadhban Aymen,gol,Iraq
+137,39,18,Fouad Aboud Amir Alammari,asistencia,Iraq
+138,43,18,Erling Braut Haaland,gol,Norway
+139,76,18,Leo Skiri Ostigard,gol,Norway
+140,76,18,Martín Odegaard,asistencia,Norway
+141,86,18,Tahseen Abd Zaid Zaid,tarjeta amarilla,Iraq
+142,90,18,Hussein Ghadhban Aymen,gol,Norway
+143,17,19,Lionel Andrés Messi,gol,Argentina
+144,17,19,Rodrigo Javier De Paul,asistencia,Argentina
+145,60,19,Lionel Andrés Messi,gol,Argentina
+146,76,19,Lionel Andrés Messi,gol,Argentina
+147,76,19,Nicolas Ivan Gonzalez,asistencia,Argentina
+148,20,20,Romano Schmid,gol,Austria
+149,20,20,Xaver Schlager,asistencia,Austria
+150,50,20,Iyad Ali Ali Olwan,gol,Jordan
+151,50,20,Mahmoud Ali Noor Alrawabdeh,asistencia,Jordan
+152,76,20,Mousa Mahmoud Yazan Alarab,gol,Austria
+153,77,20,Marcel Sabitzer,tarjeta amarilla,Austria
+154,90,20,Marko Arnautovic,gol,Austria
+155,6,21,Pedro Joao Neves,gol,Portugal
+156,6,21,Pedro Pedro Neto,asistencia,Portugal
+157,13,21,Bernardo Bernardo Silva,tarjeta amarilla,Portugal
+158,32,21,Mangulu Chancel Mbemba,tarjeta amarilla,Congo DR
+159,45,21,Yoane Wissa,gol,Congo DR
+160,45,21,Arthur Fuka Masuaku,asistencia,Congo DR
+161,-10,21,SEMEDONélson Nelson,tarjeta amarilla,Portugal
+162,90,21,Tomás Tomas Araujo,tarjeta amarilla,Portugal
+163,12,22,Harry Edward Kane,gol,England
+164,36,22,Martin Baturina,gol,Croatia
+165,36,22,Petar Sucic,asistencia,Croatia
+166,42,22,Harry Edward Kane,gol,England
+167,42,22,Declan Rice,asistencia,England
+168,45,22,Petar Musa,gol,Croatia
+169,45,22,Ivan Perisic,asistencia,Croatia
+170,47,22,Jude Victor William Bellingham,gol,England
+171,47,22,Elliot Junior Anderson,asistencia,England
+172,85,22,Marcus Rashford,gol,England
+173,85,22,Bukayo Ayoyinka Saka,asistencia,England
+174,16,23,Caleb Marfo Yirenkyi,tarjeta amarilla,Ghana
+175,72,23,Cesar Rodolfo Blackman,tarjeta amarilla,Panama
+176,90,23,Caleb Marfo Yirenkyi,gol,Ghana
+177,90,23,Antoine Serlom Semenyo,asistencia,Ghana
+178,90,23,Carlos Miguel Harvey,tarjeta amarilla,Panama
+179,7,24,Johan Andrés Mojica,tarjeta amarilla,Colombia
+180,34,24,Abdukodir Khusanov,tarjeta amarilla,Uzbekistan
+181,40,24,Daniel Munoz,gol,Colombia
+182,40,24,Luis Fernando Diaz,asistencia,Colombia
+183,60,24,Abbosbek Fayzullaev,gol,Uzbekistan
+184,65,24,Luis Fernando Diaz,gol,Colombia
+185,65,24,Gustavo Adolfo Puerta,asistencia,Colombia
+186,90,24,Jaminton Leandro Campaz,gol,Colombia
+187,90,24,Juan Camilo Hernandez,asistencia,Colombia
+188,4,25,Kangin Lee,tarjeta amarilla,South Korea
+189,50,25,Luis Francisco Romo,gol,Mexico
+190,58,25,Seungho Paik,tarjeta amarilla,South Korea
+191,6,26,Michal Sadilek,gol,Czechia
+192,6,26,Alexandr Sojka,asistencia,Czechia
+193,33,26,Teboho Mokoena,tarjeta amarilla,South Africa
+194,40,26,Thalente Wandile Mbatha,tarjeta amarilla,South Africa
+195,75,26,Ladislav Krejci,tarjeta amarilla,Czechia
+196,81,26,Thapelo Maseko,revision VAR,South Africa
+197,83,26,Teboho Mokoena,gol,South Africa
+198,9,27,Derek Austin Cornelius,tarjeta amarilla,Canada
+199,16,27,Cyle Christopher Larin,gol,Canada
+200,29,27,Jonathan Christian David,gol,Canada
+201,45,27,Jonathan Christian David,gol,Canada
+202,60,27,Elamin Homam,tarjeta roja,Qatar
+203,60,27,Elamin Homam,revision VAR,Qatar
+204,62,27,Fathy Ahmed Fathy,tarjeta amarilla,Qatar
+205,64,27,Nathan-Dylan Saliba,gol,Canada
+206,75,27,Naceur Mohamed Manai,gol,Canada
+207,85,27,Omer Assim Madibo,tarjeta roja,Qatar
+208,90,27,Jonathan Christian David,gol,Canada
+209,90,27,Nathan-Dylan Saliba,asistencia,Canada
+210,59,28,Amar Dedic,tarjeta amarilla,Bosnia and Herzegovina
+211,61,28,Edin Dzeko,tarjeta amarilla,Bosnia and Herzegovina
+212,65,28,Nico Elvedi,tarjeta amarilla,Switzerland
+213,74,28,Johan Kula Manzambi,gol,Switzerland
+214,74,28,Granit Xhaka,asistencia,Switzerland
+215,80,28,Tarik Muharemovic,tarjeta roja,Bosnia and Herzegovina
+216,84,28,Ruben Estephan Vargas,gol,Switzerland
+217,84,28,Breel Donald Embolo,asistencia,Switzerland
+218,90,28,Johan Kula Manzambi,gol,Switzerland
+219,90,28,Ruben Estephan Vargas,asistencia,Switzerland
+220,90,28,Granit Xhaka,gol,Switzerland
+221,90,28,Ermin Mahmic,gol,Bosnia and Herzegovina
+222,4,29,Carlens Jean Fedlaire Ruby Arcus,tarjeta amarilla,Haiti
+223,23,29,Matheus Matheus Cunha,gol,Brazil
+224,36,29,Matheus Matheus Cunha,gol,Brazil
+225,36,29,José Vinicius,asistencia,Brazil
+226,45,29,José Vinicius,gol,Brazil
+227,45,29,Lucas Lucas Paqueta,asistencia,Brazil
+228,45,29,Frantzdy Pierrot,tarjeta amarilla,Haiti
+229,65,29,Douglas Douglas Santos,tarjeta amarilla,Brazil
+230,72,29,Danley Jean Jacques,tarjeta amarilla,Haiti
+231,2,30,Ismael Saibari,gol,Morocco
+232,2,30,Brahim Diaz,asistencia,Morocco
+233,23,30,Issa Laye Lucas Jean Diop,tarjeta amarilla,Morocco
+234,65,30,Andrew Henry Robertson,tarjeta amarilla,Scotland
+235,11,31,Cameron Robert Burgess,gol,USA
+236,16,31,Jordan Jacob Bos,tarjeta amarilla,Australia
+237,32,31,Alessandro Circati,tarjeta amarilla,Australia
+238,43,31,Alexander Michael Freeman,gol,USA
+239,43,31,Sergiño Gianni Dest,asistencia,USA
+240,43,31,Alexander Michael Freeman,revision VAR,USA
+241,56,31,Antonee Robinson,tarjeta amarilla,USA
+242,89,31,Folarin Jolaoluwa Balogun,tarjeta amarilla,USA
+243,89,31,Harry James Souttar,tarjeta amarilla,Australia
+244,89,31,Jacob Michael Italiano,tarjeta amarilla,Australia
+245,90,31,Christopher Jeffrey Richards,tarjeta amarilla,USA
+246,2,32,Matias Galarza,gol,Paraguay
+247,2,32,Julio Cesar Enciso,asistencia,Paraguay
+248,4,32,Matias Galarza,tarjeta amarilla,Paraguay
+249,45,32,Miguel Angel Almiron,tarjeta roja,Paraguay
+250,45,32,Miguel Angel Almiron,revision VAR,Paraguay
+251,71,32,Evren Eren Elmali,tarjeta amarilla,Türkiye
+252,30,33,Franck Yannick Kessie,gol,Côte d'Ivoire
+253,30,33,Yan Diomande,asistencia,Côte d'Ivoire
+254,68,33,Deniz Undav,gol,Germany
+255,68,33,Nadiem Amiri,asistencia,Germany
+256,90,33,Deniz Undav,gol,Germany
+257,90,33,Felix Kalu Nmecha,asistencia,Germany
+258,38,34,Jordy Jose Alcivar,tarjeta amarilla,Ecuador
+259,39,34,Leandro Jones Johan Bacuna,tarjeta amarilla,Curaçao
+260,53,34,Juninho Gracielo Bacuna,tarjeta amarilla,Curaçao
+261,56,34,Livano Shyron Liomar Comenencia,tarjeta amarilla,Curaçao
+262,75,34,Juriën Godfried Juan Gaari,tarjeta amarilla,Curaçao
+263,90,34,Gervane Zjandric Adonnis Kastaneer,tarjeta amarilla,Curaçao
+264,5,35,Brian Ebenezer Adjei Brobbey,gol,Netherlands
+265,5,35,Cody Mathès Gakpo,asistencia,Netherlands
+266,17,35,Brian Ebenezer Adjei Brobbey,gol,Netherlands
+267,-45,35,Denzel Justus Morris Dumfries,asistencia,Netherlands
+268,47,35,Cody Mathès Gakpo,gol,Netherlands
+269,47,35,Denzel Justus Morris Dumfries,asistencia,Netherlands
+270,53,35,Gabriel Johan Gudmundsson,tarjeta amarilla,Sweden
+271,54,35,Cody Mathès Gakpo,gol,Netherlands
+272,54,35,Crysencio Jilbert Sylverio Cir Summerville,asistencia,Netherlands
+273,59,35,Anthony David Junior Elanga,gol,Sweden
+274,59,35,Alexander Isak,asistencia,Sweden
+275,75,35,Yasin Ayari,tarjeta amarilla,Sweden
+276,80,35,Lucas Erik Holger Bergvall,tarjeta amarilla,Sweden
+277,89,35,Crysencio Jilbert Sylverio Cir Summerville,gol,Netherlands
+278,89,35,Memphis Depay,asistencia,Netherlands
+279,4,36,Daichi Kamada,gol,Japan
+280,4,36,Keito Nakamura,asistencia,Japan
+281,31,36,Ayase Ueda,gol,Japan
+282,31,36,Keito Nakamura,asistencia,Japan
+283,69,36,Junya Ito,gol,Japan
+284,69,36,Ayase Ueda,asistencia,Japan
+285,83,36,Ayase Ueda,gol,Japan
+286,83,36,Kaishu Sano,asistencia,Japan
+287,3,37,Romelu Lukaku,tarjeta amarilla,Belgium
+288,33,37,Saeid Ezatolahi,tarjeta amarilla,IR Iran
+289,66,37,Nathan Ngoy,tarjeta roja,Belgium
+290,15,38,Finn Surman,gol,New Zealand
+291,15,38,Timothy John Payne,asistencia,New Zealand
+292,17,38,Mostafa Ahmed Mohanad Lashin,tarjeta amarilla,Egypt
+293,20,38,Sarpreet Singh,tarjeta amarilla,New Zealand
+294,34,38,Mc,tarjeta amarilla,New Zealand
+295,58,38,Mohamed Zaky Mostafa Zico,gol,Egypt
+296,58,38,Hany Gamal Mohamed Hany,asistencia,Egypt
+297,67,38,Hamed Mahrous Mohamed Salah,gol,Egypt
+298,67,38,Mohamed Zaky Mostafa Zico,asistencia,Egypt
+299,82,38,Ahmed Ibrahim Trezeguet,gol,Egypt
+300,82,38,Hamed Mahrous Mohamed Salah,asistencia,Egypt
+301,10,39,Lamine Yamal Yamal,gol,Spain
+302,10,39,Mikel Oyarzabal,asistencia,Spain
+303,21,39,Mikel Oyarzabal,gol,Spain
+304,21,39,Aymeric Laporte,asistencia,Spain
+305,24,39,Mikel Oyarzabal,gol,Spain
+306,24,39,Daniel Olmo,asistencia,Spain
+307,30,39,Mohammed Salem Aldawsari,tarjeta amarilla,Saudi Arabia
+308,49,39,Mohammed Hassan Altambakti,gol,Spain
+309,60,39,Ibrahim Mohamed,tarjeta amarilla,Saudi Arabia
+310,5,40,CABRALSidny Sidny Lopes,tarjeta amarilla,Cabo Verde
+311,20,40,Rodrigo Bentancur,tarjeta amarilla,Uruguay
+312,21,40,Lenini Kevin Pina,gol,Cabo Verde
+313,44,40,Maximiliano Javier Araujo,gol,Uruguay
+314,44,40,Federico Santiago Valverde,asistencia,Uruguay
+315,45,40,Agustin Canobbio,gol,Uruguay
+316,45,40,Maximiliano Javier Araujo,asistencia,Uruguay
+317,58,40,Mathías Olivera,tarjeta amarilla,Uruguay
+318,61,40,Sandro Helio Varela,gol,Cabo Verde
+319,90,40,Alberto Diney,tarjeta amarilla,Cabo Verde
+320,6,41,Fouad Aboud Amir Alammari,tarjeta amarilla,Iraq
+321,14,41,Kylian Mbappe,gol,France
+322,14,41,Michael Akpovie Olise,asistencia,France
+323,54,41,Kylian Mbappe,gol,France
+324,54,41,Masour Ousmane Dembele,asistencia,France
+325,66,41,Masour Ousmane Dembele,gol,France
+326,66,41,Michael Akpovie Olise,asistencia,France
+327,43,42,Marcus Holmgren Holmgren Pedersen,gol,Norway
+328,48,42,Erling Braut Haaland,gol,Norway
+329,48,42,Martín Odegaard,asistencia,Norway
+330,53,42,Ismaila Sarr,gol,Senegal
+331,53,42,Sadio Mane,asistencia,Senegal
+332,58,42,Erling Braut Haaland,gol,Norway
+333,58,42,Patrick Berg,asistencia,Norway
+334,90,42,Ismaila Sarr,gol,Senegal
+335,90,42,Nicolas Jackson,asistencia,Senegal
+336,38,43,Lionel Andrés Messi,gol,Argentina
+337,38,43,Facundo Axel Medina,asistencia,Argentina
+338,41,43,Stefan Posch,tarjeta amarilla,Austria
+339,76,43,Facundo Axel Medina,tarjeta amarilla,Argentina
+340,76,43,Konrad Laimer,tarjeta amarilla,Austria
+341,90,43,Lionel Andrés Messi,gol,Argentina
+342,90,43,Leandro Daniel Paredes,tarjeta amarilla,Argentina
+343,36,44,Mahmoud Ahmed Nizar Alrashdan,gol,Jordan
+344,36,44,Mohammad Mousa Mousa Altamari,asistencia,Jordan
+345,44,44,Ramiz Larbi Zerrouki,tarjeta amarilla,Algeria
+346,64,44,Ali Mohammad Husam Abudahab,tarjeta amarilla,Jordan
+347,69,44,Ahmed Nadhir Benbouali,gol,Algeria
+348,69,44,Riyad Karim Mahrez,asistencia,Algeria
+349,82,44,Amine Ferid Gouiri,gol,Algeria
+350,6,45,Ronaldo Cristiano Ronaldo,gol,Portugal
+351,6,45,Pedro Joao Cancelo,asistencia,Portugal
+352,14,45,Odiljon Xamrobekov,tarjeta amarilla,Uzbekistan
+353,17,45,Alexandre Nuno,gol,Portugal
+354,39,45,Ronaldo Cristiano Ronaldo,gol,Portugal
+355,39,45,Miguel Bruno,asistencia,Portugal
+356,60,45,Abdukodir Khusanov,gol,Portugal
+357,68,45,Renato Renato Veiga,tarjeta amarilla,Portugal
+358,87,45,Alexandre Rafael Leao,gol,Portugal
+359,87,45,Vitor Vitinha,asistencia,Portugal
+360,56,46,Jhon Janer Lucumi,tarjeta amarilla,Colombia
+361,76,46,Daniel Munoz,gol,Colombia
+362,76,46,Juan Fernando Quintero,asistencia,Colombia
+363,90,46,Jefferson Andrés Lerma,tarjeta amarilla,Colombia
+364,90,46,Charles Monginda Pickel,tarjeta amarilla,Congo DR
+365,41,47,Declan Rice,tarjeta amarilla,England
+366,60,47,Inaki Williams,tarjeta amarilla,Ghana
+367,54,48,Ante Budimir,gol,Croatia
+368,54,48,Josip Stanisic,asistencia,Croatia
+369,61,48,Edgar Yoel Barcenas,tarjeta amarilla,Panama
+370,90,48,Petar Sucic,tarjeta amarilla,Croatia
+371,55,49,Mateo Chavez,gol,Mexico
+372,55,49,Luis Francisco Romo,asistencia,Mexico
+373,61,49,Julián Andrés Quinones,gol,Mexico
+374,61,49,Jorge Eduardo Sanchez,asistencia,Mexico
+375,64,49,Edson Omar Alvarez,tarjeta amarilla,Mexico
+376,90,49,Álvaro Fidalgo,gol,Mexico
+377,90,49,Roberto Carlos Alvarado,asistencia,Mexico
+378,63,50,Thapelo Maseko,gol,South Africa
+379,63,50,Tshepang Moremi,asistencia,South Africa
+380,72,50,Aubrey Maphosa Modiba,tarjeta amarilla,South Africa
+381,78,50,Guesung Cho,tarjeta amarilla,South Korea
+382,32,51,Granit Xhaka,tarjeta amarilla,Switzerland
+383,32,51,Cyle Christopher Larin,tarjeta amarilla,Canada
+384,46,51,Ruben Estephan Vargas,gol,Switzerland
+385,46,51,Johan Kula Manzambi,asistencia,Switzerland
+386,57,51,Johan Kula Manzambi,gol,Switzerland
+387,57,51,Breel Donald Embolo,asistencia,Switzerland
+388,76,51,Promise Oluwatobi Emmanuel David,gol,Canada
+389,76,51,Nathan-Dylan Saliba,asistencia,Canada
+390,87,51,Liam Alan Millar,tarjeta amarilla,Canada
+391,29,52,Kerim Alajbegovic,gol,Bosnia and Herzegovina
+392,29,52,Ivan Basic,asistencia,Bosnia and Herzegovina
+393,34,52,Ibrahim Mahmoud Abunada,gol,Bosnia and Herzegovina
+394,42,52,Khalid Hassan Alhaydos,gol,Qatar
+395,42,52,Junior Edmilson,asistencia,Qatar
+396,78,52,Fathy Ahmed Fathy,tarjeta amarilla,Qatar
+397,82,52,Ermin Mahmic,gol,Bosnia and Herzegovina
+398,82,52,Dennis Hadzikadunic,asistencia,Bosnia and Herzegovina
+399,82,52,Ermin Mahmic,tarjeta amarilla,Bosnia and Herzegovina
+400,7,53,José Vinicius,gol,Brazil
+401,7,53,Vitor Rayan,asistencia,Brazil
+402,45,53,José Vinicius,gol,Brazil
+403,45,53,GUIMARAESBruno Bruno,asistencia,Brazil
+404,60,53,Matheus Matheus Cunha,gol,Brazil
+405,60,53,GUIMARAESBruno Bruno,asistencia,Brazil
+406,62,53,Luiz Danilo,tarjeta amarilla,Brazil
+407,82,53,Henrique Fabinho,tarjeta amarilla,Brazil
+408,89,53,Ryan Christie,tarjeta amarilla,Scotland
+409,10,54,Yassine Bounou,gol,Haiti
+410,39,54,Achraf Hakimi,gol,Morocco
+411,43,54,Wilson Isidor,gol,Haiti
+412,45,54,Ismael Saibari,gol,Morocco
+413,78,54,Soufiane Rahimi,gol,Morocco
+414,79,54,Johny Placide,tarjeta amarilla,Haiti
+415,80,54,Duckens Nazon,tarjeta amarilla,Haiti
+416,89,54,Gessime Ben Youssef Mustapha Yassine,gol,Morocco
+417,90,54,Josue Jeremie Casimir,tarjeta amarilla,Haiti
+418,3,55,Auston Levi-Jesaiah Trusty,gol,USA
+419,3,55,Sebastian Matthew Berhalter,asistencia,USA
+420,10,55,Arda Guler,gol,Türkiye
+421,10,55,Can Yılmaz Uzun,asistencia,Türkiye
+422,19,55,Sebastian Matthew Berhalter,tarjeta amarilla,USA
+423,31,55,Orkun Kokcu,gol,Türkiye
+424,31,55,Evren Eren Elmali,asistencia,Türkiye
+425,49,55,Sebastian Matthew Berhalter,gol,USA
+426,90,55,Kaan Ayhan,gol,Türkiye
+427,46,56,Jackson Alexander Irvine,tarjeta amarilla,Australia
+428,77,56,Diego Alexander Gomez,tarjeta amarilla,Paraguay
+429,2,57,Leroy Aziz Sane,gol,Germany
+430,2,57,Florian Richard Wirtz,asistencia,Germany
+431,9,57,Nilson David Angulo,gol,Ecuador
+432,9,57,Pedro Jeampierre Vite,asistencia,Ecuador
+433,43,57,Piero Martin Hincapie,tarjeta amarilla,Ecuador
+434,44,57,Aleksandar Pavlovic,tarjeta amarilla,Germany
+435,50,57,Alan Steven Franco,tarjeta amarilla,Ecuador
+436,77,57,Gonzalo Jordy Plata,gol,Ecuador
+437,77,57,Moisés Isaac Caicedo,asistencia,Ecuador
+438,89,57,Gonzalo Jordy Plata,tarjeta amarilla,Ecuador
+439,7,58,Nicolas Pepe,gol,Côte d'Ivoire
+440,34,58,Nicolas Pepe,tarjeta amarilla,Côte d'Ivoire
+441,64,58,Nicolas Pepe,gol,Côte d'Ivoire
+442,75,58,Juninho Gracielo Bacuna,tarjeta amarilla,Curaçao
+443,83,58,Gervane Zjandric Adonnis Kastaneer,tarjeta amarilla,Curaçao
+444,3,59,Ellyes Joris Skhiri,gol,Netherlands
+445,7,59,Brian Ebenezer Adjei Brobbey,gol,Netherlands
+446,54,59,Hazem Mastouri,gol,Tunisia
+447,62,59,Paul Jan-Paul Van Hecke,gol,Netherlands
+448,32,60,Isak Malcolm Kwaku Hien,tarjeta amarilla,Sweden
+449,56,60,Daizen Maeda,gol,Japan
+450,62,60,Anthony David Junior Elanga,gol,Sweden
+451,77,60,Shogo Taniguchi,tarjeta amarilla,Japan
+452,84,60,Viktor Einar Gyokeres,tarjeta amarilla,Sweden
+453,28,61,Leandro Trossard,gol,Belgium
+454,46,61,Marko Seufatu Nikola Stamenic,tarjeta amarilla,New Zealand
+455,50,61,Leandro Trossard,gol,Belgium
+456,56,61,Elijah Henry Just,tarjeta amarilla,New Zealand
+457,66,61,Kevin De Bruyne,gol,Belgium
+458,84,61,Elijah Henry Just,gol,New Zealand
+459,86,61,Romelu Lukaku,gol,Belgium
+460,90,61,Alexis Jesse Saelemaekers,gol,Belgium
+461,5,62,Saber Abdelmohsen Mahmoud,gol,Egypt
+462,14,62,Ramin Rezaeian,gol,IR Iran
+463,19,62,Saber Abdelmohsen Mahmoud,tarjeta amarilla,Egypt
+464,19,62,Mohammadhossein Kanani,tarjeta amarilla,IR Iran
+465,41,62,Ahmed Ibrahim Yasser,tarjeta amarilla,Egypt
+466,43,62,Ali Nemati,tarjeta amarilla,IR Iran
+467,79,62,Saeid Ezatolahi,tarjeta amarilla,IR Iran
+468,90,62,Mostafa Ahmed Mohanad Lashin,tarjeta amarilla,Egypt
+469,90,62,Shojae Khalilzadeh,tarjeta amarilla,IR Iran
+470,42,63,Alejandro Baena,gol,Spain
+471,42,63,Marcos Llorente,asistencia,Spain
+472,46,63,Alejandro Baena,tarjeta amarilla,Spain
+473,54,63,Juan Manuel Sanabria,tarjeta amarilla,Uruguay
+474,58,63,Guillermo Varela,tarjeta amarilla,Uruguay
+475,90,63,Diego Nicolás De La Cruz,tarjeta amarilla,Uruguay
+476,4,64,Abdullah Saud Abdulhamid,tarjeta amarilla,Saudi Arabia
+477,8,64,Fabricio Wagner Pina,tarjeta amarilla,Cabo Verde
+478,67,64,Essa Nasser Aldawsari,tarjeta amarilla,Saudi Arabia
+479,90,64,Tariq Feras,tarjeta amarilla,Saudi Arabia
+480,7,65,Masour Ousmane Dembele,gol,France
+481,7,65,Kylian Mbappe,asistencia,France
+482,10,65,Patrick Berg,tarjeta amarilla,Norway
+483,20,65,Masour Ousmane Dembele,gol,France
+484,20,65,Kylian Mbappe,asistencia,France
+485,21,65,Thelonious Gerard Aasgaard,gol,Norway
+486,21,65,Andreas Rædergård Schjelderup,asistencia,Norway
+487,32,65,Masour Ousmane Dembele,gol,France
+488,32,65,Aurélien Djani Tchouameni,asistencia,France
+489,74,65,Aurélien Djani Tchouameni,tarjeta amarilla,France
+490,90,65,Désiré Nonka-Maho Doue,gol,France
+491,90,65,Bradley Jean-Manuel Essolisa Barcola,asistencia,France
+492,4,66,Habib Mbacke Diarra,gol,Senegal
+493,4,66,Abdoulaye Seck,asistencia,Senegal
+494,,66,Ghareeb Solaka Rebin Sulaka,tarjeta roja,Iraq
+495,,66,Abdoulaye Seck,tarjeta amarilla,Senegal
+496,56,66,Ismaila Sarr,gol,Senegal
+497,56,66,Lamine Camara,asistencia,Senegal
+498,59,66,Pape Alassane Gueye,gol,Senegal
+499,59,66,Ismaila Sarr,asistencia,Senegal
+500,71,66,Pape Alassane Gueye,gol,Senegal
+501,71,66,Iliman Cheikh Baroy Ndiaye,asistencia,Senegal
+502,75,66,Fouad Aboud Amir Alammari,tarjeta amarilla,Iraq
+503,81,66,Pape Alassane Gueye,tarjeta amarilla,Senegal
+504,82,66,Iliman Cheikh Baroy Ndiaye,gol,Senegal
+505,,66,Pape Alassane Gueye,asistencia,Senegal
+506,90,66,Ghazi Salih Merchas,tarjeta amarilla,Iraq
+507,17,67,Mahmoud Saleh Mohannad Abutaha,tarjeta amarilla,Jordan
+508,19,67,Giovani Lo Celso,gol,Argentina
+509,31,67,Lautaro Javier Martinez,gol,Argentina
+510,55,67,Mohammad Mousa Mousa Altamari,gol,Jordan
+511,55,67,Manel Farhan Ehsan Haddad,asistencia,Jordan
+512,64,67,Mousa Mahmoud Yazan Alarab,tarjeta amarilla,Jordan
+513,80,67,Lionel Andrés Messi,gol,Argentina
+514,90,67,Faisal Yousef Mohammad,tarjeta amarilla,Jordan
+515,11,68,Marko Arnautovic,tarjeta amarilla,Austria
+516,28,68,Marko Arnautovic,gol,Austria
+517,28,68,David Alaba,asistencia,Austria
+518,45,68,Rafik Belghali,gol,Algeria
+519,45,68,Riyad Karim Mahrez,asistencia,Algeria
+520,55,68,Marcel Sabitzer,gol,Austria
+521,55,68,Nicolas Seiwald,asistencia,Austria
+522,,68,Riyad Karim Mahrez,gol,Algeria
+523,60,68,Houssem-Eddine Chaabane Aouar,asistencia,Algeria
+524,,68,Riyad Karim Mahrez,gol,Algeria
+525,,68,Houssem-Eddine Chaabane Aouar,asistencia,Algeria
+526,90,68,Saša Kalajdzic,gol,Austria
+527,90,68,Michael Gregoritsch,asistencia,Austria
+528,86,69,Gustavo Adolfo Puerta,tarjeta amarilla,Colombia
+529,10,70,Eldor Shomurodov,gol,Uzbekistan
+530,10,70,Akmal Mozgovoy,asistencia,Uzbekistan
+531,21,70,Noah Junior Sadiki,tarjeta amarilla,Congo DR
+532,-1,70,Abdukodir Khusanov,tarjeta amarilla,Uzbekistan
+533,45,70,Nathanaël Mbuku,tarjeta amarilla,Congo DR
+534,47,70,Sherzod Nasrullaev,tarjeta amarilla,Uzbekistan
+535,62,70,Samuel Alain Moutoussamy,tarjeta amarilla,Congo DR
+536,68,70,Yoane Wissa,gol,Congo DR
+537,78,70,Mayele Fiston Mayele,gol,Congo DR
+538,90,70,Yoane Wissa,gol,Congo DR
+539,90,70,Meschack Lina Elia,asistencia,Congo DR
+540,53,71,Jose Fajardo,tarjeta amarilla,Panama
+541,60,71,Jarell Amorin Quansah,tarjeta amarilla,England
+542,62,71,Jude Victor William Bellingham,gol,England
+543,62,71,Bukayo Ayoyinka Saka,asistencia,England
+544,67,71,Harry Edward Kane,gol,England
+545,67,71,Jude Victor William Bellingham,asistencia,England
+546,83,71,Andres Alberto Andrade,tarjeta amarilla,Panama
+547,31,72,Petar Sucic,gol,Croatia
+548,68,72,Ivan Perisic,tarjeta amarilla,Croatia
+549,73,72,Derrick Luckassen,gol,Ghana
+550,73,72,Ernest Nuamah Nuamah,asistencia,Ghana
+551,83,72,Nikola Vlasic,gol,Croatia
+552,83,72,Luka Modric,asistencia,Croatia
+553,90,72,Kojo Peprah Oppong,tarjeta amarilla,Ghana
+554,54,73,Nathan-Dylan Saliba,tarjeta amarilla,Canada
+555,67,73,Niko Kristian Sigur,tarjeta amarilla,Canada
+556,90,73,Stephen Eustaquio,gol,Canada
+557,12,74,Kaishu Sano,tarjeta amarilla,Japan
+558,14,74,Henrique,tarjeta amarilla,Brazil
+559,29,74,Kaishu Sano,gol,Japan
+560,45,74,Daichi Kamada,tarjeta amarilla,Japan
+561,48,74,Luiz Danilo,tarjeta amarilla,Brazil
+562,56,74,Henrique,gol,Brazil
+563,56,74,Gabriel Gabriel Magalhaes,asistencia,Brazil
+564,84,74,Junnosuke Suzuki,tarjeta amarilla,Japan
+565,90,74,MARTINELLIGabriel Gabriel,gol,Brazil
+566,90,74,GUIMARAESBruno Bruno,asistencia,Brazil
+567,90,74,GUIMARAESBruno Bruno,tarjeta amarilla,Brazil
+568,42,75,Julio Cesar Enciso,gol,Paraguay
+569,42,75,Matias Galarza,asistencia,Paraguay
+570,,75,Kai Lukas Havertz,gol,Germany
+571,54,75,Florian Richard Wirtz,asistencia,Germany
+572,65,75,Adrián Andrés Cubas,tarjeta amarilla,Paraguay
+573,106,75,Kai Lukas Havertz,tarjeta amarilla,Germany
+574,110,75,Antonio Ruediger,tarjeta amarilla,Germany
+575,115,75,Jamal Musiala,tarjeta amarilla,Germany
+576,117,75,Matias Galarza,tarjeta amarilla,Paraguay
+577,120,75,Júnior Osmar Ignacio Alonso,tarjeta amarilla,Paraguay
+578,121,75,Kai Lukas Havertz,penalti fallado,Germany
+579,,75,Mauricio Mauricio,penalti marcado,Paraguay
+580,121,75,Joshua Walter Kimmich,penalti marcado,Germany
+581,121,75,Gustavo Raul Gomez,penalti marcado,Paraguay
+582,121,75,Jamal Musiala,penalti marcado,Germany
+583,121,75,Matias Galarza,penalti marcado,Paraguay
+584,121,75,Nick Woltemade,penalti fallado,Germany
+585,,75,Arnaldo Antonio Sanabria,penalti fallado,Paraguay
+586,121,75,Nadiem Amiri,penalti marcado,Germany
+587,121,75,Fabián Cornelio Balbuena,penalti fallado,Paraguay
+589,121,75,Jose Maria Canale,penalti marcado,Paraguay
+590,47,76,Issa Laye Lucas Jean Diop,tarjeta amarilla,Morocco
+591,71,76,Nathan Benjamin Ake,tarjeta amarilla,Netherlands
+592,72,76,Cody Mathès Gakpo,gol,Netherlands
+593,72,76,Crysencio Jilbert Sylverio Cir Summerville,asistencia,Netherlands
+594,90,76,Issa Laye Lucas Jean Diop,gol,Morocco
+595,90,76,Chemsdine Talbi,asistencia,Morocco
+596,121,76,Teun Koopmeiners,penalti marcado,Netherlands
+597,121,76,Neil Yoni El Aynaoui,penalti fallado,Morocco
+598,121,76,Justin Dean Kluivert,penalti fallado,Netherlands
+600,121,76,Wout François Maria Weghorst,penalti marcado,Netherlands
+601,121,76,Chemsdine Talbi,penalti marcado,Morocco
+602,121,76,Quinten Ryan Crispito Timber,penalti fallado,Netherlands
+603,121,76,Achraf Hakimi,penalti fallado,Morocco
+604,121,76,Crysencio Jilbert Sylverio Cir Summerville,penalti fallado,Netherlands
+605,121,76,Ismael Saibari,penalti marcado,Morocco
+606,39,77,Antonio Eromonsele Nordby Nusa,gol,Norway
+607,45,77,Antonio Eromonsele Nordby Nusa,tarjeta amarilla,Norway
+608,74,77,Amad Diallo,gol,Côte d'Ivoire
+609,86,77,Erling Braut Haaland,gol,Norway
+610,86,77,Patrick Berg,asistencia,Norway
+611,45,78,Kylian Mbappe,gol,France
+612,53,78,Bradley Jean-Manuel Essolisa Barcola,gol,France
+613,53,78,Michael Akpovie Olise,asistencia,France
+614,74,78,Kylian Mbappe,gol,France
+615,74,78,Michael Akpovie Olise,asistencia,France
+616,22,79,Julián Andrés Quinones,gol,Mexico
+617,22,79,Roberto Carlos Alvarado,asistencia,Mexico
+618,31,79,Raúl Alonso Jimenez,gol,Mexico
+619,31,79,Julián Andrés Quinones,asistencia,Mexico
+620,45,79,Alan Steven Franco,tarjeta amarilla,Ecuador
+621,90,79,Moisés Isaac Caicedo,tarjeta amarilla,Ecuador
+622,90,79,Ray Kendry Paez,tarjeta amarilla,Ecuador
+623,95,79,Piero Martin Hincapie,tarjeta roja,Ecuador
+624,7,80,Kibambe Brian Cipenga,gol,Congo DR
+625,19,80,Jude Victor William Bellingham,tarjeta amarilla,England
+626,27,80,Noah Junior Sadiki,tarjeta amarilla,Congo DR
+627,75,80,Harry Edward Kane,gol,England
+628,75,80,Anthony Michael Gordon,asistencia,England
+629,86,80,Harry Edward Kane,gol,England
+630,86,80,Anthony Michael Gordon,asistencia,England
+631,25,81,Habib Mbacke Diarra,gol,Senegal
+632,51,81,Ismaila Sarr,gol,Senegal
+633,51,81,Moussa Niakhate,asistencia,Senegal
+634,64,81,Brandon Erik Mechele,tarjeta amarilla,Belgium
+635,67,81,Lamine Camara,tarjeta amarilla,Senegal
+636,86,81,Romelu Lukaku,gol,Belgium
+637,86,81,Thomas Andre Meunier,asistencia,Belgium
+638,89,81,Youri Marion Tielemans,gol,Belgium
+639,89,81,Leandro Trossard,asistencia,Belgium
+640,120,81,Youri Marion Tielemans,gol,Belgium
+641,120,81,Lamine Camara,revision VAR,Senegal
+642,45,82,Folarin Jolaoluwa Balogun,gol,USA
+643,45,82,Malik Leon Tillman,asistencia,USA
+644,64,82,Folarin Jolaoluwa Balogun,tarjeta roja,USA
+645,64,82,Folarin Jolaoluwa Balogun,revision VAR,USA
+646,80,82,Stjepan Radeljic,tarjeta amarilla,Bosnia and Herzegovina
+647,82,82,Malik Leon Tillman,gol,USA
+648,36,83,Mikel Oyarzabal,gol,Spain
+649,36,83,Marc Cucurella,asistencia,Spain
+650,66,83,Pedro Antonio Porro,gol,Spain
+651,66,83,Alejandro Baena,asistencia,Spain
+652,83,83,Stefan Posch,tarjeta amarilla,Austria
+653,89,83,Mikel Oyarzabal,gol,Spain
+654,89,83,Marc Cucurella,asistencia,Spain
+655,17,84,Rúben Ruben Dias,tarjeta amarilla,Portugal
+656,53,84,Ivan Perisic,gol,Croatia
+658,59,84,Luka Modric,tarjeta amarilla,Croatia
+659,68,84,Ronaldo Cristiano Ronaldo,gol,Portugal
+660,90,84,RAMOSGonçalo Goncalo,gol,Portugal
+661,90,84,Alexandre Rafael Leao,asistencia,Portugal
+662,97,84,Ivan Perisic,tarjeta amarilla,Croatia
+663,103,84,Joško Gvardiol,revision VAR,Croatia
+664,10,85,Breel Donald Embolo,gol,Switzerland
+665,10,85,Johan Kula Manzambi,asistencia,Switzerland
+666,36,85,Fares Chaibi,tarjeta amarilla,Algeria
+667,46,85,Dan Ndoye,gol,Switzerland
+668,71,85,Hicham Boudaoui,tarjeta amarilla,Algeria
+669,13,86,Ashour Metwaly Emam,gol,Egypt
+670,55,86,Hany Gamal Mohamed Hany,gol,Australia
+671,121,86,Harry James Souttar,penalti fallado,Australia
+672,121,86,Saber Abdelmohsen Mahmoud,penalti marcado,Egypt
+673,121,86,Jackson Alexander Irvine,penalti marcado,Australia
+674,121,86,Abdelaziz Moustafa Ramy Rabia,penalti marcado,Egypt
+675,121,86,Awer Bul Mabil,penalti marcado,Australia
+676,121,86,Hamed Mahrous Mohamed Salah,penalti marcado,Egypt
+677,121,86,Lucas Herrington,penalti fallado,Australia
+678,121,86,Abdelmegeed Abdelsalam Hossam Abdelmaguid,penalti marcado,Egypt
+679,29,87,Lionel Andrés Messi,gol,Argentina
+680,59,87,Deroy Deroy Duarte,gol,Cabo Verde
+681,92,87,Lisandro Martinez,gol,Argentina
+682,103,87,CABRALSidny Sidny Lopes,gol,Cabo Verde
+683,111,87,Alberto Diney,gol,Argentina
+684,14,88,Jhon Adolfo Arias,gol,Colombia
+685,14,88,Luis Javier Suarez,asistencia,Colombia
+686,70,89,Kylian Mbappe,gol,France
+687,50,90,Azz-Eddine Ounahi,gol,Morocco
+688,50,90,Achraf Hakimi,asistencia,Morocco
+689,82,90,Azz-Eddine Ounahi,gol,Morocco
+690,82,90,Brahim Diaz,asistencia,Morocco
+691,90,90,Soufiane Rahimi,gol,Morocco
+692,90,90,Brahim Diaz,asistencia,Morocco
+693,3,91,Patrick Berg,revision VAR,Norway
+694,14,91,Matheus Matheus Cunha,revision VAR,Brazil
+695,79,91,Erling Braut Haaland,gol,Norway
+696,79,91,Andreas Rædergård Schjelderup,asistencia,Norway
+697,90,91,Neymar Neymar Jr,gol,Brazil
+698,90,91,Erling Braut Haaland,gol,Norway
+699,,91,Neymar Neymar Jr,tarjeta amarilla,Brazil
+700,1,92,Declan Rice,tarjeta amarilla,England
+701,36,92,Jude Victor William Bellingham,gol,England
+702,36,92,Bukayo Ayoyinka Saka,asistencia,England
+703,38,92,Jude Victor William Bellingham,gol,England
+704,38,92,Harry Edward Kane,asistencia,England
+705,42,92,Julián Andrés Quinones,gol,Mexico
+706,54,92,Jarell Amorin Quansah,tarjeta roja,England
+707,54,92,Jarell Amorin Quansah,revision VAR,England
+708,60,92,Harry Edward Kane,gol,England
+709,68,92,Keaninkin Marc-Isreal Guehi,tarjeta amarilla,England
+710,69,92,Raúl Alonso Jimenez,gol,Mexico
+711,69,92,Harry Edward Kane,revision VAR,England
+712,71,92,Jorge Eduardo Sanchez,tarjeta amarilla,Mexico
+713,72,92,Nico Oreilly,tarjeta amarilla,England
+714,,92,Johan Felipe Vasquez,tarjeta amarilla,Mexico
+715,,92,Jordan Brian Henderson,tarjeta amarilla,England
+716,88,93,Bernardo Bernardo Silva,tarjeta amarilla,Portugal
+717,,93,Mikel Merino,gol,Spain
+718,,93,Ferran Torres,asistencia,Spain
+719,,93,Renato Renato Veiga,tarjeta amarilla,Portugal
+720,,93,Ferran Torres,tarjeta amarilla,Spain
+721,9,94,Charles Marc De Ketelaere,gol,Belgium
+722,9,94,Nicolas Thierry Raskin,asistencia,Belgium
+723,31,94,Malik Leon Tillman,gol,USA
+724,33,94,Charles Marc De Ketelaere,gol,Belgium
+725,33,94,Leandro Trossard,asistencia,Belgium
+726,35,94,Mc,tarjeta amarilla,USA
+727,57,94,Hans Vanaken,gol,Belgium
+728,69,94,Malik Leon Tillman,tarjeta amarilla,USA
+729,,94,Romelu Lukaku,gol,Belgium
+730,15,95,Ahmed Ibrahim Yasser,gol,Egypt
+731,15,95,Hamed Mahrous Mohamed Salah,asistencia,Egypt
+732,26,95,Cristian Gabriel Romero,gol,Argentina
+733,26,95,Lionel Andrés Messi,asistencia,Argentina
+734,40,95,Lionel Andrés Messi,gol,Argentina
+735,55,95,Julián Alvarez,gol,Argentina
+736,55,95,Alexis Mac Allister,asistencia,Argentina
+737,67,95,Mohamed Zaky Mostafa Zico,gol,Egypt
+738,67,95,Yousry Fouad Haissem Hassan,asistencia,Egypt
+739,90,95,Yousry Fouad Haissem Hassan,tarjeta amarilla,Egypt
+740,,95,Ashour Metwaly Emam,tarjeta amarilla,Egypt
+741,,95,Abdelaziz Mohame Mostafa,tarjeta amarilla,Egypt
+742,,95,Fathy Abdelhalim Hamdy Fathy,tarjeta amarilla,Egypt
+743,,95,Attia Fahim Marawan Attia,tarjeta amarilla,Egypt
+744,51,96,Granit Xhaka,tarjeta amarilla,Switzerland
+745,59,96,Denis Lemi Zakaria,tarjeta amarilla,Switzerland
+746,60,96,Luis Javier Suarez,tarjeta amarilla,Colombia
+747,94,96,Davinson Sanchez,tarjeta amarilla,Colombia
+748,105,96,Miro Max Maria Muheim,tarjeta amarilla,Switzerland
+749,121,96,Granit Xhaka,penalti marcado,Switzerland
+750,121,96,Juan Fernando Quintero,penalti marcado,Colombia
+751,121,96,Mohamed Zeki Amdouni,penalti marcado,Switzerland
+752,121,96,Davinson Sanchez,penalti fallado,Colombia
+753,121,96,Manuel Obafemi Akanji,penalti fallado,Switzerland
+754,121,96,Jaminton Leandro Campaz,penalti marcado,Colombia
+755,,96,Cedric Jan Itten,penalti marcado,Switzerland
+756,121,96,Juan Camilo Hernandez,penalti fallado,Colombia
+757,,96,Ruben Estephan Vargas,penalti marcado,Switzerland
+758,,96,Luis Fernando Diaz,penalti marcado,Colombia
+759,60,97,Kylian Mbappe,gol,France
+760,60,97,Désiré Nonka-Maho Doue,asistencia,France
+761,63,97,Issa Laye Lucas Jean Diop,tarjeta amarilla,Morocco
+762,66,97,Masour Ousmane Dembele,gol,France
+763,66,97,Kylian Mbappe,asistencia,France
+764,30,98,Fabian Ruiz,gol,Spain
+765,41,98,Charles Marc De Ketelaere,gol,Belgium
+766,41,98,Timothy Castagne,asistencia,Belgium
+767,43,98,Pau Cubarsi,tarjeta amarilla,Spain
+768,85,98,Kevin De Bruyne,tarjeta amarilla,Belgium
+769,88,98,Mikel Merino,gol,Spain
+770,,98,Aymeric Laporte,tarjeta amarilla,Spain
+771,,98,Axel Laurent Witsel,tarjeta amarilla,Belgium
+772,36,99,Andreas Rædergård Schjelderup,gol,Norway
+773,36,99,Martín Odegaard,asistencia,Norway
+774,93,99,Jude Victor William Bellingham,gol,England
+775,117,99,Kristoffer Vassbakk Köpp Ajer,tarjeta amarilla,Norway
+776,,99,Jude Victor William Bellingham,gol,England
+777,,99,Anthony Michael Gordon,asistencia,England
+778,10,100,Alexis Mac Allister,gol,Argentina
+779,10,100,Lionel Andrés Messi,asistencia,Argentina
+780,44,100,Breel Donald Embolo,tarjeta amarilla,Switzerland
+781,67,100,Dan Ndoye,gol,Switzerland
+782,67,100,Ricardo Ivan Rodriguez,asistencia,Switzerland
+783,72,100,Breel Donald Embolo,tarjeta roja,Switzerland
+784,72,100,Breel Donald Embolo,revision VAR,Switzerland
+785,97,100,Thiago Ezequiel Almada,tarjeta amarilla,Argentina
+786,98,100,Lautaro Javier Martinez,tarjeta amarilla,Argentina
+787,112,100,Julián Alvarez,gol,Argentina
+788,112,100,Jose Manuel Alberto Lopez,asistencia,Argentina
+789,114,100,Jose Manuel Alberto Lopez,tarjeta amarilla,Argentina
+790,,100,Lautaro Javier Martinez,gol,Argentina
+791,8,101,Adrien Thibault Marie Rabiot,tarjeta amarilla,France
+792,22,101,Lamine Yamal Yamal,revision VAR,Spain
+793,22,101,Mikel Oyarzabal,gol,Spain
+794,31,101,Marc Cucurella,tarjeta amarilla,Spain
+795,58,101,Pedro Antonio Porro,gol,Spain
+796,58,101,Daniel Olmo,asistencia,Spain
+797,61,101,Lamine Yamal Yamal,revision VAR,Spain
+798,86,101,Kylian Mbappe,tarjeta amarilla,France
+799,37,102,Elliot Junior Anderson,tarjeta amarilla,England
+800,42,102,Lisandro Martinez,tarjeta amarilla,Argentina
+801,51,102,Cristian Gabriel Romero,tarjeta amarilla,Argentina
+802,55,102,Anthony Michael Gordon,gol,England
+803,55,102,Morgan Elliot Rogers,asistencia,England
+804,85,102,Enzo Jeremías Fernandez,gol,Argentina
+805,85,102,Lionel Andrés Messi,asistencia,Argentina
+806,,102,Lautaro Javier Martinez,gol,Argentina
+807,,102,Lionel Andrés Messi,asistencia,Argentina
+808,3,103,Declan Rice,gol,England
+809,18,103,Ezri Ngoyo Konsa,gol,England
+810,18,103,Declan Rice,asistencia,England
+811,37,103,Bukayo Ayoyinka Saka,gol,England
+812,37,103,Marcus Rashford,asistencia,England
+813,46,103,Bukayo Ayoyinka Saka,gol,England
+814,46,103,Eberechi Oluchi Eze,asistencia,England
+815,48,103,Kylian Mbappe,gol,France
+816,48,103,Michael Akpovie Olise,asistencia,France
+817,,103,Bradley Jean-Manuel Essolisa Barcola,gol,France
+818,54,103,Kylian Mbappe,asistencia,France
+819,66,103,Kylian Mbappe,gol,France
+821,,103,Bukayo Ayoyinka Saka,gol,England
+822,96,103,Masour Ousmane Dembele,gol,France
+823,,103,Dayotchanculle Oswald Upamecano,asistencia,France
+824,98,103,Jude Victor William Bellingham,gol,England
+825,40,104,Lisandro Martinez,tarjeta amarilla,Argentina
+826,52,104,Leandro Daniel Paredes,tarjeta amarilla,Argentina
+827,83,104,Enzo Jeremías Fernandez,tarjeta amarilla,Argentina
+828,92,104,Cristian Gabriel Romero,tarjeta amarilla,Argentina
+829,93,104,Enzo Jeremías Fernandez,tarjeta amarilla,Argentina
+830,93,104,Enzo Jeremías Fernandez,tarjeta roja,Argentina
+831,106,104,Ferran Torres,gol,Spain
+832,106,104,Nicholas Williams,asistencia,Spain
+833,111,104,Alexis Mac Allister,tarjeta amarilla,Argentina
+834,120,104,Leandro Daniel Paredes,tarjeta roja,Argentina
