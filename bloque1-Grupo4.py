@@ -494,7 +494,8 @@ jugadores.loc[mask_jugadores, "calificacion_media"] = modelo_jugadores.predict(
 # Quedan valores nulos?
 jugadores["calificacion_media"].isna().sum()
 
-eventos["minuto_evento"] = eventos.groupby("index_partido")["minuto_evento"].transform(lambda x: x.interpolate("linear", limit_direction="both"))
+# interpolación + redondear y poner en int
+eventos["minuto_evento"] = eventos.groupby("index_partido")["minuto_evento"].transform(lambda x: x.interpolate("linear", limit_direction="both")).round().astype(int) 
 
 # Quedan valores nulos?
 
