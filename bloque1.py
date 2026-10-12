@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import re
 from sklearn.linear_model import LinearRegression
+from IPython.display import display
 
 # APARTADO 1
 # La carpeta datasetsWC26.zip dispone de varios archivos .csv con distintos datos sobre el Mundial 2026. Utilizando Pandas, impórtelos y realice una exploración
