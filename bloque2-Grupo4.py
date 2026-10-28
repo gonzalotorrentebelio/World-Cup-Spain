@@ -73,9 +73,8 @@ st.dataframe(ev_partido[["minuto_evento", "tipo_evento", "nombre_jugador", "sele
 
 
 
-# -----------------------------------------------------------------------------
 # 2) Mapa de calor: densidad de eventos a lo largo del partido
-# -----------------------------------------------------------------------------
+
 st.subheader("2) Densidad de eventos a lo largo del partido")
 
 tipos_sel = st.multiselect(
@@ -91,14 +90,23 @@ rondas_sel = st.multiselect(
 
 # La ronda y la prórroga están en 'partidos': las traemos a 'eventos'
 ev = eventos.join(partidos[["ronda", "prorroga"]], on="index_partido")
-ev = ev[ev["tipo_evento"].isin(tipos_sel) & ev["ronda"].isin(rondas_sel)]
+ev = ev[ev["tipo_evento"].isin(tipos_sel) & ev["ronda"].isin(rondas_sel)].copy()
+
+# El minuto 121 es la tanda de penaltis: no es tiempo de juego, se cuenta aparte
+tanda = ev[ev["minuto_evento"] > 120]
+ev = ev[ev["minuto_evento"] <= 120].copy()
 
 if ev.empty:
     st.warning("No hay eventos para los filtros seleccionados.")
 else:
-    # Tramo de 5 minutos al que pertenece cada evento (0, 5, 10, ..., 115)
-    ev["tramo"] = (ev["minuto_evento"].astype(int) // 5) * 5
-    ev["tramo"] = ev["tramo"].clip(upper=115)   # el minuto 120 entra en el último tramo
+    # En partidos SIN prórroga, los minutos 91+ son tiempo añadido de la 2.ª parte:
+    # los llevamos al minuto 90 para que no aparezcan en la zona de prórroga
+    descuento = (ev["minuto_evento"] > 90) & (ev["prorroga"] == "NO")
+    ev["minuto_tramo"] = ev["minuto_evento"].mask(descuento, 90)
+
+    # Tramo de 5 minutos: 1-5 -> 0, 6-10 -> 5, ..., 41-45 -> 40, 116-120 -> 115
+    # (restamos 1 para que el minuto 45 quede en la 1.ª parte y el 90 en la 2.ª)
+    ev["tramo"] = ((ev["minuto_tramo"] - 1) // 5) * 5
 
     # Tabla: filas = tipo de evento, columnas = tramo, valores = nº de eventos
     tabla = ev.groupby(["tipo_evento", "tramo"]).size().unstack(fill_value=0)
@@ -116,23 +124,91 @@ else:
         title="Densidad de eventos por tramo de 5 minutos",
     )
     st.plotly_chart(fig2, use_container_width=True)
+    st.caption(
+        f"Los minutos 45' y 90' incluyen el tiempo añadido. "
+        f"Tanda de penaltis (no incluida en el mapa): {len(tanda)} lanzamientos."
+    )
 
-    # --- Respuestas a las preguntas del enunciado ---------------------------
-    goles = ev[ev["tipo_evento"] == "gol"]
+# PREGUNTAS
+# ¿En qué intervalo se producen más goles?
+# En los últimos 15 minutos de partido. En tramos de 15 minutos, el de 75 a 90 tiene 76 goles,
+# una cuarta parte de los 298 del tiempo reglamentario. Le siguen el de 30 a 45 (53) y el de 
+# 45 a 60 (52); el que menos tiene es el de 15 a 30 (34). En tramos de 5 minutos destaca el de 
+# 85 a 90, con 45 goles, casi el doble que el siguiente, que es el de 40 a 45 (25). Hay que matizarlo:
+# los minutos 45 y 90 incluyen el tiempo añadido, así que esos dos tramos duran en realidad más de 5 
+# minutos y salen algo inflados. Aun así, el patrón es claro: los goles se concentran al final de cada 
+# parte, sobre todo del partido.
 
-    if not goles.empty:
-        tramo_max = goles.groupby("tramo").size().idxmax()
-        st.write(f"**Tramo con más goles:** minuto {tramo_max}-{tramo_max + 5}")
+# ¿Son las segundas partes más «entretenidas» que las primeras?
+# Sí. Hay 456 eventos frente a 302, un 51 % más (0,97 frente a 0,65 por cada 10 minutos). En goles la 
+# diferencia es de 172 frente a 126 (+37 %), y en asistencias de 113 frente a 81. También aumentan mucho 
+# las tarjetas: 151 amarillas frente a 88 y 11 rojas frente a 2. En la defensa conviene distinguir entre más goles,
+# que es «entretenimiento», y más tarjetas, que indican más tensión o desgaste.
 
-    # Prórroga = minutos > 90 SOLO en partidos que la tuvieron
-    # (en el resto, los minutos 91+ son tiempo añadido de la segunda parte)
-    en_prorroga = (ev["minuto_evento"] > 90) & (ev["prorroga"] == "SI")
-    primera = ev[ev["minuto_evento"] <= 45]
-    segunda = ev[(ev["minuto_evento"] > 45) & ~en_prorroga]
-    prorroga = ev[en_prorroga]
+# ¿Y las prórrogas?
+# Son el periodo con más eventos por minuto: 29 eventos en 9 prórrogas, es decir, 1,07 por cada 10 minutos. 
+# Sin embargo, no se marcan más goles: 9 goles dan 0,33 por cada 10 minutos, una cifra entre la de la primera 
+# parte (0,27) y la de la segunda (0,37). Lo que dispara la cifra son las tarjetas, con 16 (14 amarillas y 2 rojas),
+# lo que supone 0,59 por cada 10 minutos, frente a 0,35 en las segundas partes. Dentro de la prórroga, 3 goles 
+# llegan en la primera mitad y 6 en la segunda. 4 de las 9 prórrogas acabaron en penaltis. Conviene advertir 
+# que la muestra es pequeña (9 partidos), así que la conclusión es más débil que la de las partes.
 
-    col1, col2, col3 = st.columns(3)
-    col1.metric("1.ª parte", len(primera))
-    col2.metric("2.ª parte", len(segunda))
-    col3.metric("Prórroga", len(prorroga))
 
+#3) Gráfico circular: eventos de una Selección a favor y en contra
+
+st.subheader("3) Eventos de una Selección en el Mundial")
+
+# Lista de las 48 selecciones (locales y visitantes, sin repetir)
+selecciones = sorted(pd.concat([partidos["seleccion_local"], partidos["seleccion_visitante"]]).unique())
+seleccion_sel = st.selectbox("Elige una Selección", options=selecciones)
+
+# Partidos en los que ha jugado la selección elegida
+partidos_sel = partidos[(partidos["seleccion_local"] == seleccion_sel) | (partidos["seleccion_visitante"] == seleccion_sel)]
+
+# Todos los eventos de esos partidos (los suyos y los de sus rivales)
+ev_sel = eventos[eventos["index_partido"].isin(partidos_sel.index)].copy()
+
+# ¿El evento lo protagoniza la propia selección o su rival?
+ev_sel["autor"] = ev_sel["seleccion_evento"].where(ev_sel["seleccion_evento"] == seleccion_sel, "Rival").replace(seleccion_sel, "Propio")
+
+# Eventos positivos para quien los protagoniza; el resto son negativos
+# (las revisiones VAR se asignan en los datos al equipo perjudicado)
+positivos = ["gol", "asistencia", "penalti marcado"]
+es_positivo = ev_sel["tipo_evento"].isin(positivos)
+es_propio = ev_sel["autor"] == "Propio"
+
+# A favor: algo bueno de la selección o algo malo del rival.
+# En contra: algo malo de la selección o algo bueno del rival.
+ev_sel["balance"] = "En contra"
+ev_sel.loc[es_positivo == es_propio, "balance"] = "A favor"
+
+# Etiqueta legible, p. ej. "gol (propio)" o "gol (rival)" = gol encajado
+ev_sel["evento"] = ev_sel["tipo_evento"] + " (" + ev_sel["autor"].str.lower() + ")"
+
+# Conteo de cada tipo de evento
+resumen = (ev_sel.groupby(["balance", "evento"]).size().reset_index(name="cantidad"))
+
+# Un solo donut: todo lo que va a favor en verde y todo lo que va en contra en rojo
+resumen = resumen.sort_values(["balance", "cantidad"], ascending=[True, False])
+
+fig3 = px.pie(
+        resumen,
+        names="evento",
+        values="cantidad",
+        color="balance",
+        color_discrete_map={"A favor": "#2E8B57", "En contra": "#C0392B"},
+        hole=0.5,
+        title=f"Distribución de eventos de {seleccion_sel} en el Mundial",
+    )
+fig3.update_traces(
+    textinfo="label+value",
+    textposition="outside",
+    sort=False,
+    marker_line_color="white",
+    marker_line_width=2,
+)
+fig3.update_layout(showlegend=False)
+st.plotly_chart(fig3, use_container_width=True)
+
+
+# ANALISIS 2 - RENDIMIENTO JUGADORES CLAVE
