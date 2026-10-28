@@ -212,3 +212,66 @@ st.plotly_chart(fig3, use_container_width=True)
 
 
 # ANALISIS 2 - RENDIMIENTO JUGADORES CLAVE
+st.header("Análisis 2. Rendimiento de jugadores clave")
+
+# 4) Dispersión: Valor de mercado vs Calificación media (mín. 180 minutos)
+st.subheader("4) Valor de mercado vs calificación media")
+# Solo jugadores con al menos 180 minutos jugados
+# (reset_index convierte el índice nombre_jugador en columna para el hover)
+jug = jugadores[jugadores["minutos_jugados"] >= 180].reset_index()
+
+# Selectores: Selección, Partidos jugados y Posición
+f1, f2, f3 = st.columns(3)
+selecciones_sel = f1.multiselect(
+    "Selección",
+    options=sorted(jug["seleccion_nacional"].unique()),
+    placeholder="Todas",
+)
+posiciones_sel = f2.multiselect(
+    "Posición",
+    options=sorted(jug["posicion"].unique()),
+    placeholder="Todas",
+)
+pj_min, pj_max = f3.slider(
+    "Partidos jugados",
+    min_value=int(jug["partidos_jugados"].min()),
+    max_value=int(jug["partidos_jugados"].max()),
+    value=(int(jug["partidos_jugados"].min()), int(jug["partidos_jugados"].max())),
+)
+
+# Aplicamos los filtros (si un multiselect está vacío, no filtra)
+jug_f = jug[jug["partidos_jugados"].between(pj_min, pj_max)]
+if selecciones_sel:
+    jug_f = jug_f[jug_f["seleccion_nacional"].isin(selecciones_sel)]
+if posiciones_sel:
+    jug_f = jug_f[jug_f["posicion"].isin(posiciones_sel)]
+
+if jug_f.empty:
+    st.info("No hay jugadores con estos filtros.")
+else:
+    fig4 = px.scatter(
+        jug_f,
+        x="valor_mercado",
+        y="calificacion_media",
+        color="posicion",
+        hover_name="nombre_jugador",
+        hover_data=["seleccion_nacional", "partidos_jugados", "minutos_jugados", "goles"],
+        labels={
+            "valor_mercado": "Valor de mercado (M€)",
+            "calificacion_media": "Calificación media",
+            "posicion": "Posición",
+            "seleccion_nacional": "Selección",
+            "partidos_jugados": "Partidos jugados",
+            "minutos_jugados": "Minutos jugados",
+            "goles": "Goles",
+        },
+        title="Valor de mercado vs calificación media (jugadores con ≥ 180 minutos)",
+    )
+    st.plotly_chart(fig4, use_container_width=True)
+
+    # Correlación de Pearson entre ambas variables (con los filtros aplicados)
+    c1, c2 = st.columns(2)
+    c1.metric("Jugadores mostrados", len(jug_f))
+    if len(jug_f) >= 3:
+        r = jug_f["valor_mercado"].corr(jug_f["calificacion_media"])
+        c2.metric("Correlación de Pearson (r)", f"{r:.2f}")
