@@ -1,0 +1,20 @@
+﻿venue_id;stadium_name;city;country;capacity;elevation_meters;fecha_inauguracion;superficie_cesped
+1;Mexico City Stadium (Estadio Azteca);Mexico City;MEX;80824;2200.0;1966;Híbrido
+2;New York New Jersey Stadium (MetLife Stadium);East Rutherford;USA;82500;7.0;2010-08-01;
+3;Los Angeles Stadium (SoFi Stadium);Inglewood;usa;70240;30.0;1987;Artificial
+4;Dallas Stadium (AT&T Stadium);Arlington;USA;80000;184.0;;Natural
+5;Vancouver Stadium (BC Place);Vancouver;CAN;54500;9.0;2020;Natural
+6;Toronto Stadium (BMO Field);Toronto;CAN;-1;76.0;14/05/1993;HIBRIDO
+7;Guadalajara Stadium (Estadio Akron);Zapopan;MEX;48070;1566.0;1998;Natural
+8;Monterrey Stadium (Estadio BBVA);Guadalupe;MEX;53500;;circa 1970;natural
+9;Atlanta Stadium (Mercedes-Benz Stadium);Atlanta;USA;71000;318.0;2003;Híbrido
+10;Boston Stadium (Gillette Stadium);Foxborough;USA;500000;87.0;;natural
+11;Houston Stadium (NRG Stadium);Houston;USA;72220;14.0;1979;Natural
+12;Kansas City Stadium (Arrowhead Stadium);Kansas City;USA;76416;264.0;2016-09-10;
+13;Miami Stadium (Hard Rock Stadium);Miami Gardens;USA;64767;2.0;1962;
+14;Philadelphia Stadium (Lincoln Financial Field);Philadelphia;USA;69796;3.0;2009;natural
+15;San Francisco Bay Area Stadium (Levi's Stadium);Santa Clara;USA;68500;8.0;;Híbrido
+16;Seattle Stadium (Lumen Field);Seattle;USA;69000;3.0;1980;
+1;Mexico City Stadium (Estadio Azteca);Mexico City;MEX;80824;2200.0;1966;Híbrido
+10;Boston Stadium (Gillette Stadium);Foxborough;USA;500000;87.0;;natural
+6;Toronto Stadium (BMO Field);Toronto;CAN;-1;76.0;14/05/1993;HIBRIDO
