@@ -73,22 +73,66 @@ st.dataframe(ev_partido[["minuto_evento", "tipo_evento", "nombre_jugador", "sele
 
 
 
-st.subheader("Densidad de evento a lo largo del partido")
+# -----------------------------------------------------------------------------
+# 2) Mapa de calor: densidad de eventos a lo largo del partido
+# -----------------------------------------------------------------------------
+st.subheader("2) Densidad de eventos a lo largo del partido")
+
 tipos_sel = st.multiselect(
-    "tipo de evento",
+    "Tipo de evento",
     options=sorted(eventos["tipo_evento"].unique()),
-    default=sorted(eventos["tipo_evento"].unique()),    
+    default=sorted(eventos["tipo_evento"].unique()),
 )
 rondas_sel = st.multiselect(
-    "Tipo de evento",
-    options=eventos["ronda"].unique(),
-    default=partidos["ronda"].unique()
-    )
+    "Ronda",
+    options=partidos["ronda"].unique(),
+    default=partidos["ronda"].unique(),
+)
 
-# la ronda está en 'partidos' así que hay que unirla a 'eventos'
-ev = eventos.join(partidos["ronda"], on="index_partido")
+# La ronda y la prórroga están en 'partidos': las traemos a 'eventos'
+ev = eventos.join(partidos[["ronda", "prorroga"]], on="index_partido")
 ev = ev[ev["tipo_evento"].isin(tipos_sel) & ev["ronda"].isin(rondas_sel)]
-ev["eventos_interv"] = ev["minuto_evento"].rolling(window=5)
-# agrupar los eventos por tramos y pintar con px.show
 
-# Hacer git push y GIT COMMIT
+if ev.empty:
+    st.warning("No hay eventos para los filtros seleccionados.")
+else:
+    # Tramo de 5 minutos al que pertenece cada evento (0, 5, 10, ..., 115)
+    ev["tramo"] = (ev["minuto_evento"].astype(int) // 5) * 5
+    ev["tramo"] = ev["tramo"].clip(upper=115)   # el minuto 120 entra en el último tramo
+
+    # Tabla: filas = tipo de evento, columnas = tramo, valores = nº de eventos
+    tabla = ev.groupby(["tipo_evento", "tramo"]).size().unstack(fill_value=0)
+
+    # Aseguramos que aparecen todos los tramos, aunque estén vacíos
+    tabla = tabla.reindex(columns=range(0, 120, 5), fill_value=0)
+    tabla.columns = [f"{m}-{m + 5}'" for m in tabla.columns]
+
+    fig2 = px.imshow(
+        tabla,
+        text_auto=True,
+        aspect="auto",
+        color_continuous_scale="YlOrRd",
+        labels={"x": "Tramo de minutos", "y": "Tipo de evento", "color": "Nº eventos"},
+        title="Densidad de eventos por tramo de 5 minutos",
+    )
+    st.plotly_chart(fig2, use_container_width=True)
+
+    # --- Respuestas a las preguntas del enunciado ---------------------------
+    goles = ev[ev["tipo_evento"] == "gol"]
+
+    if not goles.empty:
+        tramo_max = goles.groupby("tramo").size().idxmax()
+        st.write(f"**Tramo con más goles:** minuto {tramo_max}-{tramo_max + 5}")
+
+    # Prórroga = minutos > 90 SOLO en partidos que la tuvieron
+    # (en el resto, los minutos 91+ son tiempo añadido de la segunda parte)
+    en_prorroga = (ev["minuto_evento"] > 90) & (ev["prorroga"] == "SI")
+    primera = ev[ev["minuto_evento"] <= 45]
+    segunda = ev[(ev["minuto_evento"] > 45) & ~en_prorroga]
+    prorroga = ev[en_prorroga]
+
+    col1, col2, col3 = st.columns(3)
+    col1.metric("1.ª parte", len(primera))
+    col2.metric("2.ª parte", len(segunda))
+    col3.metric("Prórroga", len(prorroga))
+
