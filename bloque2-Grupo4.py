@@ -90,3 +90,5 @@ ev = eventos.join(partidos["ronda"], on="index_partido")
 ev = ev[ev["tipo_evento"].isin(tipos_sel) & ev["ronda"].isin(rondas_sel)]
 ev["eventos_interv"] = ev["minuto_evento"].rolling(window=5)
 # agrupar los eventos por tramos y pintar con px.show
+
+# Hacer git push y GIT COMMIT
