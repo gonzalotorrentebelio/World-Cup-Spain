@@ -280,3 +280,65 @@ else:
 #   - La relación depende de la posición: es más fuerte en delanteros
 #     (r = 0,41) y defensas (0,31) que en centrocampistas (0,23) y porteros
 #     (0,18). El mercado parece pagar sobre todo el gol.
+
+# 5)  Defina las siguientes métricas: goles/minuto, goles+asistencias/minuto, asistencias/minuto, goles_concedidos/minuto, tarjetas_amarillas/minuto y
+# tarjetas_rojas/minuto; y una métrica agregada que pondere todas ellas. Cree un gráfico para visualizar en barras el top15 de mejores jugadores en una de las
+# métricas a escoger, junto a su ranking en valor de mercado (e.g. 3º, 148º…). ¿Coinciden los jugadores más valiosos con los que mejor rendimiento han dado?
+
+st.subheader("5) Ranking de rendimiento de jugadores")
+
+rend = jug.copy()
+
+rend["goles_min"] = rend["goles"] / rend["minutos_jugados"]
+rend["goles_asistencias_min"] = (rend["goles"] + rend["asistencias"]) / rend["minutos_jugados"]
+rend["asistencias_min"] = rend["asistencias"] / rend["minutos_jugados"]
+rend["goles_concedidos_min"] = rend["goles_concedidos"] / rend["minutos_jugados"]
+rend["amarillas_min"] = rend["tarjetas_amarillas"] / rend["minutos_jugados"]
+rend["rojas_min"] = rend["tarjetas_rojas"] / rend["minutos_jugados"]
+
+rend["rendimiento"] = 3*rend["goles_min"] + 2*rend["goles_asistencias_min"] + 2*rend["asistencias_min"] - 2*rend["goles_concedidos_min"] - rend["amarillas_min"] - 3*rend["rojas_min"]
+
+ranking_valor = jugadores["valor_mercado"].rank(ascending=False, method="min").astype(int)
+rend["ranking_valor"] = rend["nombre_jugador"].map(ranking_valor)
+
+top15 = rend.sort_values("rendimiento", ascending=False).head(15).copy()
+
+top15["ranking_valor_texto"] = top15["ranking_valor"].astype(str) + "º"
+
+fig5 = px.bar(
+    top15,
+    x="nombre_jugador",
+    y="rendimiento",
+    text="ranking_valor_texto",
+    hover_data=["seleccion_nacional", "valor_mercado", "goles", "asistencias", "minutos_jugados"],
+    labels={
+        "nombre_jugador": "Jugador",
+        "rendimiento": "Rendimiento",
+        "ranking_valor_texto": "Ranking valor",
+        "seleccion_nacional": "Selección",
+        "valor_mercado": "Valor de mercado",
+        "goles": "Goles",
+        "asistencias": "Asistencias",
+        "minutos_jugados": "Minutos jugados",
+    },
+    title="Top 15 jugadores por rendimiento",
+)
+
+fig5.update_traces(texttemplate="Valor: %{text}", textposition="outside")
+fig5.update_layout(xaxis_tickangle=-45)
+
+st.plotly_chart(fig5, use_container_width=True)
+
+coinciden = (top15["ranking_valor"] <= 15).sum()
+
+# ¿Coinciden los jugadores más valiosos con los que mejor rendimiento han dado?
+--Falta cambiar X de comentario
+# X de los 15 jugadores con mejor rendimiento están también entre los 15 jugadores
+# con mayor valor de mercado. Por tanto, existe una coincidencia parcial entre valor
+# de mercado y rendimiento, aunque no todos los jugadores más valiosos son los que
+# mejor han rendido durante el Mundial.
+
+
+# 6) Cree un gráfico de burbujas que relacione Minutos Jugados, Calificación Media y Valor de Mercado, con posibilidad de visualización por Selección y Posición.
+# Indique en un color específico de burbuja los jugadores que han marcado. ¿Se observan casos de sobre rendimiento o infrarrendimiento de jugadores?
+
