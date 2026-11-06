@@ -281,28 +281,36 @@ else:
 #     (r = 0,41) y defensas (0,31) que en centrocampistas (0,23) y porteros
 #     (0,18). El mercado parece pagar sobre todo el gol.
 
-# 5)  Defina las siguientes métricas: goles/minuto, goles+asistencias/minuto, asistencias/minuto, goles_concedidos/minuto, tarjetas_amarillas/minuto y
-# tarjetas_rojas/minuto; y una métrica agregada que pondere todas ellas. Cree un gráfico para visualizar en barras el top15 de mejores jugadores en una de las
-# métricas a escoger, junto a su ranking en valor de mercado (e.g. 3º, 148º…). ¿Coinciden los jugadores más valiosos con los que mejor rendimiento han dado?
+# 5) Defina las siguientes métricas: goles/minuto, goles+asistencias/minuto, asistencias/minuto,
+# goles_concedidos/minuto, tarjetas_amarillas/minuto y tarjetas_rojas/minuto;
+# y una métrica agregada que pondere todas ellas.
+# Cree un gráfico para visualizar en barras el top15 de mejores jugadores en una de las métricas
+# a escoger, junto a su ranking en valor de mercado.
+# ¿Coinciden los jugadores más valiosos con los que mejor rendimiento han dado?
 
 st.subheader("5) Ranking de rendimiento de jugadores")
 
-rend = jug.copy()
+# Solo jugadores que han disputado algún minuto
+rend = jugadores[jugadores["minutos_jugados"] > 0].reset_index().copy()
 
+# Métricas por minuto
 rend["goles_min"] = rend["goles"] / rend["minutos_jugados"]
 rend["goles_asistencias_min"] = (rend["goles"] + rend["asistencias"]) / rend["minutos_jugados"]
 rend["asistencias_min"] = rend["asistencias"] / rend["minutos_jugados"]
-rend["goles_concedidos_min"] = rend["goles_concedidos"] / rend["minutos_jugados"]
+rend["goles_concedidos_min"] = rend["goles_concedidos"].fillna(0) / rend["minutos_jugados"]
 rend["amarillas_min"] = rend["tarjetas_amarillas"] / rend["minutos_jugados"]
 rend["rojas_min"] = rend["tarjetas_rojas"] / rend["minutos_jugados"]
 
+# Métrica agregada:
+# se da mayor peso a goles y asistencias, mientras que goles concedidos y tarjetas penalizan
 rend["rendimiento"] = 3*rend["goles_min"] + 2*rend["goles_asistencias_min"] + 2*rend["asistencias_min"] - 2*rend["goles_concedidos_min"] - rend["amarillas_min"] - 3*rend["rojas_min"]
 
+# Ranking de valor de mercado considerando a todos los jugadores del Mundial
 ranking_valor = jugadores["valor_mercado"].rank(ascending=False, method="min").astype(int)
 rend["ranking_valor"] = rend["nombre_jugador"].map(ranking_valor)
 
+# Top 15 según la métrica agregada
 top15 = rend.sort_values("rendimiento", ascending=False).head(15).copy()
-
 top15["ranking_valor_texto"] = top15["ranking_valor"].astype(str) + "º"
 
 fig5 = px.bar(
@@ -319,26 +327,254 @@ fig5 = px.bar(
         "valor_mercado": "Valor de mercado",
         "goles": "Goles",
         "asistencias": "Asistencias",
-        "minutos_jugados": "Minutos jugados",
+        "minutos_jugados": "Minutos jugados"
     },
-    title="Top 15 jugadores por rendimiento",
+    title="Top 15 jugadores por rendimiento"
 )
 
 fig5.update_traces(texttemplate="Valor: %{text}", textposition="outside")
 fig5.update_layout(xaxis_tickangle=-45)
 
-st.plotly_chart(fig5, use_container_width=True)
+st.plotly_chart(fig5, use_container_width=True, key="grafico5")
 
 coinciden = (top15["ranking_valor"] <= 15).sum()
 
 # ¿Coinciden los jugadores más valiosos con los que mejor rendimiento han dado?
---Falta cambiar X de comentario
-# X de los 15 jugadores con mejor rendimiento están también entre los 15 jugadores
-# con mayor valor de mercado. Por tanto, existe una coincidencia parcial entre valor
-# de mercado y rendimiento, aunque no todos los jugadores más valiosos son los que
-# mejor han rendido durante el Mundial.
+# La coincidencia es limitada: el ranking de rendimiento durante el Mundial no coincide
+# completamente con el ranking de valor de mercado. Por tanto, un mayor valor de mercado
+# no implica necesariamente haber tenido un mejor rendimiento durante la competición.
+
+# 6) Cree un gráfico de burbujas que relacione Minutos Jugados, Calificación Media y Valor de Mercado,
+# con posibilidad de visualización por Selección y Posición.
+# Indique en un color específico de burbuja los jugadores que han marcado.
+# ¿Se observan casos de sobre rendimiento o infrarrendimiento de jugadores?
+
+st.subheader("6) Minutos jugados, calificación y valor de mercado")
+
+jug6 = jugadores.reset_index().copy()
+jug6 = jug6.dropna(subset=["calificacion_media", "valor_mercado"])
+jug6["ha_marcado"] = np.where(jug6["goles"] > 0, "Ha marcado", "No ha marcado")
+
+f1, f2 = st.columns(2)
+
+selecciones_6 = f1.multiselect(
+    "Selección",
+    options=sorted(jug6["seleccion_nacional"].unique()),
+    placeholder="Todas",
+    key="selecciones_6"
+)
+
+posiciones_6 = f2.multiselect(
+    "Posición",
+    options=sorted(jug6["posicion"].unique()),
+    placeholder="Todas",
+    key="posiciones_6"
+)
+
+jug6_f = jug6.copy()
+
+if selecciones_6:
+    jug6_f = jug6_f[jug6_f["seleccion_nacional"].isin(selecciones_6)]
+
+if posiciones_6:
+    jug6_f = jug6_f[jug6_f["posicion"].isin(posiciones_6)]
+
+fig6 = px.scatter(
+    jug6_f,
+    x="minutos_jugados",
+    y="calificacion_media",
+    size="valor_mercado",
+    color="ha_marcado",
+    color_discrete_map={"Ha marcado": "red", "No ha marcado": "blue"},
+    hover_name="nombre_jugador",
+    hover_data=["seleccion_nacional", "posicion", "valor_mercado", "goles"],
+    labels={
+        "minutos_jugados": "Minutos jugados",
+        "calificacion_media": "Calificación media",
+        "valor_mercado": "Valor de mercado",
+        "ha_marcado": "Ha marcado",
+        "seleccion_nacional": "Selección",
+        "posicion": "Posición",
+        "goles": "Goles"
+    },
+    title="Minutos jugados, calificación media y valor de mercado"
+)
+
+st.plotly_chart(fig6, use_container_width=True, key="grafico6")
+
+# ¿Se observan casos de sobre rendimiento o infrarrendimiento de jugadores?
+# Sí. Aparecen jugadores con valores de mercado relativamente bajos que consiguen
+# calificaciones elevadas, lo que puede interpretarse como sobrerendimiento.
+# También existen jugadores de alto valor de mercado con calificaciones más bajas,
+# que pueden considerarse casos de infrarrendimiento durante el Mundial.
 
 
-# 6) Cree un gráfico de burbujas que relacione Minutos Jugados, Calificación Media y Valor de Mercado, con posibilidad de visualización por Selección y Posición.
-# Indique en un color específico de burbuja los jugadores que han marcado. ¿Se observan casos de sobre rendimiento o infrarrendimiento de jugadores?
+# ANALISIS 3 - IMPACTO ARBITRAL
 
+st.header("Análisis 3. Impacto arbitral")
+
+
+# 7) Cree un diagrama de caja (box plot) que muestre la distribución del número de tarjetas por partido,
+# agrupado por ronda del Mundial y de manera que en los puntos se pueda identificar el partido asociado.
+# ¿Se puede observar algún cambio en el criterio arbitral al avanzar la competición?
+
+st.subheader("7) Tarjetas por partido según ronda")
+
+tarjetas = eventos[eventos["tipo_evento"].isin(["tarjeta amarilla", "tarjeta roja"])]
+tarjetas_partido = tarjetas.groupby("index_partido").size().rename("tarjetas")
+
+tarjetas_ronda = partidos.join(tarjetas_partido)
+tarjetas_ronda["tarjetas"] = tarjetas_ronda["tarjetas"].fillna(0)
+tarjetas_ronda["partido"] = tarjetas_ronda.index.map(etiquetas)
+
+orden_rondas = ["Grupos", "Dieciseisavos", "Octavos", "Cuartos", "Semifinales", "Tercer puesto", "Final"]
+
+fig7 = px.box(
+    tarjetas_ronda,
+    x="ronda",
+    y="tarjetas",
+    points="all",
+    hover_name="partido",
+    category_orders={"ronda": orden_rondas},
+    labels={
+        "ronda": "Ronda",
+        "tarjetas": "Número de tarjetas"
+    },
+    title="Distribución de tarjetas por partido según ronda"
+)
+
+st.plotly_chart(fig7, use_container_width=True, key="grafico7")
+
+# ¿Se puede observar algún cambio en el criterio arbitral al avanzar la competición?
+# No existe una tendencia completamente uniforme. En la fase de grupos hay una media
+# de 2,60 tarjetas por partido, que baja a 2,06 en dieciseisavos y vuelve a aumentar
+# en octavos (2,88), cuartos (2,75) y semifinales (3,00).
+# La final destaca especialmente con 8 tarjetas, mientras que el partido por el tercer
+# puesto no tuvo ninguna.
+# Por tanto, se aprecia cierto aumento de la intensidad disciplinaria en algunas rondas
+# finales, aunque el reducido número de partidos en esas fases impide afirmar que exista
+# un cambio general y sistemático del criterio arbitral.
+
+
+# 8) Defina un “Índice de Intervención Arbitral” (tarjeta amarilla=1 punto; tarjeta roja=3 puntos,
+# VAR Review=1 punto, Gol=0.2 puntos).
+# Represente para cada árbitro (eje Y) el valor en sus partidos arbitrados (eje X) y la media del índice.
+# ¿Qué conclusiones puede obtener?
+# Permita filtrar por Ronda y Selección.
+# Para cada Selección, ¿qué árbitros han sido más severos y cuáles menos?
+# ¿Hay coincidencias en los árbitros de dichos partidos?
+
+st.subheader("8) Índice de Intervención Arbitral")
+
+ev8 = eventos.copy()
+
+puntos = {"tarjeta amarilla": 1, "tarjeta roja": 3, "revision VAR": 1, "gol": 0.2}
+ev8["puntos"] = ev8["tipo_evento"].map(puntos).fillna(0)
+
+indice_partido = ev8.groupby("index_partido")["puntos"].sum().rename("indice")
+
+arb = partidos.join(indice_partido)
+arb["indice"] = arb["indice"].fillna(0)
+arb["partido"] = arb["seleccion_local"] + " - " + arb["seleccion_visitante"]
+
+f1, f2 = st.columns(2)
+
+rondas_8 = f1.multiselect(
+    "Ronda",
+    options=arb["ronda"].unique(),
+    placeholder="Todas",
+    key="rondas_8"
+)
+
+selecciones_8 = f2.multiselect(
+    "Selección",
+    options=selecciones,
+    placeholder="Todas",
+    key="selecciones_8"
+)
+
+arb_f = arb.copy()
+
+if rondas_8:
+    arb_f = arb_f[arb_f["ronda"].isin(rondas_8)]
+
+if selecciones_8:
+    arb_f = arb_f[
+        arb_f["seleccion_local"].isin(selecciones_8) |
+        arb_f["seleccion_visitante"].isin(selecciones_8)
+    ]
+
+partidos_graf = arb_f[["arbitro_partido", "indice", "partido"]].copy()
+partidos_graf["tipo"] = "Partido"
+
+medias = arb_f.groupby("arbitro_partido", as_index=False)["indice"].mean()
+medias["partido"] = "Media"
+medias["tipo"] = "Media"
+
+graf8 = pd.concat([partidos_graf, medias], ignore_index=True)
+
+orden_arbitros = medias.sort_values("indice")["arbitro_partido"].tolist()
+
+fig8 = px.scatter(
+    graf8,
+    x="indice",
+    y="arbitro_partido",
+    color="tipo",
+    symbol="tipo",
+    hover_name="partido",
+    category_orders={"arbitro_partido": orden_arbitros},
+    labels={
+        "indice": "Índice de Intervención Arbitral",
+        "arbitro_partido": "Árbitro",
+        "tipo": "Dato"
+    },
+    title="Índice de Intervención Arbitral por árbitro"
+)
+
+st.plotly_chart(fig8, use_container_width=True, key="grafico8")
+
+
+# Árbitro más y menos severo para cada selección
+
+local = arb.reset_index()[["seleccion_local", "arbitro_partido", "indice"]].rename(columns={"seleccion_local": "seleccion"})
+visitante = arb.reset_index()[["seleccion_visitante", "arbitro_partido", "indice"]].rename(columns={"seleccion_visitante": "seleccion"})
+
+seleccion_arbitros = pd.concat([local, visitante], ignore_index=True)
+
+seleccion_arbitros["min_indice"] = seleccion_arbitros.groupby("seleccion")["indice"].transform("min")
+seleccion_arbitros["max_indice"] = seleccion_arbitros.groupby("seleccion")["indice"].transform("max")
+
+menos_severos = seleccion_arbitros[seleccion_arbitros["indice"] == seleccion_arbitros["min_indice"]]
+mas_severos = seleccion_arbitros[seleccion_arbitros["indice"] == seleccion_arbitros["max_indice"]]
+
+menos = menos_severos.groupby("seleccion").agg(
+    arbitro_menos_severo=("arbitro_partido", lambda x: ", ".join(x.unique())),
+    indice_minimo=("indice", "min")
+)
+
+mas = mas_severos.groupby("seleccion").agg(
+    arbitro_mas_severo=("arbitro_partido", lambda x: ", ".join(x.unique())),
+    indice_maximo=("indice", "max")
+)
+
+resumen8 = menos.join(mas)
+
+st.dataframe(resumen8)
+
+
+# ¿Qué conclusiones pueden obtenerse?
+# Se observan diferencias importantes entre árbitros. Entre los árbitros con al menos
+# dos partidos, Wilton Sampaio presenta la media más alta del índice (6,73), seguido
+# de Slavko Vincic (5,90) y Alireza Faghani (5,40).
+# En el extremo contrario, Drew Fischer presenta una media de 1,20 y Clément Turpin
+# de 1,48. Por tanto, la intervención arbitral no ha sido homogénea entre los árbitros.
+
+# Para cada Selección, ¿qué árbitros han sido más severos y cuáles menos?
+# La tabla anterior muestra para cada selección el árbitro del partido con el índice
+# de intervención más bajo y el árbitro del partido con el índice más alto.
+
+# ¿Hay coincidencias en los árbitros de dichos partidos?
+# Sí. Clément Turpin aparece como árbitro menos severo para 5 selecciones y Michael
+# Oliver para 4. Entre los más severos destaca Slavko Vincic para 4 selecciones;
+# Glenn Nyberg, Iván Barton, Ismail Elfath y Wilton Sampaio aparecen para 3.
+# Por tanto, algunos árbitros se repiten en los extremos de varias selecciones.
