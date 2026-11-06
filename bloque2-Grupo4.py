@@ -311,38 +311,44 @@ rend["ranking_valor"] = rend["nombre_jugador"].map(ranking_valor)
 
 # Top 15 según la métrica agregada
 top15 = rend.sort_values("rendimiento", ascending=False).head(15).copy()
-top15["ranking_valor_texto"] = top15["ranking_valor"].astype(str) + "º"
+top15["etiqueta"] = top15["ranking_valor"].astype(str) + "º valor · " + top15["minutos_jugados"].astype(str) + " min"
 
+# Barras horizontales para leer mejor los 15 nombres y los minutos de cada jugador
 fig5 = px.bar(
     top15,
-    x="nombre_jugador",
-    y="rendimiento",
-    text="ranking_valor_texto",
+    x="rendimiento",
+    y="nombre_jugador",
+    orientation="h",
+    text="etiqueta",
     hover_data=["seleccion_nacional", "valor_mercado", "goles", "asistencias", "minutos_jugados"],
     labels={
         "nombre_jugador": "Jugador",
-        "rendimiento": "Rendimiento",
-        "ranking_valor_texto": "Ranking valor",
+        "rendimiento": "Índice agregado por minuto",
+        "etiqueta": "Ranking de valor y minutos",
         "seleccion_nacional": "Selección",
-        "valor_mercado": "Valor de mercado",
+        "valor_mercado": "Valor de mercado (M€)",
         "goles": "Goles",
         "asistencias": "Asistencias",
         "minutos_jugados": "Minutos jugados"
     },
-    title="Top 15 jugadores por rendimiento"
+    title="Top 15 por rendimiento (índice agregado por minuto)"
 )
 
-fig5.update_traces(texttemplate="Valor: %{text}", textposition="outside")
-fig5.update_layout(xaxis_tickangle=-45)
-
+fig5.update_yaxes(autorange="reversed")
+fig5.update_traces(textposition="outside", cliponaxis=False)
+fig5.update_layout(height=650, margin=dict(l=80, r=170))
 st.plotly_chart(fig5, use_container_width=True, key="grafico5")
+st.caption("En cada barra: posición en el ranking de valor de mercado y minutos jugados.")
 
 coinciden = (top15["ranking_valor"] <= 15).sum()
+pocos_minutos = (top15["minutos_jugados"] < 90).sum()
 
 # ¿Coinciden los jugadores más valiosos con los que mejor rendimiento han dado?
-# La coincidencia es limitada: el ranking de rendimiento durante el Mundial no coincide
-# completamente con el ranking de valor de mercado. Por tanto, un mayor valor de mercado
-# no implica necesariamente haber tenido un mejor rendimiento durante la competición.
+# No: 0 de los 15 jugadores con mayor índice están entre los 15 más valiosos.
+# Esta comparación exige cautela porque 12 de los 15 han jugado menos de 90 minutos;
+# el primero, Kaan Ayhan, solo disputó 2 minutos. Al dividir entre minutos jugados,
+# pocas acciones en poco tiempo pueden producir un índice desproporcionadamente alto.
+# No cambiamos la muestra porque el apartado 5 no exige un mínimo de minutos.
 
 # 6) Cree un gráfico de burbujas que relacione Minutos Jugados, Calificación Media y Valor de Mercado,
 # con posibilidad de visualización por Selección y Posición.
@@ -534,10 +540,9 @@ fig8 = px.scatter(
 st.plotly_chart(fig8, use_container_width=True, key="grafico8")
 
 
-# Árbitro más y menos severo para cada selección
-
-local = arb.reset_index()[["seleccion_local", "arbitro_partido", "indice"]].rename(columns={"seleccion_local": "seleccion"})
-visitante = arb.reset_index()[["seleccion_visitante", "arbitro_partido", "indice"]].rename(columns={"seleccion_visitante": "seleccion"})
+# Árbitro con menor y mayor índice por selección, respetando también los filtros del gráfico
+local = arb_f.reset_index()[["seleccion_local", "arbitro_partido", "indice"]].rename(columns={"seleccion_local": "seleccion"})
+visitante = arb_f.reset_index()[["seleccion_visitante", "arbitro_partido", "indice"]].rename(columns={"seleccion_visitante": "seleccion"})
 
 seleccion_arbitros = pd.concat([local, visitante], ignore_index=True)
 
@@ -560,21 +565,24 @@ mas = mas_severos.groupby("seleccion").agg(
 resumen8 = menos.join(mas)
 
 st.dataframe(resumen8)
-
+st.caption("La tabla muestra el menor y el mayor índice de cada selección para los filtros elegidos.")
 
 # ¿Qué conclusiones pueden obtenerse?
 # Se observan diferencias importantes entre árbitros. Entre los árbitros con al menos
 # dos partidos, Wilton Sampaio presenta la media más alta del índice (6,73), seguido
 # de Slavko Vincic (5,90) y Alireza Faghani (5,40).
 # En el extremo contrario, Drew Fischer presenta una media de 1,20 y Clément Turpin
-# de 1,48. Por tanto, la intervención arbitral no ha sido homogénea entre los árbitros.
+# de 1,48. Los índices varían entre árbitros, pero también dependen de los eventos
+# de cada partido (incluyen goles y revisiones VAR), no solo del criterio arbitral.
 
 # Para cada Selección, ¿qué árbitros han sido más severos y cuáles menos?
-# La tabla anterior muestra para cada selección el árbitro del partido con el índice
-# de intervención más bajo y el árbitro del partido con el índice más alto.
+# La tabla anterior muestra, para cada selección incluida en los filtros, al árbitro
+# del partido con el índice más bajo y al del índice más alto. Un índice alto no
+# demuestra por sí solo que el árbitro haya sido personalmente más estricto.
 
 # ¿Hay coincidencias en los árbitros de dichos partidos?
 # Sí. Clément Turpin aparece como árbitro menos severo para 5 selecciones y Michael
 # Oliver para 4. Entre los más severos destaca Slavko Vincic para 4 selecciones;
 # Glenn Nyberg, Iván Barton, Ismail Elfath y Wilton Sampaio aparecen para 3.
-# Por tanto, algunos árbitros se repiten en los extremos de varias selecciones.
+# Estas coincidencias indican que un mismo árbitro aparece en partidos extremos
+# para varias selecciones, pero no demuestran diferencias de severidad por sí solas.
